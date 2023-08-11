@@ -1,0 +1,303 @@
+<FSC011_Bayard_1953_Bow_ports.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+		</transform>
+		<node>
+			<identifier>	Bow_ports	</identifier>
+			<transform>
+				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+			</transform>
+			<node>
+				<identifier>	HP_FX_Death_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 4.2591 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_Fire_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.4794 5.1666 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_WakeTrace	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 6.3652 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Ship_death_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 4.2591 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM109_Leadsman_Platform	</identifier>
+				<transform>
+					<row0>	-0.6802 0.0410 0.1731 0.0000	</row0>
+					<row1>	-0.0386 -0.7019 0.0143 0.0000	</row1>
+					<row2>	0.1736 0.0044 0.6813 0.0000	</row2>
+					<row3>	-0.2313 0.5259 6.3092 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM109_Leadsman_Platform_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.6713 0.1215 0.1703 0.0000	</row0>
+					<row1>	-0.1166 0.6925 -0.0342 0.0000	</row1>
+					<row2>	-0.1736 0.0044 0.6813 0.0000	</row2>
+					<row3>	0.2313 0.5259 6.3092 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_FM950_Anchor_bottom	</identifier>
+				<transform>
+					<row0>	-0.5971 0.8819 0.3498 0.0000	</row0>
+					<row1>	-0.2518 0.2477 -1.0544 0.0000	</row1>
+					<row2>	-0.9215 -0.6506 0.0672 0.0000	</row2>
+					<row3>	-0.2271 0.3995 6.1409 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_FM950_Anchor_bottom_INDEX_1	</identifier>
+				<transform>
+					<row0>	-0.5971 -0.8819 -0.3498 0.0000	</row0>
+					<row1>	0.2518 0.2477 -1.0544 0.0000	</row1>
+					<row2>	0.9215 -0.6506 0.0672 0.0000	</row2>
+					<row3>	0.2271 0.3995 6.1409 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_FM951_Anchor_up	</identifier>
+				<transform>
+					<row0>	-0.6133 0.8742 0.3412 0.0000	</row0>
+					<row1>	0.1820 0.4411 -0.8029 0.0000	</row1>
+					<row2>	-0.7205 -0.3637 -0.3631 0.0000	</row2>
+					<row3>	-0.2297 0.3979 6.1405 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_FM951_Anchor_up_INDEX_1	</identifier>
+				<transform>
+					<row0>	-0.6133 -0.8742 -0.3412 0.0000	</row0>
+					<row1>	-0.1820 0.4411 -0.8029 0.0000	</row1>
+					<row2>	0.7205 -0.3637 -0.3631 0.0000	</row2>
+					<row3>	0.2297 0.3979 6.1405 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_FM952_Anchor_Capstan	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-0.1452 0.5286 4.9077 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_FM952_Anchor_Capstan_INDEX_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.1452 0.5286 4.9077 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	SP_YMS001_YHBM_M_1	</identifier>
+				<transform>
+					<row0>	1.1000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0718 0.2474 0.0000	</row1>
+					<row2>	0.0000 -0.2474 1.0718 0.0000	</row2>
+					<row3>	0.0000 0.5185 6.6788 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	SP_YMS002_YHBL_M_1	</identifier>
+				<transform>
+					<row0>	1.0982 0.0109 -0.0745 0.0000	</row0>
+					<row1>	-0.0111 1.1007 -0.0021 0.0000	</row1>
+					<row2>	0.0745 0.0029 1.0983 0.0000	</row2>
+					<row3>	0.0000 0.5185 6.6788 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	SP_YMS003_YHBR_M_1	</identifier>
+				<transform>
+					<row0>	1.0982 -0.0109 0.0745 0.0000	</row0>
+					<row1>	0.0111 1.1007 -0.0021 0.0000	</row1>
+					<row2>	-0.0745 0.0029 1.0983 0.0000	</row2>
+					<row3>	0.0000 0.5185 6.6788 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	SP_YMS004_YHXL_L_1	</identifier>
+				<transform>
+					<row0>	0.7505 0.4674 -0.2091 0.0000	</row0>
+					<row1>	-0.4791 0.7720 0.0061 0.0000	</row1>
+					<row2>	0.1808 0.1052 0.8841 0.0000	</row2>
+					<row3>	-0.2199 0.4127 6.0776 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	SP_YMS005_YHXR_L_1	</identifier>
+				<transform>
+					<row0>	0.7505 -0.4674 0.2091 0.0000	</row0>
+					<row1>	0.4791 0.7720 0.0061 0.0000	</row1>
+					<row2>	-0.1808 0.1052 0.8841 0.0000	</row2>
+					<row3>	0.2199 0.4127 6.0776 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	SP_YMS010_YHWM_L_1	</identifier>
+				<transform>
+					<row0>	0.5938 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.5938 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 0.5938 0.0000	</row2>
+					<row3>	0.0000 0.0000 6.4387 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	SP_YMS011_YHWL_M_1	</identifier>
+				<transform>
+					<row0>	0.8735 0.1263 -0.1498 0.0000	</row0>
+					<row1>	-0.1245 0.8862 0.0213 0.0000	</row1>
+					<row2>	0.1513 0.0000 0.8823 0.0000	</row2>
+					<row3>	-0.2101 0.0023 5.3176 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	SP_YMS011_YHWL_M_1_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.8800 0.1200 -0.1120 0.0000	</row0>
+					<row1>	-0.1191 0.8871 0.0152 0.0000	</row1>
+					<row2>	0.1131 0.0000 0.8880 0.0000	</row2>
+					<row3>	-0.3231 0.0022 4.5752 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	SP_YMS012_YHWR_M_1	</identifier>
+				<transform>
+					<row0>	0.8735 -0.1263 0.1498 0.0000	</row0>
+					<row1>	0.1245 0.8862 0.0213 0.0000	</row1>
+					<row2>	-0.1513 0.0000 0.8823 0.0000	</row2>
+					<row3>	0.2101 0.0023 5.3176 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	SP_YMS012_YHWR_M_1_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.8800 -0.1200 0.1120 0.0000	</row0>
+					<row1>	0.1191 0.8871 0.0152 0.0000	</row1>
+					<row2>	-0.1131 0.0000 0.8880 0.0000	</row2>
+					<row3>	0.3231 0.0022 4.5752 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	SP_YMS020_YHBU_M_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 -0.0441 6.2304 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	SP_YMS022_YHUS_L_1	</identifier>
+				<transform>
+					<row0>	-0.1286 0.0000 -0.9917 0.0000	</row0>
+					<row1>	-0.6623 0.7443 0.0858 0.0000	</row1>
+					<row2>	0.7382 0.6678 -0.0957 0.0000	</row2>
+					<row3>	-0.0503 -0.3452 4.8713 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	SP_YMS022_YHUS_L_1_INDEX_1	</identifier>
+				<transform>
+					<row0>	-0.1286 0.0000 0.9917 0.0000	</row0>
+					<row1>	0.6623 0.7443 0.0858 0.0000	</row1>
+					<row2>	-0.7382 0.6678 -0.0957 0.0000	</row2>
+					<row3>	0.0503 -0.3452 4.8713 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	SP_YMS053_YHDC_S_1	</identifier>
+				<transform>
+					<row0>	0.9145 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.9145 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 0.9145 0.0000	</row2>
+					<row3>	-0.0967 0.5228 5.5852 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	SP_YMS053_YHDC_S_1_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.9145 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.9145 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 0.9145 0.0000	</row2>
+					<row3>	0.0967 0.5228 5.5852 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	SP_YMS053_YHDC_S_1_INDEX_2	</identifier>
+				<transform>
+					<row0>	0.9145 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.9145 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 0.9145 0.0000	</row2>
+					<row3>	-0.3001 0.5158 4.7364 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	SP_YMS053_YHDC_S_1_INDEX_3	</identifier>
+				<transform>
+					<row0>	0.9145 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.9145 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 0.9145 0.0000	</row2>
+					<row3>	0.3001 0.5158 4.7364 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	SP_YMS080_YHSL_M_1	</identifier>
+				<transform>
+					<row0>	0.8469 0.5204 -0.1091 0.0000	</row0>
+					<row1>	-0.5239 0.8518 -0.0038 0.0000	</row1>
+					<row2>	0.0909 0.0604 0.9940 0.0000	</row2>
+					<row3>	-0.3205 0.3139 5.1647 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	SP_YMS081_YHSR_M_1	</identifier>
+				<transform>
+					<row0>	0.8469 -0.5204 0.1091 0.0000	</row0>
+					<row1>	0.5239 0.8518 -0.0038 0.0000	</row1>
+					<row2>	-0.0909 0.0604 0.9940 0.0000	</row2>
+					<row3>	0.3205 0.3139 5.1647 1.0000	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<boundingBox>
+		<min>	-0.0667 -0.0667 -0.0667	</min>
+		<max>	0.0667 0.0667 0.0667	</max>
+	</boundingBox>
+</FSC011_Bayard_1953_Bow_ports.visual>

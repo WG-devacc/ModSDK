@@ -1,0 +1,38 @@
+<JGT108_533mm_Type_6_dead.visual>
+	<boundingBox>
+		<min>	-0.107940 -0.000000 -0.196937	</min>
+		<max>	0.104491 0.102490 0.205076	</max>
+	</boundingBox>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	JGT054_533mm_Type_6_dead	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+				<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+			</transform>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	JGT054_533mm_Type_6_dead	</node>
+		<geometry>
+			<vertices>	JGT054_533mm_Type_6_deadShape.vertices	</vertices>
+			<primitive>	JGT054_533mm_Type_6_deadShape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPMAT_PBS_GunDead	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/JSC015_Tatsuta_1919/gun/JGT108_533mm_Type_6_dead.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+</JGT108_533mm_Type_6_dead.visual>

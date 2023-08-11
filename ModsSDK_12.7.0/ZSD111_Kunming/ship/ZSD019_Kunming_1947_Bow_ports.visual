@@ -1,0 +1,357 @@
+<ZSD019_Kunming_1947_Bow_ports.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+		</transform>
+		<node>
+			<identifier>	Bow_ports	</identifier>
+			<transform>
+				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+			</transform>
+			<node>
+				<identifier>	HP_FX_Fire_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.5000 3.6778 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_Flood_water_left	</identifier>
+				<transform>
+					<row0>	-0.9915 0.0000 0.1300 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-0.1300 0.0000 -0.9915 0.0000	</row2>
+					<row3>	-0.1310 0.0514 3.4636 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_Flood_water_right	</identifier>
+				<transform>
+					<row0>	0.9824 0.0000 0.1868 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-0.1868 0.0000 0.9824 0.0000	</row2>
+					<row3>	0.1311 0.0519 3.4636 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_WakeTrace	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 4.2558 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Ship_death_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 2.6747 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM011_Fire_Fighting_Gear	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	0.0000 0.4584 3.4329 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM011_Fire_Fighting_Gear_INDEX_1	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	0.0092 0.4185 2.5748 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM012_Fire_Hose_Rack_1	</identifier>
+				<transform>
+					<row0>	0.1272 0.0000 -0.9919 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.9919 0.0000 0.1272 0.0000	</row2>
+					<row3>	-0.0170 0.4927 2.5647 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM012_Fire_Hose_Rack_1_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.0000 0.3458 -0.6892 0.0000	</row0>
+					<row1>	0.0000 0.6892 0.3458 0.0000	</row1>
+					<row2>	0.7710 0.0000 0.0000 0.0000	</row2>
+					<row3>	0.0000 0.4808 3.3988 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM029_Emergency_Box	</identifier>
+				<transform>
+					<row0>	-0.9912 0.0000 0.1324 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-0.1324 0.0000 -0.9912 0.0000	</row2>
+					<row3>	0.0179 0.4740 2.5719 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_ZM1003_Fairlead	</identifier>
+				<transform>
+					<row0>	0.9863 -0.0390 0.1601 0.0000	</row0>
+					<row1>	0.0503 0.9964 -0.0675 0.0000	</row1>
+					<row2>	-0.1569 0.0746 0.9848 0.0000	</row2>
+					<row3>	0.2134 0.4631 3.6426 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_ZM1003_Fairlead_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.9863 0.0390 -0.1601 0.0000	</row0>
+					<row1>	-0.0503 0.9964 -0.0675 0.0000	</row1>
+					<row2>	0.1569 0.0746 0.9848 0.0000	</row2>
+					<row3>	-0.2134 0.4631 3.6426 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_ZM1003_Fairlead_INDEX_2	</identifier>
+				<transform>
+					<row0>	0.9919 0.0655 -0.1089 0.0000	</row0>
+					<row1>	-0.0715 0.9961 -0.0515 0.0000	</row1>
+					<row2>	0.1051 0.0589 0.9927 0.0000	</row2>
+					<row3>	-0.2895 0.4214 3.0313 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_ZM1003_Fairlead_INDEX_3	</identifier>
+				<transform>
+					<row0>	0.9919 -0.0655 0.1089 0.0000	</row0>
+					<row1>	0.0715 0.9961 -0.0515 0.0000	</row1>
+					<row2>	-0.1051 0.0589 0.9927 0.0000	</row2>
+					<row3>	0.2895 0.4214 3.0313 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_ZM122_Reels_3	</identifier>
+				<transform>
+					<row0>	0.0101 0.0000 0.9999 0.0000	</row0>
+					<row1>	-0.9999 0.0000 0.0101 0.0000	</row1>
+					<row2>	0.0000 -1.0000 0.0000 0.0000	</row2>
+					<row3>	-0.1913 0.5148 2.2994 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_ZM122_Reels_3_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.5575 0.0000 -0.8302 0.0000	</row0>
+					<row1>	0.8302 0.0000 0.5575 0.0000	</row1>
+					<row2>	0.0000 -1.0000 0.0000 0.0000	</row2>
+					<row3>	0.1009 0.5148 2.5127 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_ZM134_Signal_Lamp	</identifier>
+				<transform>
+					<row0>	0.0000 0.0000 1.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-1.0000 0.0000 0.0000 0.0000	</row2>
+					<row3>	0.0000 0.9206 4.3641 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_ZM139_Helmets_Rack	</identifier>
+				<transform>
+					<row0>	0.6152 0.0000 0.7883 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-0.7883 0.0000 0.6152 0.0000	</row2>
+					<row3>	-0.0998 0.4750 2.5182 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_ZM159_Break_Handwheel	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	-0.0310 0.4679 3.5926 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_ZM159_Break_Handwheel_INDEX_1	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	0.0310 0.4679 3.5926 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_ZM2955_Anchor_top	</identifier>
+				<transform>
+					<row0>	0.6075 0.1266 -0.1934 0.0000	</row0>
+					<row1>	-0.2302 0.3800 -0.4744 0.0000	</row1>
+					<row2>	0.0207 0.5119 0.4000 0.0000	</row2>
+					<row3>	0.1081 0.4011 4.2101 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_ZM2956_Anchor_down	</identifier>
+				<transform>
+					<row0>	0.6494 -0.0279 -0.0017 0.0000	</row0>
+					<row1>	0.0153 0.3893 -0.5203 0.0000	</row1>
+					<row2>	0.0233 0.5198 0.3896 0.0000	</row2>
+					<row3>	0.1089 0.4145 4.1922 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_ZM2961_Anchor_Danforth_down	</identifier>
+				<transform>
+					<row0>	0.0487 0.7318 0.1325 0.0000	</row0>
+					<row1>	-0.3461 0.1399 -0.6452 0.0000	</row1>
+					<row2>	-0.6584 -0.0194 0.3490 0.0000	</row2>
+					<row3>	-0.0711 0.4888 4.2023 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_ZM2962_Anchor_Danforth_up	</identifier>
+				<transform>
+					<row0>	0.0114 0.7319 0.1399 0.0000	</row0>
+					<row1>	0.1519 0.1347 -0.7172 0.0000	</row1>
+					<row2>	-0.7297 0.0395 -0.1471 0.0000	</row2>
+					<row3>	-0.0711 0.4888 4.2023 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_ZM607_Telephone	</identifier>
+				<transform>
+					<row0>	-0.9206 0.0000 0.3905 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-0.3905 0.0000 -0.9206 0.0000	</row2>
+					<row3>	0.0580 0.5060 2.5531 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_ZM783_Hatch	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-0.0004 0.4475 3.2730 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_ZM791_Hatch_8	</identifier>
+				<transform>
+					<row0>	0.9992 -0.0400 0.0007 0.0000	</row0>
+					<row1>	0.0400 0.9985 -0.0372 0.0000	</row1>
+					<row2>	0.0007 0.0372 0.9993 0.0000	</row2>
+					<row3>	0.0914 0.4202 2.7064 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_ZM948_Bollard_2	</identifier>
+				<transform>
+					<row0>	0.9051 -0.0599 0.0706 0.0000	</row0>
+					<row1>	0.0626 0.9071 -0.0321 0.0000	</row1>
+					<row2>	-0.0683 0.0368 0.9065 0.0000	</row2>
+					<row3>	0.2852 0.4108 2.7867 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_ZM948_Bollard_2_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.9094 -0.0275 0.0020 0.0000	</row0>
+					<row1>	0.0276 0.9070 -0.0662 0.0000	</row1>
+					<row2>	0.0000 0.0662 0.9074 0.0000	</row2>
+					<row3>	0.0609 0.4608 3.5160 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_ZM948_Bollard_2_INDEX_2	</identifier>
+				<transform>
+					<row0>	0.9094 0.0275 -0.0020 0.0000	</row0>
+					<row1>	-0.0276 0.9070 -0.0662 0.0000	</row1>
+					<row2>	0.0000 0.0662 0.9074 0.0000	</row2>
+					<row3>	-0.0609 0.4608 3.5160 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_ZM948_Bollard_2_INDEX_3	</identifier>
+				<transform>
+					<row0>	0.9051 0.0599 -0.0706 0.0000	</row0>
+					<row1>	-0.0626 0.9071 -0.0321 0.0000	</row1>
+					<row2>	0.0683 0.0368 0.9065 0.0000	</row2>
+					<row3>	-0.2853 0.4108 2.7867 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_ZM949_Fairlead_2	</identifier>
+				<transform>
+					<row0>	0.2402 -0.0963 -1.1447 0.0000	</row0>
+					<row1>	0.0769 1.1682 -0.0821 0.0000	</row1>
+					<row2>	1.1461 -0.0582 0.2454 0.0000	</row2>
+					<row3>	0.1714 0.4828 3.9047 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_ZM949_Fairlead_2_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.0837 0.0538 1.1693 0.0000	</row0>
+					<row1>	-0.0844 1.1696 -0.0478 0.0000	</row1>
+					<row2>	-1.1675 -0.0806 0.0873 0.0000	</row2>
+					<row3>	-0.3243 0.4012 2.6068 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_ZM949_Fairlead_2_INDEX_2	</identifier>
+				<transform>
+					<row0>	0.0837 -0.0538 -1.1693 0.0000	</row0>
+					<row1>	0.0844 1.1696 -0.0478 0.0000	</row1>
+					<row2>	1.1675 -0.0806 0.0873 0.0000	</row2>
+					<row3>	0.3243 0.4012 2.6068 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_ZM949_Fairlead_2_INDEX_3	</identifier>
+				<transform>
+					<row0>	0.2402 0.0963 1.1447 0.0000	</row0>
+					<row1>	-0.0769 1.1682 -0.0821 0.0000	</row1>
+					<row2>	-1.1461 -0.0582 0.2454 0.0000	</row2>
+					<row3>	-0.1714 0.4828 3.9047 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_ZM949_Fairlead_2_INDEX_4	</identifier>
+				<transform>
+					<row0>	0.4564 0.0773 1.0784 0.0000	</row0>
+					<row1>	-0.0419 1.1710 -0.0662 0.0000	</row1>
+					<row2>	-1.0804 -0.0127 0.4581 0.0000	</row2>
+					<row3>	-0.0749 0.5099 4.2549 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_ZM949_Fairlead_2_INDEX_5	</identifier>
+				<transform>
+					<row0>	0.4564 -0.0773 -1.0784 0.0000	</row0>
+					<row1>	0.0419 1.1710 -0.0662 0.0000	</row1>
+					<row2>	1.0804 -0.0127 0.4581 0.0000	</row2>
+					<row3>	0.0749 0.5099 4.2549 1.0000	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<boundingBox>
+		<min>	-0.0667 -0.0667 -0.0667	</min>
+		<max>	0.0667 0.0667 0.0667	</max>
+	</boundingBox>
+</ZSD019_Kunming_1947_Bow_ports.visual>

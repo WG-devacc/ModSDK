@@ -1,0 +1,193 @@
+(def constant MINEFIELD_MARKER_SIZE "44")
+
+(def element WorldMinefieldMarker (_entityId:number) layout=true
+	(scope
+		(var markerEntity:gfx = "$datahub.getEntity(_entityId)")
+
+		(macro GET_MARKER_ENTITY_COMPONENT 'minefield')
+		(macro GET_MARKER_ENTITY_COMPONENT 'worldMarkerScale')
+		(macro GET_MARKER_ENTITY_COMPONENT 'distance')
+		(macro GET_MARKER_ENTITY_COMPONENT 'countDown')
+		(macro VAR_RELATION "markerEntity")
+
+		(var isMinefieldActive:bool = "minefieldComponent.isActive" (event "minefieldComponent.evIsActiveChanged"))
+		(var isEnemy:bool = "relationIndex == SC.Battle.PLAYER_RELATION.ENEMY")
+
+		(var timerEntity:gfx =	"$datahub.getSingleEntity(CC.timer)")
+		(var timeLeft:number =	"countDownComponent	? countDownComponent.endTime - timerEntity.timer.currentTime
+													: 0" (event "timerEntity.timer.evFrequent") (event "countDownComponent.evEndTimeChanged"))
+		(var duration:number =	"countDownComponent ? countDownComponent.duration
+													: -1" (event "countDownComponent.evDurationChanged"))
+
+		(var remainTime:number = "countDownComponent ? max(min(timeLeft, duration)/duration, 0) : -1")
+
+		(macro HUMAN_READABLE_COUNTDOWN_SCOPE "timeLeft")
+
+		
+		(macro ALT_VISION_SCOPE)
+
+		
+		(var distanceIndex:number = "distanceComponent ? distanceComponent.distanceIndex : DistanceType.NEAR" (event "distanceComponent.evDistanceIndexChanged"))
+		(var distanceType:number = "isTactical				? DistanceType.TACTICAL :
+									isFullAltVisionMode		? DistanceType.NEAR
+															: distanceIndex")
+
+		(var isCountDownVisible:bool = "countDownComponent != null && timeLeft > 0 && isFullAltVisionMode")
+
+		(var distanceItemVisibility:bool = "(!(isIn(distanceType, [DistanceType.TACTICAL, DistanceType.FARTHEST])) || isFullAltVisionMode || !worldMarkerScaleComponent)")
+
+		(var customEffectColorTransform:dict =
+			"	relationIndex == SC.Battle.PLAYER_RELATION.SELF		? TWO_TEAMS_COLOR_TRANSFORMS['white'] :
+				relationIndex == SC.Battle.PLAYER_RELATION.ALLY		? TWO_TEAMS_COLOR_TRANSFORMS['ally'] :
+				relationIndex == SC.Battle.PLAYER_RELATION.ENEMY	? TWO_TEAMS_COLOR_TRANSFORMS['enemy']
+																	: TWO_TEAMS_COLOR_TRANSFORMS['white']
+		")
+	)
+
+	(style
+		(width = 0) (height = 0)
+		(align = "center|bottom")
+	)
+	(block
+		(bind visible "isCountDownVisible")
+		(style
+			(align = "center") (width = 0) (marginBottom = "XS")
+		)
+		(tf
+			(class $TextDefaultBoldNM)
+			(class $TextColorHUDNeutral)
+			(bind text "countdownText")
+		)
+	)
+	(block
+		(style (width = "MINEFIELD_MARKER_SIZE") (height = "MINEFIELD_MARKER_SIZE"))
+		(block
+			(style (position = absolute))
+			(controller $FxInstance lifetime="1"
+				(bind renderer 'MinefieldMarkerIcon_Fx')
+				(args "customEffectColorTransform")
+				(bindcall create (event "minefieldComponent.evIsActiveChanged"))
+			)
+		)
+		(controller $Instance
+			(bind renderer "isMinefieldActive	? 'MinefieldMarkerIcon_Active'
+												: 'MinefieldMarkerIcon_Inactive'")
+			(args "customEffectColorTransform" "remainTime")
+		)
+	)
+	
+	(block
+		(bind visible "distanceItemVisibility")
+		(style
+			(width = 0)
+			(align = "center|top")
+		)
+		(element DistanceItem "_entityId")
+	)
+)
+
+(def element MinefieldMarkerIcon_Inactive (_colorTransform:dict, _remainPercent:number)
+	(scope
+		(var progressSize:number = "_remainPercent < 0 ? 0 : 1-_remainPercent")
+	)
+	(style (width = "MINEFIELD_MARKER_SIZE") (height = "MINEFIELD_MARKER_SIZE"))
+	(bind colorTransform "_colorTransform")
+	
+	(block
+		(style
+			(position = absolute)
+			(alpha = 0.5)
+			(backgroundImage = "'url:../battle_hud/markers/mines/minefield_icon_combined.png'")
+			(backgroundSize = "autosize")
+		)
+	)
+	
+	(block
+		(style
+			(position = absolute)
+			(backgroundImage = "'url:../battle_hud/markers/mines/minefield_icon_combined.png'")
+			(backgroundSize = "autosize")
+		)
+		(block
+			(style
+				(position = absolute)
+				(backgroundColor = 0xFF00FF00)
+				(width = "MINEFIELD_MARKER_SIZE")
+				(bottom = "4")
+				(bind height "(MINEFIELD_MARKER_SIZE - 8) * progressSize")
+			)
+			(isMask = true)
+		)
+	)
+)
+
+(def element MinefieldMarkerIcon_Active (_colorTransform:dict, _remainPercent:number)
+	(scope
+		(var progress:number =	"_remainPercent < 0 ? 360
+													: -(_remainPercent) * 360")
+	)
+	(style (width = "MINEFIELD_MARKER_SIZE") (height = "MINEFIELD_MARKER_SIZE"))
+	
+	(block
+		(style
+			(position = absolute)
+			(backgroundImage = "'url:../battle_hud/markers/mines/minefield_track.png'")
+			(backgroundSize = "autosize")
+		)
+	)
+	
+	(block
+		(bind colorTransform "_colorTransform")
+		(style
+			(position = absolute)
+			(bind backgroundImage "'url:../battle_hud/markers/mines/minefield_bar.png'")
+			(backgroundSize = "autosize")
+		)
+		(block
+			(style
+				(position = absolute)
+				(alpha = 0.6)
+				(top = "MINEFIELD_MARKER_SIZE/2 + 4")
+				(left = "MINEFIELD_MARKER_SIZE/2")
+			)
+			(isMask = true)
+			(controller $Sector
+				(bind arc "progress")
+				(bind radius "24")
+				(bind color "0x000000")
+				(bind offset -90)
+			)
+		)
+	)
+	(block
+		(bind colorTransform "_colorTransform")
+		(style
+			(position = absolute)
+			(bind backgroundImage "'url:../battle_hud/markers/mines/minefield_icon.png'")
+			(backgroundSize = "autosize")
+		)
+	)
+)
+
+(def element MinefieldMarkerIcon_Fx (_colorTransform:dict)
+	(style (width = "MINEFIELD_MARKER_SIZE") (height = "MINEFIELD_MARKER_SIZE") (position = "absolute"))
+	(bind colorTransform "_colorTransform")
+	
+	(block
+		(style
+			(position = absolute)
+			(pivotX = 50%)
+			(pivotY = 50%)
+			(left = 0%) 
+			(top = 0%)  
+			(backgroundImage = "'url:../battle_hud/markers/mines/minefield_icon_combined.png'")
+			(backgroundSize = "autosize")
+		)
+		(controller $Animation
+			(play	from="{scaleX:1, scaleY:1, alpha:1.0}"
+					to="{scaleX:2, scaleY:2, alpha:0.0}"
+					duration=0.5
+			)
+		)
+	)
+)

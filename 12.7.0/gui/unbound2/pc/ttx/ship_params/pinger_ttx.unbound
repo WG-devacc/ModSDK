@@ -1,0 +1,57 @@
+(def element PingerTTX (shipTTX:gfx) layout=true
+	(class $ParametersPanel)
+	(class $TTXSecondaryPanel)
+
+	(element ShipParameter_Number	_title = 'IDS_SHIP_PARAM_WAVE_SHOT_DELAY'
+									_value = "shipTTX.pinger.reloadTime"
+									_valueConfig = "VALUE_CONFIG.SECONDS_NEGATIVE"
+		(macro PARAM_APPEAR_ANIMATION)
+		(macro SIMPLE_TTX_TOOLTIP 'IDS_SHIP_PARAM_WAVE_SHOT_DELAY' 'IDS_TOOLTIP_WAVE_SHOT_DELAY')
+	)
+	(element ShipParameter_Repeat	_title = 'IDS_SHIP_PARAM_WAVE_DURATION'
+									_values = "[shipTTX.pinger.duration1, shipTTX.pinger.duration2]"
+									_valueConfigs = "[VALUE_CONFIG.SECONDS_INTEGER, VALUE_CONFIG.SECONDS_INTEGER]"
+		(macro PARAM_APPEAR_ANIMATION)
+		(macro TTX_TOOLTIP 'WaveDurationTooltipTTX' "shipTTX.pinger")
+	)
+	(element ShipParameter_Number	_title = 'IDS_SHIP_PARAM_WAVE_SPEED'
+									_value = "shipTTX.pinger.speed"
+									_valueConfig = "VALUE_CONFIG.METER_SECOND"
+		(macro PARAM_APPEAR_ANIMATION)
+		(macro SIMPLE_TTX_TOOLTIP 'IDS_SHIP_PARAM_WAVE_SPEED' 'IDS_TOOLTIP_WAVE_SPEED')
+	)
+	(element ShipParameter_Number	_title = 'IDS_SHIP_PARAM_WAVE_WIDTH'
+									_value = "shipTTX.pinger.width"
+									_valueConfig = "VALUE_CONFIG.METER"
+		(macro PARAM_APPEAR_ANIMATION)
+		(macro SIMPLE_TTX_TOOLTIP 'IDS_SHIP_PARAM_WAVE_WIDTH' 'IDS_TOOLTIP_WAVE_WIDTH')
+	)
+	(element ShipParameter_Number	_title = 'IDS_SHIP_PARAM_WAVE_MAX_DIST'
+									_value = "shipTTX.pinger.maxDist"
+									_valueConfig = "VALUE_CONFIG.KILOMETER"
+		(macro PARAM_APPEAR_ANIMATION)
+		(macro SIMPLE_TTX_TOOLTIP 'IDS_SHIP_PARAM_WAVE_MAX_DIST' 'IDS_TOOLTIP_WAVE_MAX_DIST')
+	)
+)
+
+(def element WaveDurationTooltipTTX (shipTTX:gfx, pingerTTX:gfx) layout=true
+	(macro TTX_TOOLTIP_STYLE)
+	(element TOOLTIP_SYSTEM_DEFAULT_CONTAINER
+		(macro TTX_HEADER_ROW	_title = "'IDS_SHIP_PARAM_WAVE_DURATION'"
+								_descr = "'IDS_TOOLTIP_WAVE_DURATION'"
+		)
+		(element TooltipSystemHorizontalDivider)
+		(element TOOLTIP_SYSTEM_PARAMS_WRAPPER
+			(element TOOLTIP_SYSTEM_PARAMS_BLOCK
+				(element ShipParameter_Number	_title = 'IDS_SHIP_PARAM_WAVE_DURATION_FIRST'
+												_value = "pingerTTX.duration1"
+												_valueConfig = "VALUE_CONFIG.SECONDS"
+				)
+				(element ShipParameter_Number	_title = 'IDS_SHIP_PARAM_WAVE_DURATION_SECOND'
+												_value = "pingerTTX.duration2"
+												_valueConfig = "VALUE_CONFIG.SECONDS"
+				)
+			)
+		)
+	)
+)

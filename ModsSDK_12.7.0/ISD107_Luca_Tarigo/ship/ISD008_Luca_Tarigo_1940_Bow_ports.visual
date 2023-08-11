@@ -1,0 +1,168 @@
+<ISD008_Luca_Tarigo_1940_Bow_ports.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+		</transform>
+		<node>
+			<identifier>	Bow_ports	</identifier>
+			<transform>
+				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+			</transform>
+			<node>
+				<identifier>	HP_FX_Death_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0590 2.2441 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_Fire_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.3620 2.4754 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_WakeTrace	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 3.4459 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_IGM_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.3657 1.8534 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Ship_death_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 2.0610 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM033_Life_Buoy	</identifier>
+				<transform>
+					<row0>	-0.0789 0.0000 0.9969 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-0.9969 0.0000 -0.0789 0.0000	</row2>
+					<row3>	0.2562 0.4411 2.6149 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM033_Life_Buoy_INDEX_1	</identifier>
+				<transform>
+					<row0>	-0.0789 0.0000 -0.9969 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.9969 0.0000 -0.0789 0.0000	</row2>
+					<row3>	-0.2562 0.4411 2.6149 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM480_Bow_star	</identifier>
+				<transform>
+					<row0>	0.4518 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.4376 0.1123 0.0000	</row1>
+					<row2>	0.0000 -0.1123 0.4376 0.0000	</row2>
+					<row3>	0.0000 0.4745 3.6545 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM951_Anchor_up	</identifier>
+				<transform>
+					<row0>	-0.4669 -0.1545 -0.1111 0.0000	</row0>
+					<row1>	0.0721 0.1287 -0.4821 0.0000	</row1>
+					<row2>	0.1761 -0.4624 -0.0971 0.0000	</row2>
+					<row3>	-0.1859 0.4128 3.2808 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM951_Anchor_up_INDEX_1	</identifier>
+				<transform>
+					<row0>	-0.4669 0.1545 0.1111 0.0000	</row0>
+					<row1>	-0.0721 0.1287 -0.4821 0.0000	</row1>
+					<row2>	-0.1761 -0.4624 -0.0971 0.0000	</row2>
+					<row3>	0.1859 0.4128 3.2808 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM952_Anchor_Bottom	</identifier>
+				<transform>
+					<row0>	-0.5697 -0.2326 0.0316 0.0000	</row0>
+					<row1>	-0.0719 0.0940 -0.6048 0.0000	</row1>
+					<row2>	0.2235 -0.5628 -0.1140 0.0000	</row2>
+					<row3>	-0.1854 0.4108 3.2830 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM952_Anchor_Bottom_INDEX_1	</identifier>
+				<transform>
+					<row0>	-0.5697 0.2326 -0.0316 0.0000	</row0>
+					<row1>	0.0719 0.0940 -0.6048 0.0000	</row1>
+					<row2>	-0.2235 -0.5628 -0.1140 0.0000	</row2>
+					<row3>	0.1854 0.4108 3.2830 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM972_Bollard	</identifier>
+				<transform>
+					<row0>	0.9992 0.0412 0.0000 0.0000	</row0>
+					<row1>	-0.0411 0.9984 -0.0388 0.0000	</row1>
+					<row2>	-0.0016 0.0388 0.9992 0.0000	</row2>
+					<row3>	-0.1248 0.3775 2.5943 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM972_Bollard_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.9992 -0.0412 0.0000 0.0000	</row0>
+					<row1>	0.0411 0.9984 -0.0388 0.0000	</row1>
+					<row2>	0.0016 0.0388 0.9992 0.0000	</row2>
+					<row3>	0.1248 0.3775 2.5943 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM973_Fairlead	</identifier>
+				<transform>
+					<row0>	0.9918 0.0132 0.1275 0.0000	</row0>
+					<row1>	-0.0029 0.9967 -0.0806 0.0000	</row1>
+					<row2>	-0.1281 0.0795 0.9886 0.0000	</row2>
+					<row3>	0.2124 0.4016 2.9807 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM973_Fairlead_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.9918 -0.0132 -0.1275 0.0000	</row0>
+					<row1>	0.0029 0.9967 -0.0806 0.0000	</row1>
+					<row2>	0.1281 0.0795 0.9886 0.0000	</row2>
+					<row3>	-0.2124 0.4016 2.9807 1.0000	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<boundingBox>
+		<min>	-0.0667 -0.0667 -0.0667	</min>
+		<max>	0.0667 0.0667 0.0667	</max>
+	</boundingBox>
+</ISD008_Luca_Tarigo_1940_Bow_ports.visual>

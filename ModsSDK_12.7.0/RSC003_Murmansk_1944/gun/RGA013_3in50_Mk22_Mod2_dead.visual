@@ -1,0 +1,38 @@
+<RGA013_3in50_Mk22_Mod2_dead.visual>
+	<boundingBox>
+		<min>	-0.085294 -0.000000 -0.087741	</min>
+		<max>	0.070940 0.164212 0.204602	</max>
+	</boundingBox>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	Mk22Mod2_dead	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+				<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+			</transform>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Mk22Mod2_dead	</node>
+		<geometry>
+			<vertices>	Mk22Mod2_deadShape.vertices	</vertices>
+			<primitive>	Mk22Mod2_deadShape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPMAT_PBS_GunDead	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/RSC003_Murmansk_1944/gun/RGA013_3in50_Mk22_Mod2_dead.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+</RGA013_3in50_Mk22_Mod2_dead.visual>

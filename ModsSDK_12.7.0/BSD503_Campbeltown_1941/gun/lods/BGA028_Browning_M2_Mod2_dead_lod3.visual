@@ -1,0 +1,38 @@
+<BGA028_Browning_M2_Mod2_dead_lod3.visual>
+	<boundingBox>
+		<min>	-0.023421 -0.000550 -0.042836	</min>
+		<max>	0.018764 0.115179 0.078461	</max>
+	</boundingBox>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	BrowningM2Mod2_dead	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+				<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+			</transform>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	BrowningM2Mod2_dead	</node>
+		<geometry>
+			<vertices>	BrowningM2Mod2_dead_lod3Shape.vertices	</vertices>
+			<primitive>	BrowningM2Mod2_dead_lod3Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPMAT_PBS_GunDead	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/BSD503_Campbeltown_1941/gun/BGA028_Browning_M2_Mod1_dead.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+</BGA028_Browning_M2_Mod2_dead_lod3.visual>

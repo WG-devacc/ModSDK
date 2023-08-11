@@ -1,0 +1,38 @@
+<RGA003_MachineGunMaxim_7_62_dead_lod3.visual>
+	<boundingBox>
+		<min>	-0.026272 -0.000069 -0.049801	</min>
+		<max>	0.020045 0.118649 0.006713	</max>
+	</boundingBox>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	Pulimet_Maxima_7_62_dead	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+				<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+			</transform>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Pulimet_Maxima_7_62_dead	</node>
+		<geometry>
+			<vertices>	Pulimet_Maxima_7_62_dead_lod3Shape.vertices	</vertices>
+			<primitive>	Pulimet_Maxima_7_62_dead_lod3Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPMAT_PBS_GunDead	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/RSD104_Izyaslav/gun/RGA003_MachineGunMaxim_7_62_dead.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+</RGA003_MachineGunMaxim_7_62_dead_lod3.visual>

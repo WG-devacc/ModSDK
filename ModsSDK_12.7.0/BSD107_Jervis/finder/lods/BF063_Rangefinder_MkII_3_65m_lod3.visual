@@ -1,0 +1,38 @@
+<BF063_Rangefinder_MkII_3_65m_lod3.visual>
+	<boundingBox>
+		<min>	-0.134189 0.064178 -0.082715	</min>
+		<max>	0.134189 0.175805 0.082715	</max>
+	</boundingBox>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	BF063_Rangefinder_MkII_3_65m	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+				<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+			</transform>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	BF063_Rangefinder_MkII_3_65m	</node>
+		<geometry>
+			<vertices>	BF063_Rangefinder_MkII_3_65m_lod3Shape.vertices	</vertices>
+			<primitive>	BF063_Rangefinder_MkII_3_65m_lod3Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPMAT_PBS_Director	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/BSD107_Jervis/finder/BF063_Rangefinder_MkII_3_65m.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+</BF063_Rangefinder_MkII_3_65m_lod3.visual>

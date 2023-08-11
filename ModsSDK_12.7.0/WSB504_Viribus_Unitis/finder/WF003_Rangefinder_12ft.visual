@@ -1,0 +1,38 @@
+<WF003_Rangefinder_12ft.visual>
+	<boundingBox>
+		<min>	-0.133791 0.000000 -0.053360	</min>
+		<max>	0.133791 0.045361 0.053360	</max>
+	</boundingBox>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	EF001_Rangefinder_12ft	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+				<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+			</transform>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	EF001_Rangefinder_12ft	</node>
+		<geometry>
+			<vertices>	EF001_Rangefinder_12ftShape.vertices	</vertices>
+			<primitive>	EF001_Rangefinder_12ftShape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPMAT_PBS_Director	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/WSB504_Viribus_Unitis/finder/WF002_Rangefinder_9ft.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+</WF003_Rangefinder_12ft.visual>

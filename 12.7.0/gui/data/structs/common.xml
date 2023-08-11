@@ -1,0 +1,79 @@
+<structs>
+	<struct	name="ExcursionTarget">
+		<property name="moduleType"		type="String"/>
+		<property name="moduleId"		type="Number"/>
+	</struct>
+
+	<struct name="AchievementConditionStruct">
+		<property name="max"				type="Number"/>
+		<property name="currentProgress"	type="Number"/>
+		<property name="progress"			type="Number"/>
+		<property name="description"		type="String"/>
+	</struct>
+
+	<struct name="PriceInfoStruct">
+		<property	name='finalPrice'	type="Number"/>
+		<property 	name='basePrice'	type="Number"/>
+		<property 	name='currency'		type="String"/>
+	</struct>
+	
+	<struct name="CounterLineInfoStruct">
+		<property 	name='title'		type="String"/>
+		<property 	name='count'		type="Integer"/>
+		<property 	name='measurement'	type="String"/>
+	</struct>
+
+	<struct name="RankInfoStruct">
+		<property	name='league' 					type="Integer"/>
+		<property	name='rank' 					type="Integer"/>
+		<property	name='stars' 					type="Integer"/>
+		<property	name='victories' 				type="Integer"/>
+	</struct>
+
+	<struct name="DogTagRestrictionsStruct">
+		<property	name='battleTypes' 			type="Array"/>
+		<!--
+		<property	name='isPercent' 		type="Integer"/> 
+		<property	name='prebattle_id' 	type="Integer"/>
+		<property	name='battleCount' 		type="Integer"/>
+		<property	name='winCount' 		type="Integer"/>
+		<property	name='winRate' 			type="Integer"/>
+		<property	name='clearExp' 		type="Integer"/>
+		<property	name='weaponType' 		type="Integer"/>
+		<property	name='damage' 			type="Integer"/>
+		<property	name='damagePotential' 	type="Integer"/>
+		<property	name='damageScout' 		type="Integer"/>
+		<property	name='oil' 				type="Integer"/>
+		<property	name='ownedShipsCount' 	type="Integer"/>
+		<property	name='shipsKill' 		type="Integer"/>
+		<property	name='planesKill' 		type="Integer"/>
+		-->
+	</struct>
+
+	<struct name="ModifierDescriptionStruct">
+		<property	name='paramName' 		type="String"/> 
+		<property	name='measuredValue' 	type="String"/> 
+		<property	name='numericValue' 	type="Number"/> 
+		<property	name='measure' 			type="String"/> 
+		<property	name='category' 		type="String"/> 
+		<property	name='attributeIDS' 	type="String"/> 
+		<property	name='hidden' 			type="Boolean"/> 
+		<property	name='sortIndex' 		type="Integer"/> 
+	</struct>
+
+	<struct name="IntDiff">
+		<property	name='value' 	type="Integer"	/>
+		<property	name='delta' 	type="Integer"	/>
+	</struct>
+
+	<struct name="FloatDiff">
+		<property	name='value' 	type="Number"	/>
+		<property	name='delta' 	type="Number"	/>
+	</struct>
+
+	<struct name="BoolDiff">
+		<property	name='value' 	type="Boolean"	/>
+		<property	name='hasDiff' 	type="Boolean"	/>
+	</struct>
+	
+</structs>

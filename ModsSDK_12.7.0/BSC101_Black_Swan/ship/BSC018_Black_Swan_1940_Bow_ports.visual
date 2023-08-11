@@ -1,0 +1,222 @@
+<BSC018_Black_Swan_1940_Bow_ports.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+		</transform>
+		<node>
+			<identifier>	Bow_ports	</identifier>
+			<transform>
+				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+			</transform>
+			<node>
+				<identifier>	HP_BGM_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.3188 2.0146 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_BGM_2	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.4492 1.5212 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_Death_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 1.4335 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_Fire_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.3193 2.4065 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_WakeTrace	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 2.8688 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Ship_death_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 1.4335 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM019_Reels_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0860 0.4752 1.8096 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM019_Reels_1_INDEX_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-0.0860 0.4752 1.8096 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM611_Telephone	</identifier>
+				<transform>
+					<row0>	0.0000 0.0000 -1.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	1.0000 0.0000 0.0000 0.0000	</row2>
+					<row3>	-0.1791 0.3906 1.4982 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM611_Telephone_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.0000 0.0000 1.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-1.0000 0.0000 0.0000 0.0000	</row2>
+					<row3>	0.1791 0.3900 1.4697 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM705_Ammunition_Box	</identifier>
+				<transform>
+					<row0>	0.0000 0.0000 1.1462 0.0000	</row0>
+					<row1>	0.0000 1.1462 0.0000 0.0000	</row1>
+					<row2>	-1.1462 0.0000 0.0000 0.0000	</row2>
+					<row3>	0.0000 0.4532 1.7065 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM764_Hatch	</identifier>
+				<transform>
+					<row0>	1.1234 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.1234 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.1234 0.0000	</row2>
+					<row3>	-0.0218 0.2976 1.7374 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM800_Ventilators_mushroom	</identifier>
+				<transform>
+					<row0>	0.0000 0.0000 1.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-1.0000 0.0000 0.0000 0.0000	</row2>
+					<row3>	0.1065 0.3304 2.4851 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM800_Ventilators_mushroom_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.0000 0.0000 -1.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	1.0000 0.0000 0.0000 0.0000	</row2>
+					<row3>	-0.1049 0.3304 2.4850 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM858_Signal_Lamp	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.8100 2.9492 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM967_Bollard	</identifier>
+				<transform>
+					<row0>	0.6377 0.0026 0.1569 0.0000	</row0>
+					<row1>	0.0037 0.6562 -0.0261 0.0000	</row1>
+					<row2>	-0.1569 0.0263 0.6372 0.0000	</row2>
+					<row3>	0.1722 0.3288 2.4228 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM967_Bollard_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.5218 0.0150 -0.0632 0.0000	</row0>
+					<row1>	-0.0175 0.5252 -0.0196 0.0000	</row1>
+					<row2>	0.0625 0.0216 0.5216 0.0000	</row2>
+					<row3>	-0.2805 0.3008 1.7747 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM967_Bollard_INDEX_2	</identifier>
+				<transform>
+					<row0>	0.6377 -0.0026 -0.1569 0.0000	</row0>
+					<row1>	-0.0037 0.6562 -0.0261 0.0000	</row1>
+					<row2>	0.1569 0.0263 0.6372 0.0000	</row2>
+					<row3>	-0.1722 0.3288 2.4228 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM967_Bollard_INDEX_3	</identifier>
+				<transform>
+					<row0>	0.5218 -0.0150 0.0632 0.0000	</row0>
+					<row1>	0.0175 0.5252 -0.0196 0.0000	</row1>
+					<row2>	-0.0625 0.0216 0.5216 0.0000	</row2>
+					<row3>	0.2805 0.3008 1.7747 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM052_Fender	</identifier>
+				<transform>
+					<row0>	0.0000 0.0000 -0.5001 0.0000	</row0>
+					<row1>	0.0000 0.5001 0.0000 0.0000	</row1>
+					<row2>	0.5001 0.0000 0.0000 0.0000	</row2>
+					<row3>	0.1942 0.3132 1.5008 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM109_Leadsman_Platform	</identifier>
+				<transform>
+					<row0>	-0.0436 -0.7626 0.0000 0.0000	</row0>
+					<row1>	-0.7605 0.0435 -0.0568 0.0000	</row1>
+					<row2>	0.0568 -0.0032 -0.7618 0.0000	</row2>
+					<row3>	0.3305 0.2887 1.6265 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM109_Leadsman_Platform_INDEX_1	</identifier>
+				<transform>
+					<row0>	-0.0436 -0.7626 0.0000 0.0000	</row0>
+					<row1>	-0.7603 0.0435 0.0600 0.0000	</row1>
+					<row2>	-0.0599 0.0034 -0.7615 0.0000	</row2>
+					<row3>	-0.3305 0.2887 1.6265 1.0000	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<boundingBox>
+		<min>	-0.0667 -0.0667 -0.0667	</min>
+		<max>	0.0667 0.0667 0.0667	</max>
+	</boundingBox>
+</BSC018_Black_Swan_1940_Bow_ports.visual>

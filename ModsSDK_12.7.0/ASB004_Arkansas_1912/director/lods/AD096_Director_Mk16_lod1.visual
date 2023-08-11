@@ -1,0 +1,61 @@
+<AD096_Director_Mk16_lod1.visual>
+	<boundingBox>
+		<min>	-0.044856 0.000000 -0.043523	</min>
+		<max>	0.052819 0.114253 0.032214	</max>
+	</boundingBox>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	AD096_Director_Mk16	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+				<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+			</transform>
+			<node>
+				<identifier>	AD096_Director_Mk16_wire	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+					<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AD096_Director_Mk16	</node>
+		<geometry>
+			<vertices>	AD096_Director_Mk16_lodShape1.vertices	</vertices>
+			<primitive>	AD096_Director_Mk16_lodShape1.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPMAT_PBS_Director	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/ASB004_Arkansas_1912/director/AD096_Director_Mk16.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AD096_Director_Mk16_wire	</node>
+		<geometry>
+			<vertices>	AD096_Director_Mk16_wire_lodShape1.vertices	</vertices>
+			<primitive>	AD096_Director_Mk16_wire_lodShape1.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPWIRE_PBS_Director	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/ASB004_Arkansas_1912/director/AD096_Director_Mk16_wire.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+</AD096_Director_Mk16_lod1.visual>

@@ -1,0 +1,699 @@
+<ISB005_Francesco_Caracciolo_1941_MidBack_ports.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+		</transform>
+		<node>
+			<identifier>	MidBack_ports	</identifier>
+			<transform>
+				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+			</transform>
+			<node>
+				<identifier>	HP_FX_Fire_3	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.4879 -2.0720 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_Fire_3_side_1	</identifier>
+				<transform>
+					<row0>	0.9981 0.0000 -0.0623 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0623 0.0000 0.9981 0.0000	</row2>
+					<row3>	0.7186 0.2777 -3.8296 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_FloodLight_left_1	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	-0.5330 0.4160 -3.0240 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_FloodLight_right_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.5330 0.4203 -3.0670 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_RepairLight_left_2	</identifier>
+				<transform>
+					<row0>	-0.0658 0.0000 0.9978 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-0.9978 0.0000 -0.0658 0.0000	</row2>
+					<row3>	-0.8578 0.2651 -3.9156 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_RepairLight_right_2	</identifier>
+				<transform>
+					<row0>	-0.0530 0.0000 -0.9986 0.0000	</row0>
+					<row1>	-0.0453 0.9990 0.0024 0.0000	</row1>
+					<row2>	0.9976 0.0454 -0.0530 0.0000	</row2>
+					<row3>	0.8953 0.2675 -2.9931 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_ID_10	</identifier>
+				<transform>
+					<row0>	0.0000 0.0000 1.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-1.0000 0.0000 0.0000 0.0000	</row2>
+					<row3>	-0.1570 1.0717 -2.4005 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_ID_11	</identifier>
+				<transform>
+					<row0>	0.0000 0.0000 -1.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	1.0000 0.0000 0.0000 0.0000	</row2>
+					<row3>	0.1570 1.0717 -2.4005 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_ID_12	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	0.0000 1.0899 -2.5573 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_IGM_3	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	0.0000 0.5159 -3.0960 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_IGS_13	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	-0.4283 0.4857 -1.6299 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_IGS_14	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	0.4283 0.4857 -1.6299 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_IGS_15	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	-0.6568 0.3489 -2.2700 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_IGS_16	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	0.6568 0.3489 -2.2700 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Ship_death_2	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 -1.2369 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_flag_nation	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.9034 -0.4288 0.0000	</row1>
+					<row2>	0.0000 0.4288 0.9034 0.0000	</row2>
+					<row3>	0.0006 1.8295 -2.6695 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM011_Fire_Fighting_Gear	</identifier>
+				<transform>
+					<row0>	0.0000 0.0000 -1.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	1.0000 0.0000 0.0000 0.0000	</row2>
+					<row3>	-0.2667 0.2776 -2.4583 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM011_Fire_Fighting_Gear_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.0000 0.0000 1.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-1.0000 0.0000 0.0000 0.0000	</row2>
+					<row3>	0.2667 0.2776 -2.4583 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM014_Fuel_Oil_Hose	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-0.5316 0.3156 -2.7988 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM014_Fuel_Oil_Hose_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.9419 0.0000 0.3358 0.0000	</row0>
+					<row1>	0.0000 -1.0000 0.0000 0.0000	</row1>
+					<row2>	0.3358 0.0000 -0.9419 0.0000	</row2>
+					<row3>	-0.7851 0.2909 -1.4771 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM014_Fuel_Oil_Hose_INDEX_2	</identifier>
+				<transform>
+					<row0>	-0.9419 0.0000 0.3358 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-0.3358 0.0000 -0.9419 0.0000	</row2>
+					<row3>	0.7851 0.2909 -1.4771 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM014_Fuel_Oil_Hose_INDEX_3	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	0.5316 0.3156 -2.7988 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM029_Emergency_Box	</identifier>
+				<transform>
+					<row0>	0.3910 0.0000 0.9204 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-0.9204 0.0000 0.3910 0.0000	</row2>
+					<row3>	0.4345 0.3669 -3.6860 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM029_Emergency_Box_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.2814 0.0000 -0.9596 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.9596 0.0000 0.2814 0.0000	</row2>
+					<row3>	-0.2406 0.3669 -2.1381 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM029_Emergency_Box_INDEX_2	</identifier>
+				<transform>
+					<row0>	-0.7404 0.0000 0.6722 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-0.6722 0.0000 -0.7404 0.0000	</row2>
+					<row3>	-0.1171 1.1120 -2.5020 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM029_Emergency_Box_INDEX_3	</identifier>
+				<transform>
+					<row0>	0.8291 0.0000 -0.5591 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.5591 0.0000 0.8291 0.0000	</row2>
+					<row3>	-0.0514 0.5283 -2.4392 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM029_Emergency_Box_INDEX_4	</identifier>
+				<transform>
+					<row0>	0.0000 0.0000 -1.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	1.0000 0.0000 0.0000 0.0000	</row2>
+					<row3>	-0.5356 0.3669 -3.1663 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM029_Emergency_Box_INDEX_5	</identifier>
+				<transform>
+					<row0>	-0.7404 0.0000 -0.6722 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.6722 0.0000 -0.7404 0.0000	</row2>
+					<row3>	0.1171 1.1120 -2.5020 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM029_Emergency_Box_INDEX_6	</identifier>
+				<transform>
+					<row0>	0.8291 0.0000 0.5591 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-0.5591 0.0000 0.8291 0.0000	</row2>
+					<row3>	0.0514 0.5283 -2.4392 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM029_Emergency_Box_INDEX_7	</identifier>
+				<transform>
+					<row0>	0.3910 0.0000 -0.9204 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.9204 0.0000 0.3910 0.0000	</row2>
+					<row3>	-0.4345 0.3669 -3.6860 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM029_Emergency_Box_INDEX_8	</identifier>
+				<transform>
+					<row0>	0.0000 0.0000 1.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-1.0000 0.0000 0.0000 0.0000	</row2>
+					<row3>	0.5356 0.3669 -3.1663 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM029_Emergency_Box_INDEX_9	</identifier>
+				<transform>
+					<row0>	0.2814 0.0000 0.9596 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-0.9596 0.0000 0.2814 0.0000	</row2>
+					<row3>	0.2406 0.3669 -2.1381 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM052_Fender	</identifier>
+				<transform>
+					<row0>	-0.3876 0.0000 -0.9218 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.9218 0.0000 -0.3876 0.0000	</row2>
+					<row3>	0.3062 0.2778 -4.0472 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM052_Fender_INDEX_1	</identifier>
+				<transform>
+					<row0>	-0.3876 0.0000 -0.9218 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.9218 0.0000 -0.3876 0.0000	</row2>
+					<row3>	0.2809 0.2778 -4.1066 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM052_Fender_INDEX_2	</identifier>
+				<transform>
+					<row0>	-0.3876 0.0000 0.9218 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-0.9218 0.0000 -0.3876 0.0000	</row2>
+					<row3>	-0.3062 0.2778 -4.0472 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM052_Fender_INDEX_3	</identifier>
+				<transform>
+					<row0>	-0.3876 0.0000 0.9218 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-0.9218 0.0000 -0.3876 0.0000	</row2>
+					<row3>	-0.2809 0.2778 -4.1066 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM088_Swab_Rack	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	-0.0668 0.2772 -4.2691 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM112_Fire_Extinguisher	</identifier>
+				<transform>
+					<row0>	-0.8229 0.0000 0.5681 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-0.5681 0.0000 -0.8229 0.0000	</row2>
+					<row3>	0.0778 0.5404 -2.4116 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM112_Fire_Extinguisher_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.8061 0.0000 0.5918 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-0.5918 0.0000 0.8061 0.0000	</row2>
+					<row3>	-0.0778 0.5404 -2.4116 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM021_Turtle	</identifier>
+				<transform>
+					<row0>	-0.6223 0.0000 0.7828 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-0.7828 0.0000 -0.6223 0.0000	</row2>
+					<row3>	0.1389 1.1256 -2.3015 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM021_Turtle_INDEX_1	</identifier>
+				<transform>
+					<row0>	-0.6740 0.0000 0.7387 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-0.7387 0.0000 -0.6740 0.0000	</row2>
+					<row3>	0.1279 1.1248 -2.2889 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM021_Turtle_INDEX_2	</identifier>
+				<transform>
+					<row0>	-0.6223 0.0000 0.7828 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-0.7828 0.0000 -0.6223 0.0000	</row2>
+					<row3>	0.1491 1.1256 -2.3143 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM021_Turtle_INDEX_3	</identifier>
+				<transform>
+					<row0>	-0.6223 0.0000 -0.7828 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.7828 0.0000 -0.6223 0.0000	</row2>
+					<row3>	-0.1440 1.1101 -2.3079 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM021_Turtle_INDEX_4	</identifier>
+				<transform>
+					<row0>	-0.7122 0.0000 -0.7020 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.7020 0.0000 -0.7122 0.0000	</row2>
+					<row3>	-0.1279 1.1256 -2.2887 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM021_Turtle_INDEX_5	</identifier>
+				<transform>
+					<row0>	-0.6223 0.0000 -0.7828 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.7828 0.0000 -0.6223 0.0000	</row2>
+					<row3>	-0.1336 1.1104 -2.2948 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM021_Turtle_INDEX_6	</identifier>
+				<transform>
+					<row0>	-0.6223 0.0000 0.7828 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-0.7828 0.0000 -0.6223 0.0000	</row2>
+					<row3>	0.1440 1.1101 -2.3079 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM021_Turtle_INDEX_7	</identifier>
+				<transform>
+					<row0>	-0.6223 0.0000 -0.7828 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.7828 0.0000 -0.6223 0.0000	</row2>
+					<row3>	-0.1492 1.1256 -2.3145 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM021_Turtle_INDEX_8	</identifier>
+				<transform>
+					<row0>	-0.6223 0.0000 -0.7828 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.7828 0.0000 -0.6223 0.0000	</row2>
+					<row3>	-0.1388 1.1256 -2.3013 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM021_Turtle_INDEX_9	</identifier>
+				<transform>
+					<row0>	-0.6223 0.0000 0.7828 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-0.7828 0.0000 -0.6223 0.0000	</row2>
+					<row3>	0.1339 1.1102 -2.2952 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM026_Reels	</identifier>
+				<transform>
+					<row0>	0.0000 0.0000 1.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-1.0000 0.0000 0.0000 0.0000	</row2>
+					<row3>	0.5700 0.2759 -3.0807 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM026_Reels_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.3935 0.0000 0.9193 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-0.9193 0.0000 0.3935 0.0000	</row2>
+					<row3>	0.2519 0.2759 -4.2009 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM026_Reels_INDEX_2	</identifier>
+				<transform>
+					<row0>	0.3935 0.0000 -0.9193 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.9193 0.0000 0.3935 0.0000	</row2>
+					<row3>	-0.2519 0.2759 -4.2009 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM032_Fire_Hose	</identifier>
+				<transform>
+					<row0>	0.4613 0.0000 0.8873 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-0.8873 0.0000 0.4613 0.0000	</row2>
+					<row3>	-0.2648 0.3378 -2.4736 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM032_Fire_Hose_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.4613 0.0000 -0.8873 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.8873 0.0000 0.4613 0.0000	</row2>
+					<row3>	0.2636 0.3378 -2.4742 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM033_Life_Buoy	</identifier>
+				<transform>
+					<row0>	0.0479 0.0000 0.9989 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-0.9989 0.0000 0.0479 0.0000	</row2>
+					<row3>	0.9174 0.3555 -1.7492 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM033_Life_Buoy_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.0479 0.0000 -0.9989 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.9989 0.0000 0.0479 0.0000	</row2>
+					<row3>	-0.9174 0.3555 -1.7488 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM033_Life_Buoy_INDEX_2	</identifier>
+				<transform>
+					<row0>	-0.2756 0.0000 0.9613 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-0.9613 0.0000 -0.2756 0.0000	</row2>
+					<row3>	0.2262 0.5217 -2.3850 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM033_Life_Buoy_INDEX_3	</identifier>
+				<transform>
+					<row0>	0.1207 0.0000 -0.9927 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.9927 0.0000 0.1207 0.0000	</row2>
+					<row3>	-0.7888 0.3553 -4.1484 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM033_Life_Buoy_INDEX_4	</identifier>
+				<transform>
+					<row0>	0.4131 0.0000 0.9107 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-0.9107 0.0000 0.4131 0.0000	</row2>
+					<row3>	0.3399 0.5219 -3.8870 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM033_Life_Buoy_INDEX_5	</identifier>
+				<transform>
+					<row0>	0.4131 0.0000 -0.9107 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.9107 0.0000 0.4131 0.0000	</row2>
+					<row3>	-0.3396 0.5219 -3.8872 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM033_Life_Buoy_INDEX_6	</identifier>
+				<transform>
+					<row0>	-0.2756 0.0000 -0.9613 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.9613 0.0000 -0.2756 0.0000	</row2>
+					<row3>	-0.2261 0.5217 -2.3847 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM033_Life_Buoy_INDEX_7	</identifier>
+				<transform>
+					<row0>	0.1207 0.0000 0.9927 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-0.9927 0.0000 0.1207 0.0000	</row2>
+					<row3>	0.7888 0.3553 -4.1484 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM500_Life_Boat	</identifier>
+				<transform>
+					<row0>	0.0005 1.0000 -0.0015 0.0000	</row0>
+					<row1>	-0.9420 0.0000 -0.3355 0.0000	</row1>
+					<row2>	-0.3355 0.0015 0.9420 0.0000	</row2>
+					<row3>	-0.6949 0.3718 -1.7254 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM500_Life_Boat_INDEX_1	</identifier>
+				<transform>
+					<row0>	-0.0004 1.0000 0.0010 0.0000	</row0>
+					<row1>	-0.9420 0.0000 -0.3355 0.0000	</row1>
+					<row2>	-0.3355 -0.0011 0.9420 0.0000	</row2>
+					<row3>	-0.7732 0.3784 -1.5055 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM500_Life_Boat_INDEX_2	</identifier>
+				<transform>
+					<row0>	0.0000 -1.0000 0.0000 0.0000	</row0>
+					<row1>	0.9420 0.0000 -0.3355 0.0000	</row1>
+					<row2>	0.3355 0.0000 0.9420 0.0000	</row2>
+					<row3>	0.6949 0.3719 -1.7255 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM500_Life_Boat_INDEX_3	</identifier>
+				<transform>
+					<row0>	0.0000 -1.0000 0.0000 0.0000	</row0>
+					<row1>	0.9420 0.0000 -0.3355 0.0000	</row1>
+					<row2>	0.3355 0.0000 0.9420 0.0000	</row2>
+					<row3>	0.7732 0.3785 -1.5055 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM501_Barca_Diesel_10m	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	-0.1813 0.4739 -1.8525 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM501_Barca_Diesel_10m_INDEX_1	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	0.1813 0.4739 -1.8525 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM509_Motoscafo_10m	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.5209 -1.7454 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM613_Anemometer	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-0.2233 1.5728 -2.2470 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM613_Anemometer_INDEX_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.2233 1.5728 -2.2471 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM800_Ventilation	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-0.6261 0.2769 -2.7819 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM800_Ventilation_INDEX_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.6261 0.2769 -2.7819 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM954_Winch_L	</identifier>
+				<transform>
+					<row0>	0.8000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.8000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 0.8000 0.0000	</row2>
+					<row3>	-0.0880 0.4517 -2.1051 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM955_Winch_R	</identifier>
+				<transform>
+					<row0>	0.8000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.8000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 0.8000 0.0000	</row2>
+					<row3>	0.0880 0.4517 -2.1051 1.0000	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<boundingBox>
+		<min>	-0.0667 -0.0667 -0.0667	</min>
+		<max>	0.0667 0.0667 0.0667	</max>
+	</boundingBox>
+</ISB005_Francesco_Caracciolo_1941_MidBack_ports.visual>

@@ -1,0 +1,544 @@
+<BSA009_Ark_Royal_1941_Bow_lod2.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+		</transform>
+		<node>
+			<identifier>	Bow	</identifier>
+			<transform>
+				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+			</transform>
+			<node>
+				<identifier>	Bow_Antenna	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+				</transform>
+				<node>
+					<identifier>	Bow_Antenna_wire	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bow_DeckHouse	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	Bow_crack_MidFront	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+				</transform>
+				<node>
+					<identifier>	Bow_crack_MidFront_in	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bow_glass	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	Bow_patch_MidFront	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	Bow_wire	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Root	</identifier>
+			<transform>
+				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+			</transform>
+			<node>
+				<identifier>	Bow_Antenna_l_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-0.9821 0.9739 5.4641 1.0000	</row3>
+				</transform>
+				<node>
+					<identifier>	Bow_Antenna_l_1_BlendBone	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+						<row3>	0.9821 -0.9739 -5.4641 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	Bow_Antenna_l_1b	</identifier>
+					<transform>
+						<row0>	0.2757 -0.4168 0.8662 0.0000	</row0>
+						<row1>	0.0951 0.9085 0.4069 0.0000	</row1>
+						<row2>	-0.9565 -0.0298 0.2902 0.0000	</row2>
+						<row3>	-0.0857 0.8832 0.0004 1.0000	</row3>
+					</transform>
+					<node>
+						<identifier>	Bow_Antenna_l_1b_BlendBone	</identifier>
+						<transform>
+							<row0>	0.2757 0.0951 -0.9565 0.0000	</row0>
+							<row1>	-0.4168 0.9085 -0.0298 0.0000	</row1>
+							<row2>	-0.8662 -0.4069 -0.2902 0.0000	</row2>
+							<row3>	-3.6648 -3.8090 -2.5517 1.0000	</row3>
+						</transform>
+					</node>
+					<node>
+						<identifier>	Bow_Antenna_l_1c	</identifier>
+						<transform>
+							<row0>	0.2023 0.1043 -0.9737 0.0000	</row0>
+							<row1>	-0.4583 0.8888 0.0000 0.0000	</row1>
+							<row2>	0.8654 0.4463 0.2276 0.0000	</row2>
+							<row3>	1.5760 -0.0712 0.1127 1.0000	</row3>
+						</transform>
+						<node>
+							<identifier>	Bow_Antenna_l_1c_BlendBone	</identifier>
+							<transform>
+								<row0>	0.9971 -0.0418 0.0634 0.0000	</row0>
+								<row1>	0.0395 0.9985 0.0380 0.0000	</row1>
+								<row2>	0.0649 0.0354 -0.9973 0.0000	</row2>
+								<row3>	1.1442 -0.9200 -6.8103 1.0000	</row3>
+							</transform>
+						</node>
+					</node>
+				</node>
+				<node>
+					<identifier>	Bow_Antenna_l_1d	</identifier>
+					<transform>
+						<row0>	-0.0210 -0.5318 -0.8466 0.0000	</row0>
+						<row1>	-0.0057 0.8468 -0.5318 0.0000	</row1>
+						<row2>	0.9998 -0.0063 -0.0208 0.0000	</row2>
+						<row3>	-0.0845 0.8842 -0.0007 1.0000	</row3>
+					</transform>
+					<node>
+						<identifier>	Bow_Antenna_l_1d_BlendBone	</identifier>
+						<transform>
+							<row0>	-0.0210 -0.0057 0.9998 0.0000	</row0>
+							<row1>	-0.5318 0.8468 -0.0063 0.0000	</row1>
+							<row2>	0.8466 0.5318 0.0208 0.0000	</row2>
+							<row3>	5.5912 1.3258 1.1917 1.0000	</row3>
+						</transform>
+					</node>
+					<node>
+						<identifier>	Bow_Antenna_l_1e	</identifier>
+						<transform>
+							<row0>	-0.0090 -0.0055 0.9999 0.0000	</row0>
+							<row1>	-0.5206 0.8538 0.0000 0.0000	</row1>
+							<row2>	-0.8537 -0.5206 -0.0105 0.0000	</row2>
+							<row3>	1.5712 0.0207 0.0190 1.0000	</row3>
+						</transform>
+						<node>
+							<identifier>	Bow_Antenna_l_1e_BlendBone	</identifier>
+							<transform>
+								<row0>	0.9999 0.0060 0.0104 0.0000	</row0>
+								<row1>	-0.0062 0.9999 0.0132 0.0000	</row1>
+								<row2>	0.0103 0.0133 -0.9999 0.0000	</row2>
+								<row3>	1.1295 -0.9787 -4.1238 1.0000	</row3>
+							</transform>
+						</node>
+					</node>
+				</node>
+				<node>
+					<identifier>	Bow_Antenna_l_1f	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0349 -0.0437 0.0000 1.0000	</row3>
+					</transform>
+					<node>
+						<identifier>	Bow_Antenna_l_1f_BlendBone	</identifier>
+						<transform>
+							<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+							<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+							<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+							<row3>	0.9472 -0.9302 -5.4641 1.0000	</row3>
+						</transform>
+					</node>
+					<node>
+						<identifier>	Bow_Antenna_l_1g	</identifier>
+						<transform>
+							<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+							<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+							<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+							<row3>	0.0661 -0.1453 0.0000 1.0000	</row3>
+						</transform>
+						<node>
+							<identifier>	Bow_Antenna_l_1g_BlendBone	</identifier>
+							<transform>
+								<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+								<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+								<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+								<row3>	0.8812 -0.7849 -5.4641 1.0000	</row3>
+							</transform>
+						</node>
+					</node>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bow_Antenna_l_1a	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-1.0074 0.9755 5.3193 1.0000	</row3>
+				</transform>
+				<node>
+					<identifier>	Bow_Antenna_l_1a_BlendBone	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+						<row3>	1.0074 -0.9755 -5.3193 1.0000	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bow_Antenna_r_1	</identifier>
+				<transform>
+					<row0>	-0.3558 -0.9346 0.0000 0.0000	</row0>
+					<row1>	-0.9346 0.3558 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	0.9517 0.9739 5.4641 1.0000	</row3>
+				</transform>
+				<node>
+					<identifier>	Bow_Antenna_r_1_BlendBone	</identifier>
+					<transform>
+						<row0>	-0.3558 -0.9346 0.0000 0.0000	</row0>
+						<row1>	-0.9346 0.3558 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	1.2488 0.5429 5.4641 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	Bow_Antenna_r_1b	</identifier>
+					<transform>
+						<row0>	0.9855 0.1697 0.0000 0.0000	</row0>
+						<row1>	-0.1697 0.9855 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0749 0.0090 0.0000 1.0000	</row3>
+					</transform>
+					<node>
+						<identifier>	Bow_Antenna_r_1b_BlendBone	</identifier>
+						<transform>
+							<row0>	-0.5093 -0.8606 0.0000 0.0000	</row0>
+							<row1>	-0.8606 0.5093 0.0000 0.0000	</row1>
+							<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+							<row3>	1.2475 0.3269 5.4641 1.0000	</row3>
+						</transform>
+					</node>
+					<node>
+						<identifier>	Bow_Antenna_r_1c	</identifier>
+						<transform>
+							<row0>	-0.5093 -0.8606 0.0000 0.0000	</row0>
+							<row1>	-0.8606 0.5093 0.0000 0.0000	</row1>
+							<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+							<row3>	0.1388 -0.0054 0.0000 1.0000	</row3>
+						</transform>
+						<node>
+							<identifier>	Bow_Antenna_r_1c_BlendBone	</identifier>
+							<transform>
+								<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+								<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+								<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+								<row3>	-0.8506 -0.7849 -5.4641 1.0000	</row3>
+							</transform>
+						</node>
+					</node>
+				</node>
+				<node>
+					<identifier>	Bow_Antenna_r_1d	</identifier>
+					<transform>
+						<row0>	0.4972 0.0209 -0.8674 0.0000	</row0>
+						<row1>	-0.7952 0.4108 -0.4460 0.0000	</row1>
+						<row2>	0.3470 0.9115 0.2208 0.0000	</row2>
+						<row3>	-0.8563 0.2355 -0.0010 1.0000	</row3>
+					</transform>
+					<node>
+						<identifier>	Bow_Antenna_r_1d_BlendBone	</identifier>
+						<transform>
+							<row0>	-0.1964 -0.1010 -0.9753 0.0000	</row0>
+							<row1>	-0.4572 0.8893 0.0000 0.0000	</row1>
+							<row2>	-0.8674 -0.4460 0.2208 0.0000	</row2>
+							<row3>	-3.6873 -3.9850 2.2175 1.0000	</row3>
+						</transform>
+					</node>
+					<node>
+						<identifier>	Bow_Antenna_r_1e	</identifier>
+						<transform>
+							<row0>	-0.1964 -0.1010 -0.9753 0.0000	</row0>
+							<row1>	-0.4572 0.8893 0.0000 0.0000	</row1>
+							<row2>	0.8674 0.4460 -0.2208 0.0000	</row2>
+							<row3>	1.5846 0.0000 0.0000 1.0000	</row3>
+						</transform>
+						<node>
+							<identifier>	Bow_Antenna_r_1e_BlendBone	</identifier>
+							<transform>
+								<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+								<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+								<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+								<row3>	-0.7251 -1.1335 -6.8396 1.0000	</row3>
+							</transform>
+						</node>
+					</node>
+				</node>
+				<node>
+					<identifier>	Bow_Antenna_r_1f	</identifier>
+					<transform>
+						<row0>	0.4882 -0.1808 0.8538 0.0000	</row0>
+						<row1>	-0.7969 0.3065 0.5206 0.0000	</row1>
+						<row2>	-0.3558 -0.9346 0.0056 0.0000	</row2>
+						<row3>	-0.8560 0.2367 0.0007 1.0000	</row3>
+					</transform>
+					<node>
+						<identifier>	Bow_Antenna_r_1f_BlendBone	</identifier>
+						<transform>
+							<row0>	-0.0047 -0.0029 1.0000 0.0000	</row0>
+							<row1>	-0.5206 0.8538 0.0000 0.0000	</row1>
+							<row2>	0.8538 0.5206 0.0056 0.0000	</row2>
+							<row3>	5.6369 1.2608 -1.0047 1.0000	</row3>
+						</transform>
+					</node>
+					<node>
+						<identifier>	Bow_Antenna_r_1g	</identifier>
+						<transform>
+							<row0>	-0.0047 -0.0029 1.0000 0.0000	</row0>
+							<row1>	-0.5206 0.8538 0.0000 0.0000	</row1>
+							<row2>	-0.8538 -0.5206 -0.0056 0.0000	</row2>
+							<row3>	1.5675 0.0000 0.0000 1.0000	</row3>
+						</transform>
+						<node>
+							<identifier>	Bow_Antenna_r_1g_BlendBone	</identifier>
+							<transform>
+								<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+								<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+								<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+								<row3>	-1.0276 -1.0421 -4.1251 1.0000	</row3>
+							</transform>
+						</node>
+					</node>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bow_Antenna_r_1a	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.9799 0.9758 5.3193 1.0000	</row3>
+				</transform>
+				<node>
+					<identifier>	Bow_Antenna_r_1a_BlendBone	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+						<row3>	-0.9799 -0.9758 -5.3193 1.0000	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Root_BlendBone	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Bow_Antenna_l_1_BlendBone	</node>
+		<node>	Bow_Antenna_l_1f_BlendBone	</node>
+		<node>	Bow_Antenna_l_1g_BlendBone	</node>
+		<node>	Bow_Antenna_r_1_BlendBone	</node>
+		<node>	Bow_Antenna_r_1b_BlendBone	</node>
+		<node>	Bow_Antenna_r_1c_BlendBone	</node>
+		<node>	Bow_Antenna_r_1f_BlendBone	</node>
+		<geometry>
+			<vertices>	Bow_Antenna_lod2Shape.vertices	</vertices>
+			<primitive>	Bow_Antenna_lod2Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPMAT_PBS_Hull_skinned	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/BSA518_Ark_Royal/ship/BSA009_Ark_Royal_1941_skinned.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Root_BlendBone	</node>
+		<node>	Bow_Antenna_l_1a_BlendBone	</node>
+		<node>	Bow_Antenna_l_1_BlendBone	</node>
+		<node>	Bow_Antenna_l_1b_BlendBone	</node>
+		<node>	Bow_Antenna_l_1c_BlendBone	</node>
+		<node>	Bow_Antenna_l_1d_BlendBone	</node>
+		<node>	Bow_Antenna_r_1a_BlendBone	</node>
+		<node>	Bow_Antenna_r_1d_BlendBone	</node>
+		<node>	Bow_Antenna_r_1e_BlendBone	</node>
+		<node>	Bow_Antenna_r_1f_BlendBone	</node>
+		<node>	Bow_Antenna_r_1g_BlendBone	</node>
+		<geometry>
+			<vertices>	Bow_Antenna_wire_lod2Shape.vertices	</vertices>
+			<primitive>	Bow_Antenna_wire_lod2Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPWIRE_PBS_Hull_skinned	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/BSA518_Ark_Royal/ship/BSA009_Ark_Royal_1941_wire_skinned.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Bow_DeckHouse	</node>
+		<geometry>
+			<vertices>	Bow_DeckHouse_lod2Shape.vertices	</vertices>
+			<primitive>	Bow_DeckHouse_lod2Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPMAT_PBS_DeckHouse	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/BSA518_Ark_Royal/ship/BSA009_Ark_Royal_1941_DeckHouse.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Bow_crack_MidFront_in	</node>
+		<geometry>
+			<vertices>	Bow_crack_MidFront_in_lod2Shape.vertices	</vertices>
+			<primitive>	Bow_crack_MidFront_in_lod2Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPMAT_PBS_Crack	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/BSA518_Ark_Royal/ship/C002_Razlom.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Bow_crack_MidFront	</node>
+		<geometry>
+			<vertices>	Bow_crack_MidFront_lod2Shape.vertices	</vertices>
+			<primitive>	Bow_crack_MidFront_lod2Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPMAT_PBS_Hull	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/BSA518_Ark_Royal/ship/BSA009_Ark_Royal_1941.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Bow_glass	</node>
+		<geometry>
+			<vertices>	Bow_glass_lod2Shape.vertices	</vertices>
+			<primitive>	Bow_glass_lod2Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPGLASS_PBS_Hull	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/BSA518_Ark_Royal/ship/transparent_glass_alpha.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Bow	</node>
+		<geometry>
+			<vertices>	Bow_lod2Shape.vertices	</vertices>
+			<primitive>	Bow_lod2Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPMAT_PBS_Hull	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/BSA518_Ark_Royal/ship/BSA009_Ark_Royal_1941.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Bow_patch_MidFront	</node>
+		<geometry>
+			<vertices>	Bow_patch_MidFront_lod2Shape.vertices	</vertices>
+			<primitive>	Bow_patch_MidFront_lod2Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPMAT_PBS_Hull	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/BSA518_Ark_Royal/ship/BSA009_Ark_Royal_1941.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Bow_wire	</node>
+		<geometry>
+			<vertices>	Bow_wire_lod2Shape.vertices	</vertices>
+			<primitive>	Bow_wire_lod2Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPWIRE_PBS_Hull	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/BSA518_Ark_Royal/ship/BSA009_Ark_Royal_1941_wire.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-1.2947 -0.5687 -8.6500	</min>
+		<max>	1.2795 2.9229 7.7093	</max>
+	</boundingBox>
+</BSA009_Ark_Royal_1941_Bow_lod2.visual>

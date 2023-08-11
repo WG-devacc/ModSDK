@@ -1,0 +1,141 @@
+<HSC007_Eendracht_1947_Bow_ports.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+		</transform>
+		<node>
+			<identifier>	Bow_ports	</identifier>
+			<transform>
+				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+			</transform>
+			<node>
+				<identifier>	HP_FX_Fire_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.4258 5.2155 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_WakeTrace	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 6.1023 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Ship_death_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 4.5878 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM011_Fire_Fighting_Gear	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	0.0000 0.3816 5.2046 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM013_Fire_Hose_Rack_2	</identifier>
+				<transform>
+					<row0>	0.0000 0.0000 -1.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	1.0000 0.0000 0.0000 0.0000	</row2>
+					<row3>	0.2124 0.4379 5.0711 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_HM001_Anchor_down	</identifier>
+				<transform>
+					<row0>	-1.4734 -0.4807 -0.0218 0.0000	</row0>
+					<row1>	-0.1889 0.6422 -1.3980 0.0000	</row1>
+					<row2>	0.4426 -1.3263 -0.6690 0.0000	</row2>
+					<row3>	-0.1549 0.2709 5.8161 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_HM001_Anchor_down_INDEX_1	</identifier>
+				<transform>
+					<row0>	-1.4734 0.4807 0.0218 0.0000	</row0>
+					<row1>	0.1889 0.6422 -1.3980 0.0000	</row1>
+					<row2>	-0.4426 -1.3263 -0.6690 0.0000	</row2>
+					<row3>	0.1549 0.2709 5.8161 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_HM002_Anchor_up	</identifier>
+				<transform>
+					<row0>	-1.4252 0.1823 0.5814 0.0000	</row0>
+					<row1>	-0.4188 0.7812 -1.2715 0.0000	</row1>
+					<row2>	-0.4426 -1.3263 -0.6690 0.0000	</row2>
+					<row3>	0.1549 0.2709 5.8161 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_HM002_Anchor_up_INDEX_1	</identifier>
+				<transform>
+					<row0>	-1.4252 -0.1823 -0.5814 0.0000	</row0>
+					<row1>	0.4188 0.7812 -1.2715 0.0000	</row1>
+					<row2>	0.4426 -1.3263 -0.6690 0.0000	</row2>
+					<row3>	-0.1549 0.2709 5.8161 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_HM753_Hatch	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.3767 5.1177 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_HM753_Hatch_INDEX_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.3862 5.5132 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_HM963_Capstan_Red_L	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.9993 -0.0372 0.0000	</row1>
+					<row2>	0.0000 0.0372 0.9993 0.0000	</row2>
+					<row3>	-0.0834 0.3808 4.9019 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_HM964_Capstan_Green_R	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.9993 -0.0372 0.0000	</row1>
+					<row2>	0.0000 0.0372 0.9993 0.0000	</row2>
+					<row3>	0.0834 0.3808 4.9019 1.0000	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<boundingBox>
+		<min>	-0.0667 -0.0667 -0.0667	</min>
+		<max>	0.0667 0.0667 0.0667	</max>
+	</boundingBox>
+</HSC007_Eendracht_1947_Bow_ports.visual>

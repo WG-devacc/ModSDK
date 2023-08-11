@@ -1,0 +1,732 @@
+<GSA001_Graf_Zeppelin_1945_Bow_lod3.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+		</transform>
+		<node>
+			<identifier>	Bow	</identifier>
+			<transform>
+				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+			</transform>
+			<node>
+				<identifier>	Bow_Antenna	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	Bow_Bulge	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	Bow_DeckHouse	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	Bow_crack_MidFront	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+				</transform>
+				<node>
+					<identifier>	Bow_crack_MidFront_DeckHouse	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	Bow_crack_MidFront_Underwater	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	Bow_crack_MidFront_in	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bow_patch_MidFront	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+				</transform>
+				<node>
+					<identifier>	Bow_patch_MidFront_Bulge	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	Bow_patch_MidFront_DeckHouse	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+				</node>
+			</node>
+		</node>
+		<node>
+			<identifier>	Root	</identifier>
+			<transform>
+				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+			</transform>
+			<node>
+				<identifier>	Bow_A_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-1.1210 0.7462 2.0810 1.0000	</row3>
+				</transform>
+				<node>
+					<identifier>	Bow_A_1_BlendBone	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+						<row3>	1.1210 -0.7462 -2.0810 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	Bow_A_1a	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0266 0.0229 0.0000 1.0000	</row3>
+					</transform>
+					<node>
+						<identifier>	Bow_A_1a_BlendBone	</identifier>
+						<transform>
+							<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+							<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+							<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+							<row3>	1.0944 -0.7691 -2.0810 1.0000	</row3>
+						</transform>
+					</node>
+					<node>
+						<identifier>	Bow_A_1b	</identifier>
+						<transform>
+							<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+							<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+							<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+							<row3>	0.0730 0.0000 0.0000 1.0000	</row3>
+						</transform>
+						<node>
+							<identifier>	Bow_A_1b_BlendBone	</identifier>
+							<transform>
+								<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+								<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+								<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+								<row3>	1.0214 -0.7691 -2.0810 1.0000	</row3>
+							</transform>
+						</node>
+					</node>
+				</node>
+				<node>
+					<identifier>	Bow_A_1c	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	-0.0158 0.9389 0.0000 1.0000	</row3>
+					</transform>
+					<node>
+						<identifier>	Bow_A_1c_BlendBone	</identifier>
+						<transform>
+							<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+							<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+							<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+							<row3>	1.1367 -1.6849 -2.0811 1.0000	</row3>
+						</transform>
+					</node>
+					<node>
+						<identifier>	Bow_A_1d	</identifier>
+						<transform>
+							<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+							<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+							<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+							<row3>	0.0000 0.0000 -1.7454 1.0000	</row3>
+						</transform>
+						<node>
+							<identifier>	Bow_A_1d_BlendBone	</identifier>
+							<transform>
+								<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+								<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+								<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+								<row3>	1.1367 -1.6849 -0.3358 1.0000	</row3>
+							</transform>
+						</node>
+					</node>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bow_A_2	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-1.1210 0.7462 0.3356 1.0000	</row3>
+				</transform>
+				<node>
+					<identifier>	Bow_A_2_BlendBone	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+						<row3>	1.1210 -0.7462 -0.3356 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	Bow_A_2a	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0001 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	-0.0001 0.0000 1.0000 0.0000	</row2>
+						<row3>	-0.0157 0.9387 0.0000 1.0000	</row3>
+					</transform>
+					<node>
+						<identifier>	Bow_A_2a_BlendBone	</identifier>
+						<transform>
+							<row0>	1.0000 0.0000 -0.0001 0.0000	</row0>
+							<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+							<row2>	-0.0001 0.0000 -1.0000 0.0000	</row2>
+							<row3>	1.1367 -1.6850 -0.3357 1.0000	</row3>
+						</transform>
+					</node>
+					<node>
+						<identifier>	Bow_A_2b	</identifier>
+						<transform>
+							<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+							<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+							<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+							<row3>	0.0000 0.0000 -2.1060 1.0000	</row3>
+						</transform>
+						<node>
+							<identifier>	Bow_A_2b_BlendBone	</identifier>
+							<transform>
+								<row0>	1.0000 0.0000 -0.0001 0.0000	</row0>
+								<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+								<row2>	-0.0001 0.0000 -1.0000 0.0000	</row2>
+								<row3>	1.1367 -1.6850 1.7702 1.0000	</row3>
+							</transform>
+						</node>
+					</node>
+				</node>
+				<node>
+					<identifier>	Bow_A_2c	</identifier>
+					<transform>
+						<row0>	0.9998 0.0209 0.0000 0.0000	</row0>
+						<row1>	-0.0209 0.9998 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0266 0.0229 -0.0008 1.0000	</row3>
+					</transform>
+					<node>
+						<identifier>	Bow_A_2c_BlendBone	</identifier>
+						<transform>
+							<row0>	0.9998 -0.0209 0.0000 0.0000	</row0>
+							<row1>	0.0209 0.9998 0.0000 0.0000	</row1>
+							<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+							<row3>	1.0781 -0.7918 -0.3348 1.0000	</row3>
+						</transform>
+					</node>
+					<node>
+						<identifier>	Bow_A_2d	</identifier>
+						<transform>
+							<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+							<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+							<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+							<row3>	0.0730 -0.0015 0.0000 1.0000	</row3>
+						</transform>
+						<node>
+							<identifier>	Bow_A_2d_BlendBone	</identifier>
+							<transform>
+								<row0>	0.9998 -0.0209 0.0000 0.0000	</row0>
+								<row1>	0.0209 0.9998 0.0000 0.0000	</row1>
+								<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+								<row3>	1.0051 -0.7903 -0.3348 1.0000	</row3>
+							</transform>
+						</node>
+					</node>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bow_A_3	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-1.1210 0.7462 -1.7704 1.0000	</row3>
+				</transform>
+				<node>
+					<identifier>	Bow_A_3_BlendBone	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+						<row3>	1.1210 -0.7462 1.7704 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	Bow_A_3a	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	-0.0155 0.9387 0.0000 1.0000	</row3>
+					</transform>
+					<node>
+						<identifier>	Bow_A_3a_BlendBone	</identifier>
+						<transform>
+							<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+							<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+							<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+							<row3>	1.1366 -1.6850 1.7704 1.0000	</row3>
+						</transform>
+					</node>
+					<node>
+						<identifier>	Bow_A_3b	</identifier>
+						<transform>
+							<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+							<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+							<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+							<row3>	0.0000 0.0000 -1.6581 1.0000	</row3>
+						</transform>
+						<node>
+							<identifier>	Bow_A_3b_BlendBone	</identifier>
+							<transform>
+								<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+								<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+								<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+								<row3>	1.1366 -1.6850 3.4285 1.0000	</row3>
+							</transform>
+						</node>
+					</node>
+				</node>
+				<node>
+					<identifier>	Bow_A_3c	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0266 0.0229 0.0000 1.0000	</row3>
+					</transform>
+					<node>
+						<identifier>	Bow_A_3c_BlendBone	</identifier>
+						<transform>
+							<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+							<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+							<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+							<row3>	1.0944 -0.7691 1.7704 1.0000	</row3>
+						</transform>
+					</node>
+					<node>
+						<identifier>	Bow_A_3d	</identifier>
+						<transform>
+							<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+							<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+							<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+							<row3>	0.0730 0.0000 0.0000 1.0000	</row3>
+						</transform>
+						<node>
+							<identifier>	Bow_A_3d_BlendBone	</identifier>
+							<transform>
+								<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+								<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+								<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+								<row3>	1.0214 -0.7691 1.7704 1.0000	</row3>
+							</transform>
+						</node>
+					</node>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bow_A_4	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-1.1210 0.7462 -3.4285 1.0000	</row3>
+				</transform>
+				<node>
+					<identifier>	Bow_A_4_BlendBone	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+						<row3>	1.1210 -0.7462 3.4285 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	Bow_A_4a	</identifier>
+					<transform>
+						<row0>	0.5221 -0.5841 0.6214 0.0000	</row0>
+						<row1>	0.5841 0.7758 0.2385 0.0000	</row1>
+						<row2>	-0.6214 0.2385 0.7463 0.0000	</row2>
+						<row3>	0.0266 0.0229 0.0000 1.0000	</row3>
+					</transform>
+					<node>
+						<identifier>	Bow_A_4a_BlendBone	</identifier>
+						<transform>
+							<row0>	0.5221 0.5841 -0.6214 0.0000	</row0>
+							<row1>	-0.5841 0.7758 0.2385 0.0000	</row1>
+							<row2>	-0.6214 -0.2385 -0.7463 0.0000	</row2>
+							<row3>	3.1512 0.8602 1.6952 1.0000	</row3>
+						</transform>
+					</node>
+					<node>
+						<identifier>	Bow_A_4b	</identifier>
+						<transform>
+							<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+							<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+							<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+							<row3>	0.0381 0.0427 -0.0454 1.0000	</row3>
+						</transform>
+						<node>
+							<identifier>	Bow_A_4b_BlendBone	</identifier>
+							<transform>
+								<row0>	0.5221 0.5841 -0.6214 0.0000	</row0>
+								<row1>	-0.5841 0.7758 0.2385 0.0000	</row1>
+								<row2>	-0.6214 -0.2385 -0.7463 0.0000	</row2>
+								<row3>	3.1131 0.8175 1.7406 1.0000	</row3>
+							</transform>
+						</node>
+					</node>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bow_A_h1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-1.0916 0.7323 3.5200 1.0000	</row3>
+				</transform>
+				<node>
+					<identifier>	Bow_A_h1_BlendBone	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+						<row3>	1.0916 -0.7323 -3.5200 1.0000	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bow_A_h2	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-1.1772 0.8089 2.8552 1.0000	</row3>
+				</transform>
+				<node>
+					<identifier>	Bow_A_h2_BlendBone	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+						<row3>	1.1772 -0.8089 -2.8552 1.0000	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bow_A_h3	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-1.0871 0.8021 1.7334 1.0000	</row3>
+				</transform>
+				<node>
+					<identifier>	Bow_A_h3_BlendBone	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+						<row3>	1.0871 -0.8021 -1.7334 1.0000	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bow_A_h4	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-1.1302 0.7981 1.5436 1.0000	</row3>
+				</transform>
+				<node>
+					<identifier>	Bow_A_h4_BlendBone	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+						<row3>	1.1302 -0.7981 -1.5436 1.0000	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bow_A_h5	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-1.1463 0.7981 -0.5891 1.0000	</row3>
+				</transform>
+				<node>
+					<identifier>	Bow_A_h5_BlendBone	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+						<row3>	1.1463 -0.7981 0.5891 1.0000	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bow_A_h6	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-1.1401 0.8016 -3.8633 1.0000	</row3>
+				</transform>
+				<node>
+					<identifier>	Bow_A_h6_BlendBone	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+						<row3>	1.1401 -0.8016 3.8633 1.0000	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Root_BlendBone	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Root_BlendBone	</node>
+		<node>	Bow_A_1_BlendBone	</node>
+		<node>	Bow_A_1a_BlendBone	</node>
+		<node>	Bow_A_1c_BlendBone	</node>
+		<node>	Bow_A_1d_BlendBone	</node>
+		<node>	Bow_A_2_BlendBone	</node>
+		<node>	Bow_A_2a_BlendBone	</node>
+		<node>	Bow_A_2b_BlendBone	</node>
+		<node>	Bow_A_2c_BlendBone	</node>
+		<node>	Bow_A_3_BlendBone	</node>
+		<node>	Bow_A_3a_BlendBone	</node>
+		<node>	Bow_A_3b_BlendBone	</node>
+		<node>	Bow_A_3c_BlendBone	</node>
+		<node>	Bow_A_4_BlendBone	</node>
+		<node>	Bow_A_4a_BlendBone	</node>
+		<geometry>
+			<vertices>	Bow_Antenna_lod3Shape.vertices	</vertices>
+			<primitive>	Bow_Antenna_lod3Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPMAT_PBS_Bulge_skinned	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/GSA598_Black_Graf_Zeppelin/ship/GSA001_Graf_Zeppelin_1945_Bulge_skinned.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Bow_Bulge	</node>
+		<geometry>
+			<vertices>	Bow_Bulge_lod3Shape.vertices	</vertices>
+			<primitive>	Bow_Bulge_lod3Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPMAT_PBS_Bulge	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/GSA598_Black_Graf_Zeppelin/ship/GSA001_Graf_Zeppelin_1945_Bulge.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Bow_DeckHouse	</node>
+		<geometry>
+			<vertices>	Bow_DeckHouse_lod3Shape.vertices	</vertices>
+			<primitive>	Bow_DeckHouse_lod3Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPMAT_PBS_DeckHouse	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/GSA598_Black_Graf_Zeppelin/ship/GSA001_Graf_Zeppelin_1945_DeckHouse.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Bow_crack_MidFront_DeckHouse	</node>
+		<geometry>
+			<vertices>	Bow_crack_MidFront_DeckHouse_lod3Shape.vertices	</vertices>
+			<primitive>	Bow_crack_MidFront_DeckHouse_lod3Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPMAT_PBS_DeckHouse	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/GSA598_Black_Graf_Zeppelin/ship/GSA001_Graf_Zeppelin_1945_DeckHouse.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Bow_crack_MidFront_Underwater	</node>
+		<geometry>
+			<vertices>	Bow_crack_MidFront_Underwater_lod3Shape.vertices	</vertices>
+			<primitive>	Bow_crack_MidFront_Underwater_lod3Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPMAT_PBS_Bulge	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/GSA598_Black_Graf_Zeppelin/ship/GSA001_Graf_Zeppelin_1945_Bulge.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Bow_crack_MidFront_in	</node>
+		<geometry>
+			<vertices>	Bow_crack_MidFront_in_lod3Shape.vertices	</vertices>
+			<primitive>	Bow_crack_MidFront_in_lod3Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPMAT_PBS_Crack	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/GSA598_Black_Graf_Zeppelin/ship/C002_Razlom.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Bow_crack_MidFront	</node>
+		<geometry>
+			<vertices>	Bow_crack_MidFront_lod3Shape.vertices	</vertices>
+			<primitive>	Bow_crack_MidFront_lod3Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPMAT_PBS_Hull	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/GSA598_Black_Graf_Zeppelin/ship/GSA001_Graf_Zeppelin_1945_hull.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Bow	</node>
+		<geometry>
+			<vertices>	Bow_lod3Shape.vertices	</vertices>
+			<primitive>	Bow_lod3Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPMAT_PBS_Hull	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/GSA598_Black_Graf_Zeppelin/ship/GSA001_Graf_Zeppelin_1945_hull.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Bow_patch_MidFront_Bulge	</node>
+		<geometry>
+			<vertices>	Bow_patch_MidFront_Bulge_lod3Shape.vertices	</vertices>
+			<primitive>	Bow_patch_MidFront_Bulge_lod3Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPMAT_PBS_Bulge	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/GSA598_Black_Graf_Zeppelin/ship/GSA001_Graf_Zeppelin_1945_Bulge.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Bow_patch_MidFront_DeckHouse	</node>
+		<geometry>
+			<vertices>	Bow_patch_MidFront_DeckHouse_lod3Shape.vertices	</vertices>
+			<primitive>	Bow_patch_MidFront_DeckHouse_lod3Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPMAT_PBS_DeckHouse	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/GSA598_Black_Graf_Zeppelin/ship/GSA001_Graf_Zeppelin_1945_DeckHouse.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Bow_patch_MidFront	</node>
+		<geometry>
+			<vertices>	Bow_patch_MidFront_lod3Shape.vertices	</vertices>
+			<primitive>	Bow_patch_MidFront_lod3Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPMAT_PBS_Hull	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/GSA598_Black_Graf_Zeppelin/ship/GSA001_Graf_Zeppelin_1945_hull.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-1.1470 -0.6413 -3.4461	</min>
+		<max>	1.0724 1.6801 8.9270	</max>
+	</boundingBox>
+</GSA001_Graf_Zeppelin_1945_Bow_lod3.visual>

@@ -1,0 +1,303 @@
+<ISD008_Luca_Tarigo_1940_Stern_ports.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+		</transform>
+		<node>
+			<identifier>	Stern_ports	</identifier>
+			<transform>
+				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+			</transform>
+			<node>
+				<identifier>	HP_FX_Fire_4	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.1918 -2.9533 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_WakeTraceBack	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 -3.6622 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_WakeTrace_screw_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-0.1400 -0.1790 -3.3300 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_WakeTrace_screw_2	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.1400 -0.1790 -3.3300 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_IGA_10	</identifier>
+				<transform>
+					<row0>	-0.7071 0.0000 -0.7071 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.7071 0.0000 -0.7071 0.0000	</row2>
+					<row3>	0.1012 0.1862 -2.8195 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_IGA_9	</identifier>
+				<transform>
+					<row0>	-0.7071 0.0000 0.7071 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-0.7071 0.0000 -0.7071 0.0000	</row2>
+					<row3>	-0.1012 0.1862 -2.8195 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_IGB_1	</identifier>
+				<transform>
+					<row0>	-0.1193 0.0000 0.9929 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-0.9929 0.0000 -0.1193 0.0000	</row2>
+					<row3>	-0.1471 0.1871 -3.1613 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_IGB_2	</identifier>
+				<transform>
+					<row0>	-0.1193 0.0000 -0.9929 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.9929 0.0000 -0.1193 0.0000	</row2>
+					<row3>	0.1471 0.1876 -3.1613 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_IGB_3	</identifier>
+				<transform>
+					<row0>	-0.9219 0.0000 0.3873 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-0.3873 0.0000 -0.9219 0.0000	</row2>
+					<row3>	-0.0619 0.1925 -3.5573 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_IGB_4	</identifier>
+				<transform>
+					<row0>	-0.9219 0.0000 -0.3873 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.3873 0.0000 -0.9219 0.0000	</row2>
+					<row3>	0.0619 0.1925 -3.5573 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Ship_death_3	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 -2.5213 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM161_Propeller_4_8m_BB_R	</identifier>
+				<transform>
+					<row0>	0.7508 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.7502 -0.0292 0.0000	</row1>
+					<row2>	0.0000 0.0292 0.7502 0.0000	</row2>
+					<row3>	0.1398 -0.1789 -3.3310 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM162_Propeller_4_8m_BB_L	</identifier>
+				<transform>
+					<row0>	0.7508 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.7502 -0.0292 0.0000	</row1>
+					<row2>	0.0000 0.0292 0.7502 0.0000	</row2>
+					<row3>	-0.1398 -0.1789 -3.3310 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM003_Crown	</identifier>
+				<transform>
+					<row0>	0.5113 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.5001 0.1064 0.0000	</row1>
+					<row2>	0.0000 -0.1064 0.5001 0.0000	</row2>
+					<row3>	0.0000 0.1659 -3.6314 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM028_Boat_Crane	</identifier>
+				<transform>
+					<row0>	-0.0010 0.9999 -0.0124 0.0000	</row0>
+					<row1>	-1.0000 -0.0010 0.0015 0.0000	</row1>
+					<row2>	0.0015 0.0124 0.9999 0.0000	</row2>
+					<row3>	-0.0093 0.1922 -2.9467 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM028_Boat_Crane_INDEX_1	</identifier>
+				<transform>
+					<row0>	-0.0010 -0.9999 0.0124 0.0000	</row0>
+					<row1>	1.0000 -0.0010 0.0015 0.0000	</row1>
+					<row2>	-0.0015 0.0124 0.9999 0.0000	</row2>
+					<row3>	0.0093 0.1922 -2.9305 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM033_Life_Buoy	</identifier>
+				<transform>
+					<row0>	0.1445 0.0000 0.9895 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-0.9895 0.0000 0.1445 0.0000	</row2>
+					<row3>	0.1761 0.2631 -3.3214 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM033_Life_Buoy_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.1445 0.0000 -0.9895 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.9895 0.0000 0.1445 0.0000	</row2>
+					<row3>	-0.1761 0.2631 -3.3214 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM750_hatch	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0668 0.1888 -3.2885 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM750_hatch_INDEX_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-0.0019 0.1888 -3.2421 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM904_Crane_Paravane_L	</identifier>
+				<transform>
+					<row0>	0.9125 0.0000 0.4091 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-0.4091 0.0000 0.9125 0.0000	</row2>
+					<row3>	-0.1246 0.2020 -3.4824 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM905_Crane_Paravane_R	</identifier>
+				<transform>
+					<row0>	0.9125 0.0000 -0.4091 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.4091 0.0000 0.9125 0.0000	</row2>
+					<row3>	0.1246 0.2020 -3.4824 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM971_Winch	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-0.0019 0.1873 -3.1260 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM972_Bollard	</identifier>
+				<transform>
+					<row0>	0.9733 0.0000 0.2295 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-0.2295 0.0000 0.9733 0.0000	</row2>
+					<row3>	0.0785 0.1894 -3.4136 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM972_Bollard_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.7619 0.0000 0.1197 0.0000	</row0>
+					<row1>	-0.0016 0.7712 0.0101 0.0000	</row1>
+					<row2>	-0.1197 -0.0102 0.7618 0.0000	</row2>
+					<row3>	-0.1706 0.1921 -3.2570 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM972_Bollard_INDEX_2	</identifier>
+				<transform>
+					<row0>	0.7619 0.0000 -0.1197 0.0000	</row0>
+					<row1>	0.0016 0.7712 0.0101 0.0000	</row1>
+					<row2>	0.1197 -0.0102 0.7618 0.0000	</row2>
+					<row3>	0.1706 0.1921 -3.2570 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM972_Bollard_INDEX_3	</identifier>
+				<transform>
+					<row0>	0.9733 0.0000 -0.2295 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.2295 0.0000 0.9733 0.0000	</row2>
+					<row3>	-0.0785 0.1894 -3.4136 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM973_Fairlead	</identifier>
+				<transform>
+					<row0>	0.7024 -0.0030 0.1716 0.0000	</row0>
+					<row1>	0.0007 0.7230 0.0096 0.0000	</row1>
+					<row2>	-0.1716 -0.0092 0.7023 0.0000	</row2>
+					<row3>	-0.1476 0.1911 -3.4048 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM973_Fairlead_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.7024 0.0030 -0.1716 0.0000	</row0>
+					<row1>	-0.0007 0.7230 0.0096 0.0000	</row1>
+					<row2>	0.1716 -0.0092 0.7023 0.0000	</row2>
+					<row3>	0.1476 0.1908 -3.4048 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM974_Fairlead	</identifier>
+				<transform>
+					<row0>	0.3847 0.0000 0.1095 0.0000	</row0>
+					<row1>	0.0000 0.4000 0.0000 0.0000	</row1>
+					<row2>	-0.1095 0.0000 0.3847 0.0000	</row2>
+					<row3>	0.0283 0.1976 -3.6083 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM974_Fairlead_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.3847 0.0000 -0.1095 0.0000	</row0>
+					<row1>	0.0000 0.4000 0.0000 0.0000	</row1>
+					<row2>	0.1095 0.0000 0.3847 0.0000	</row2>
+					<row3>	-0.0282 0.1976 -3.6083 1.0000	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<boundingBox>
+		<min>	-0.0667 -0.0667 -0.0667	</min>
+		<max>	0.0667 0.0667 0.0667	</max>
+	</boundingBox>
+</ISD008_Luca_Tarigo_1940_Stern_ports.visual>

@@ -1,0 +1,465 @@
+<BSA009_Ark_Royal_1941_MidBack_lod2.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+		</transform>
+		<node>
+			<identifier>	MidBack	</identifier>
+			<transform>
+				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+			</transform>
+			<node>
+				<identifier>	MidBack_Antenna	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+				</transform>
+				<node>
+					<identifier>	MidBack_Antenna_wire	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	MidBack_crack_MidFront	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+				</transform>
+				<node>
+					<identifier>	MidBack_crack_MidFront_in	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	MidBack_crack_Stern	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+				</transform>
+				<node>
+					<identifier>	MidBack_crack_Stern_in	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	MidBack_patch_Stern	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Root	</identifier>
+			<transform>
+				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+			</transform>
+			<node>
+				<identifier>	MidBack_Antenna_1	</identifier>
+				<transform>
+					<row0>	-0.3465 -0.9381 0.0000 0.0000	</row0>
+					<row1>	-0.9381 0.3465 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	1.0345 0.9649 -0.2354 1.0000	</row3>
+				</transform>
+				<node>
+					<identifier>	MidBack_Antenna_1_BlendBone	</identifier>
+					<transform>
+						<row0>	-0.3465 -0.9381 0.0000 0.0000	</row0>
+						<row1>	-0.9381 0.3465 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	1.2635 0.6362 -0.2354 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	MidBack_Antenna_1a	</identifier>
+					<transform>
+						<row0>	0.9866 -0.1632 0.0000 0.0000	</row0>
+						<row1>	0.1632 0.9866 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0724 0.0108 0.0000 1.0000	</row3>
+					</transform>
+					<node>
+						<identifier>	MidBack_Antenna_1a_BlendBone	</identifier>
+						<transform>
+							<row0>	-0.1887 -0.9820 0.0000 0.0000	</row0>
+							<row1>	-0.9820 0.1887 0.0000 0.0000	</row1>
+							<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+							<row3>	1.0731 0.8114 -0.2354 1.0000	</row3>
+						</transform>
+					</node>
+					<node>
+						<identifier>	MidBack_Antenna_1b	</identifier>
+						<transform>
+							<row0>	-0.1887 -0.9820 0.0000 0.0000	</row0>
+							<row1>	-0.9820 0.1887 0.0000 0.0000	</row1>
+							<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+							<row3>	0.1415 0.0001 0.0000 1.0000	</row3>
+						</transform>
+						<node>
+							<identifier>	MidBack_Antenna_1b_BlendBone	</identifier>
+							<transform>
+								<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+								<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+								<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+								<row3>	-0.9725 -0.7618 0.2354 1.0000	</row3>
+							</transform>
+						</node>
+					</node>
+				</node>
+			</node>
+			<node>
+				<identifier>	MidBack_Antenna_2	</identifier>
+				<transform>
+					<row0>	-0.3561 -0.9345 0.0000 0.0000	</row0>
+					<row1>	-0.9345 0.3561 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	1.0315 0.9694 -2.8392 1.0000	</row3>
+				</transform>
+				<node>
+					<identifier>	MidBack_Antenna_2_BlendBone	</identifier>
+					<transform>
+						<row0>	-0.3561 -0.9345 0.0000 0.0000	</row0>
+						<row1>	-0.9345 0.3561 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	1.2731 0.6187 -2.8392 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	MidBack_Antenna_2a	</identifier>
+					<transform>
+						<row0>	0.9845 -0.1754 0.0000 0.0000	</row0>
+						<row1>	0.1754 0.9845 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0712 0.0107 0.0000 1.0000	</row3>
+					</transform>
+					<node>
+						<identifier>	MidBack_Antenna_2a_BlendBone	</identifier>
+						<transform>
+							<row0>	-0.1867 -0.9824 0.0000 0.0000	</row0>
+							<row1>	-0.9824 0.1867 0.0000 0.0000	</row1>
+							<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+							<row3>	1.0768 0.8094 -2.8392 1.0000	</row3>
+						</transform>
+					</node>
+					<node>
+						<identifier>	MidBack_Antenna_2b	</identifier>
+						<transform>
+							<row0>	-0.1862 -0.9825 0.0000 0.0000	</row0>
+							<row1>	-0.9825 0.1862 0.0000 0.0000	</row1>
+							<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+							<row3>	0.1429 0.0003 0.0000 1.0000	</row3>
+						</transform>
+						<node>
+							<identifier>	MidBack_Antenna_2b_BlendBone	</identifier>
+							<transform>
+								<row0>	1.0000 0.0005 0.0000 0.0000	</row0>
+								<row1>	-0.0005 1.0000 0.0000 0.0000	</row1>
+								<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+								<row3>	-0.9689 -0.7669 2.8392 1.0000	</row3>
+							</transform>
+						</node>
+					</node>
+				</node>
+				<node>
+					<identifier>	MidBack_Antenna_2c	</identifier>
+					<transform>
+						<row0>	0.0020 0.0055 1.0000 0.0000	</row0>
+						<row1>	-0.9345 0.3561 0.0000 0.0000	</row1>
+						<row2>	-0.3561 -0.9344 0.0059 0.0000	</row2>
+						<row3>	-0.8564 0.2345 0.0000 1.0000	</row3>
+					</transform>
+					<node>
+						<identifier>	MidBack_Antenna_2c_BlendBone	</identifier>
+						<transform>
+							<row0>	-0.0059 0.0000 1.0000 0.0000	</row0>
+							<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+							<row2>	1.0000 0.0000 0.0059 0.0000	</row2>
+							<row3>	-2.8327 -1.8529 -1.1340 1.0000	</row3>
+						</transform>
+					</node>
+					<node>
+						<identifier>	MidBack_Antenna_2d	</identifier>
+						<transform>
+							<row0>	0.0021 -0.9345 -0.3561 0.0000	</row0>
+							<row1>	0.0055 0.3561 -0.9344 0.0000	</row1>
+							<row2>	1.0000 0.0000 0.0059 0.0000	</row2>
+							<row3>	1.8584 0.0005 0.0010 1.0000	</row3>
+						</transform>
+						<node>
+							<identifier>	MidBack_Antenna_2d_BlendBone	</identifier>
+							<transform>
+								<row0>	-0.3561 -0.9345 0.0000 0.0000	</row0>
+								<row1>	-0.9345 0.3561 0.0000 0.0000	</row1>
+								<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+								<row3>	2.1263 0.3749 -4.6977 1.0000	</row3>
+							</transform>
+						</node>
+					</node>
+				</node>
+			</node>
+			<node>
+				<identifier>	MidBack_Antenna_3	</identifier>
+				<transform>
+					<row0>	-0.3364 -0.9417 0.0000 0.0000	</row0>
+					<row1>	-0.9417 0.3364 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	1.0203 0.9695 -4.6976 1.0000	</row3>
+				</transform>
+				<node>
+					<identifier>	MidBack_Antenna_3_BlendBone	</identifier>
+					<transform>
+						<row0>	-0.3364 -0.9417 0.0000 0.0000	</row0>
+						<row1>	-0.9417 0.3364 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	1.2562 0.6348 -4.6976 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	MidBack_Antenna_3a	</identifier>
+					<transform>
+						<row0>	0.9889 -0.1484 0.0000 0.0000	</row0>
+						<row1>	0.1484 0.9889 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0748 0.0105 0.0000 1.0000	</row3>
+					</transform>
+					<node>
+						<identifier>	MidBack_Antenna_3a_BlendBone	</identifier>
+						<transform>
+							<row0>	-0.1929 -0.9812 0.0000 0.0000	</row0>
+							<row1>	-0.9812 0.1929 0.0000 0.0000	</row1>
+							<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+							<row3>	1.0757 0.7926 -4.6976 1.0000	</row3>
+						</transform>
+					</node>
+					<node>
+						<identifier>	MidBack_Antenna_3b	</identifier>
+						<transform>
+							<row0>	-0.1929 -0.9812 0.0000 0.0000	</row0>
+							<row1>	-0.9812 0.1929 0.0000 0.0000	</row1>
+							<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+							<row3>	0.1388 0.0002 0.0000 1.0000	</row3>
+						</transform>
+						<node>
+							<identifier>	MidBack_Antenna_3b_BlendBone	</identifier>
+							<transform>
+								<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+								<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+								<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+								<row3>	-0.9583 -0.7665 4.6976 1.0000	</row3>
+							</transform>
+						</node>
+					</node>
+				</node>
+			</node>
+			<node>
+				<identifier>	MidBack_Antenna_4	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.9224 1.1139 -5.7187 1.0000	</row3>
+				</transform>
+				<node>
+					<identifier>	MidBack_Antenna_4_BlendBone	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+						<row3>	-0.9224 -1.1139 5.7187 1.0000	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	MidBack_Antenna_5	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	1.0541 0.9849 -3.0462 1.0000	</row3>
+				</transform>
+				<node>
+					<identifier>	MidBack_Antenna_5_BlendBone	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+						<row3>	-1.0541 -0.9849 3.0462 1.0000	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Root_BlendBone	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	MidBack_Antenna_1_BlendBone	</node>
+		<node>	MidBack_Antenna_1a_BlendBone	</node>
+		<node>	MidBack_Antenna_1b_BlendBone	</node>
+		<node>	MidBack_Antenna_2_BlendBone	</node>
+		<node>	MidBack_Antenna_2a_BlendBone	</node>
+		<node>	MidBack_Antenna_2b_BlendBone	</node>
+		<node>	MidBack_Antenna_3_BlendBone	</node>
+		<node>	MidBack_Antenna_3a_BlendBone	</node>
+		<node>	MidBack_Antenna_3b_BlendBone	</node>
+		<node>	MidBack_Antenna_5_BlendBone	</node>
+		<geometry>
+			<vertices>	MidBack_Antenna_lod2Shape.vertices	</vertices>
+			<primitive>	MidBack_Antenna_lod2Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPMAT_PBS_Hull_skinned	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/BSA518_Ark_Royal/ship/BSA009_Ark_Royal_1941_skinned.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Root_BlendBone	</node>
+		<node>	MidBack_Antenna_2_BlendBone	</node>
+		<node>	MidBack_Antenna_2c_BlendBone	</node>
+		<node>	MidBack_Antenna_2d_BlendBone	</node>
+		<node>	MidBack_Antenna_4_BlendBone	</node>
+		<node>	MidBack_Antenna_1_BlendBone	</node>
+		<geometry>
+			<vertices>	MidBack_Antenna_wire_lod2Shape.vertices	</vertices>
+			<primitive>	MidBack_Antenna_wire_lod2Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPWIRE_PBS_Hull_skinned	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/BSA518_Ark_Royal/ship/BSA009_Ark_Royal_1941_wire_skinned.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	MidBack_crack_MidFront_in	</node>
+		<geometry>
+			<vertices>	MidBack_crack_MidFront_in_lod2Shape.vertices	</vertices>
+			<primitive>	MidBack_crack_MidFront_in_lod2Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPMAT_PBS_Crack	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/BSA518_Ark_Royal/ship/C002_Razlom.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	MidBack_crack_MidFront	</node>
+		<geometry>
+			<vertices>	MidBack_crack_MidFront_lod2Shape.vertices	</vertices>
+			<primitive>	MidBack_crack_MidFront_lod2Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPMAT_PBS_Hull	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/BSA518_Ark_Royal/ship/BSA009_Ark_Royal_1941.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	MidBack_crack_Stern_in	</node>
+		<geometry>
+			<vertices>	MidBack_crack_Stern_in_lod2Shape.vertices	</vertices>
+			<primitive>	MidBack_crack_Stern_in_lod2Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPMAT_PBS_Crack	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/BSA518_Ark_Royal/ship/C002_Razlom.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	MidBack_crack_Stern	</node>
+		<geometry>
+			<vertices>	MidBack_crack_Stern_lod2Shape.vertices	</vertices>
+			<primitive>	MidBack_crack_Stern_lod2Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPMAT_PBS_Hull	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/BSA518_Ark_Royal/ship/BSA009_Ark_Royal_1941.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	MidBack	</node>
+		<geometry>
+			<vertices>	MidBack_lod2Shape.vertices	</vertices>
+			<primitive>	MidBack_lod2Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPMAT_PBS_Hull	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/BSA518_Ark_Royal/ship/BSA009_Ark_Royal_1941.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	MidBack_patch_Stern	</node>
+		<geometry>
+			<vertices>	MidBack_patch_Stern_lod2Shape.vertices	</vertices>
+			<primitive>	MidBack_patch_Stern_lod2Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPMAT_PBS_Hull	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/BSA518_Ark_Royal/ship/BSA009_Ark_Royal_1941.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.0033 -0.0033 -5.7194	</min>
+		<max>	1.1211 1.8577 0.0033	</max>
+	</boundingBox>
+</BSA009_Ark_Royal_1941_MidBack_lod2.visual>

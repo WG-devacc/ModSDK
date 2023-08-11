@@ -1,0 +1,177 @@
+<JSC035_Chikuma_1912_Stern_ports.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+		</transform>
+		<node>
+			<identifier>	Stern_ports	</identifier>
+			<transform>
+				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+			</transform>
+			<node>
+				<identifier>	HP_FX_Fire_4	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.4030 -4.0603 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_WakeTraceBack	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 -4.5765 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_WakeTrace_screw_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-0.2127 -0.2248 -4.0079 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_WakeTrace_screw_2	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.2127 -0.2248 -4.0079 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_JGM_8	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	0.0000 0.4023 -3.5532 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Ship_death_3	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 -3.4631 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM001_Propeller3_L	</identifier>
+				<transform>
+					<row0>	0.8278 -0.0004 -0.0105 0.0000	</row0>
+					<row1>	0.0000 0.8272 -0.0312 0.0000	</row1>
+					<row2>	0.0106 0.0312 0.8272 0.0000	</row2>
+					<row3>	-0.2127 -0.2248 -4.0079 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM008_Life_Buoy_1	</identifier>
+				<transform>
+					<row0>	-0.1607 0.0000 -0.9870 0.0000	</row0>
+					<row1>	-0.0664 0.9977 0.0108 0.0000	</row1>
+					<row2>	0.9848 0.0673 -0.1603 0.0000	</row2>
+					<row3>	0.2599 0.3347 -3.7891 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM008_Life_Buoy_1_INDEX_1	</identifier>
+				<transform>
+					<row0>	-0.1607 0.0000 0.9870 0.0000	</row0>
+					<row1>	0.0664 0.9977 0.0108 0.0000	</row1>
+					<row2>	-0.9848 0.0673 -0.1603 0.0000	</row2>
+					<row3>	-0.2599 0.3347 -3.7891 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM032_Propeller3_R	</identifier>
+				<transform>
+					<row0>	0.8279 -0.0022 0.0142 0.0000	</row0>
+					<row1>	0.0027 0.8274 -0.0311 0.0000	</row1>
+					<row2>	-0.0141 0.0312 0.8273 0.0000	</row2>
+					<row3>	0.2127 -0.2248 -4.0079 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_JM026_Bollards	</identifier>
+				<transform>
+					<row0>	0.1289 0.0000 -0.7956 0.0000	</row0>
+					<row1>	0.0000 0.8059 0.0000 0.0000	</row1>
+					<row2>	0.7956 0.0000 0.1289 0.0000	</row2>
+					<row3>	-0.2030 0.3993 -3.6874 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_JM026_Bollards_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.1289 0.0000 0.7956 0.0000	</row0>
+					<row1>	0.0000 0.8059 0.0000 0.0000	</row1>
+					<row2>	-0.7956 0.0000 0.1289 0.0000	</row2>
+					<row3>	0.2030 0.3993 -3.6874 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_JM061_Deck_Hatch_10	</identifier>
+				<transform>
+					<row0>	0.0000 0.0000 1.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-1.0000 0.0000 0.0000 0.0000	</row2>
+					<row3>	0.0677 0.3913 -3.8217 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_JM062_Deck_Hatch_11	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-0.0044 0.3986 -4.3328 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_JM111_Deck_Hatch_13	</identifier>
+				<transform>
+					<row0>	0.0000 0.0000 1.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-1.0000 0.0000 0.0000 0.0000	</row2>
+					<row3>	-0.0334 0.4014 -4.0538 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_JM222_Ventilation	</identifier>
+				<transform>
+					<row0>	0.5132 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.5132 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 0.5132 0.0000	</row2>
+					<row3>	-0.2296 0.3999 -3.4902 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_JM222_Ventilation_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.5132 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.5132 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 0.5132 0.0000	</row2>
+					<row3>	0.2385 0.3999 -3.3850 1.0000	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<boundingBox>
+		<min>	-0.0667 -0.0667 -0.0667	</min>
+		<max>	0.0667 0.0667 0.0667	</max>
+	</boundingBox>
+</JSC035_Chikuma_1912_Stern_ports.visual>

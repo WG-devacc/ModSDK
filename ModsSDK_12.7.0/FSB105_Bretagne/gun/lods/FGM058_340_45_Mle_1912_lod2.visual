@@ -1,0 +1,265 @@
+<FGM058_340_45_Mle_1912_lod2.visual>
+	<boundingBox>
+		<min>	-0.309253 -0.011379 -0.409912	</min>
+		<max>	0.280919 0.212081 0.935640	</max>
+	</boundingBox>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	Root	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+				<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+			</transform>
+			<node>
+				<identifier>	Rotate_Y	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+					<row3>	0.000000 0.033350 0.000000 1.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	Rotate_X	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+						<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+						<row3>	0.000000 0.036111 0.188106 1.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	HP_gunFireEffect	</identifier>
+						<transform>
+							<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+							<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+							<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+							<row3>	0.000000 0.000000 0.749721 1.000000	</row3>
+						</transform>
+					</node>
+					<node>
+						<identifier>	Roll_Back1	</identifier>
+						<transform>
+							<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+							<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+							<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+							<row3>	0.000000 0.000000 0.749721 1.000000	</row3>
+						</transform>
+						<node>
+							<identifier>	HP_gunFire1	</identifier>
+							<transform>
+								<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+								<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+								<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+								<row3>	0.071702 0.000000 0.000000 1.000000	</row3>
+							</transform>
+						</node>
+						<node>
+							<identifier>	HP_gunFire2	</identifier>
+							<transform>
+								<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+								<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+								<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+								<row3>	-0.071702 0.000000 0.000000 1.000000	</row3>
+							</transform>
+						</node>
+						<node>
+							<identifier>	Roll_Back1_BlendBone	</identifier>
+							<transform>
+								<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+								<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+								<row2>	0.000000 0.000000 -1.000000 0.000000	</row2>
+								<row3>	0.000000 -0.069461 -0.937827 1.000000	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	Rotate_X_BlendBone	</identifier>
+						<transform>
+							<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+							<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+							<row2>	0.000000 0.000000 -1.000000 0.000000	</row2>
+							<row3>	0.000000 -0.069461 -0.188106 1.000000	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	HP_FGA_1	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+						<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+						<row3>	-0.106720 0.175088 -0.176755 1.000000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	HP_FGA_2	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+						<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+						<row3>	0.000000 0.175154 -0.176755 1.000000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	HP_FGA_3	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+						<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+						<row3>	0.106720 0.175088 -0.176755 1.000000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	MP_FM701_Ammunition_Box	</identifier>
+					<transform>
+						<row0>	-0.500000 0.000000 0.000000 0.000000	</row0>
+						<row1>	0.000000 0.500000 0.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 -0.500000 0.000000	</row2>
+						<row3>	-0.053661 0.174554 -0.094923 1.000000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	MP_FM440_Rangefinder_8_2m	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+						<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+						<row3>	0.000000 0.129846 0.031496 1.000000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	MP_FM449_Cap	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+						<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+						<row3>	0.000000 -0.033350 0.000000 1.000000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	MP_FM701_Ammunition_Box_INDEX_1	</identifier>
+					<transform>
+						<row0>	-0.500000 0.000000 0.000000 0.000000	</row0>
+						<row1>	0.000000 0.500000 0.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 -0.500000 0.000000	</row2>
+						<row3>	0.070489 0.174554 -0.094923 1.000000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	MP_FM701_Ammunition_Box_INDEX_2	</identifier>
+					<transform>
+						<row0>	0.500000 0.000000 0.000000 0.000000	</row0>
+						<row1>	0.000000 0.500000 0.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 0.500000 0.000000	</row2>
+						<row3>	0.085323 0.174554 -0.242103 1.000000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	MP_FM450_Cap	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+						<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+						<row3>	0.000000 -0.033350 0.000000 1.000000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	MP_FM701_Ammunition_Box_INDEX_3	</identifier>
+					<transform>
+						<row0>	0.500000 0.000000 0.000000 0.000000	</row0>
+						<row1>	0.000000 0.500000 0.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 0.500000 0.000000	</row2>
+						<row3>	-0.085323 0.174554 -0.242103 1.000000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	MP_FM448_Gun_deck	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+						<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+						<row3>	0.000000 0.133456 -0.168721 1.000000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	MP_FM701_Ammunition_Box_INDEX_4	</identifier>
+					<transform>
+						<row0>	0.500000 0.000000 0.000000 0.000000	</row0>
+						<row1>	0.000000 0.500000 0.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 0.500000 0.000000	</row2>
+						<row3>	0.000000 0.174554 -0.242291 1.000000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	MP_FM701_Ammunition_Box_INDEX_5	</identifier>
+					<transform>
+						<row0>	-0.500000 0.000000 0.000000 0.000000	</row0>
+						<row1>	0.000000 0.500000 0.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 -0.500000 0.000000	</row2>
+						<row3>	-0.070489 0.174554 -0.094923 1.000000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	MP_FM701_Ammunition_Box_INDEX_6	</identifier>
+					<transform>
+						<row0>	-0.500000 0.000000 0.000000 0.000000	</row0>
+						<row1>	0.000000 0.500000 0.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 -0.500000 0.000000	</row2>
+						<row3>	0.053661 0.174554 -0.094923 1.000000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	Rotate_Y_BlendBone	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+						<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 -1.000000 0.000000	</row2>
+						<row3>	0.000000 -0.033350 0.000000 1.000000	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Root_BlendBone	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 -1.000000 0.000000	</row2>
+					<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Turret	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+				<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+			</transform>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Roll_Back1_BlendBone	</node>
+		<node>	Rotate_X_BlendBone	</node>
+		<node>	Rotate_Y_BlendBone	</node>
+		<geometry>
+			<vertices>	Turret_lod2Shape.vertices	</vertices>
+			<primitive>	Turret_lod2Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPMAT_PBS_Gun	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/FSB105_Bretagne/gun/FGM058_340_45_Mle_1912_skinned.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+</FGM058_340_45_Mle_1912_lod2.visual>

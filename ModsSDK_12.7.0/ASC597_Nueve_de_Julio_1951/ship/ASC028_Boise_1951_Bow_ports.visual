@@ -1,0 +1,258 @@
+<ASC028_Boise_1951_Bow_ports.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+		</transform>
+		<node>
+			<identifier>	Bow_ports	</identifier>
+			<transform>
+				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+			</transform>
+			<node>
+				<identifier>	HP_AGA_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-0.0912 0.4973 5.7261 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_AGA_2	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0912 0.4973 5.7261 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_AGM_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.4297 3.9077 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_Death_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 3.7930 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_Fire_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.4148 4.8235 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_WakeTrace	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 6.0953 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Ship_death_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 3.7930 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_AM023_Hatch_1	</identifier>
+				<transform>
+					<row0>	0.0000 0.0615 0.9981 0.0000	</row0>
+					<row1>	0.0000 0.9981 -0.0615 0.0000	</row1>
+					<row2>	-1.0000 0.0000 0.0000 0.0000	</row2>
+					<row3>	0.1255 0.4503 5.1666 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_AM023_Hatch_1_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.0000 0.0615 0.9981 0.0000	</row0>
+					<row1>	0.0000 0.9981 -0.0615 0.0000	</row1>
+					<row2>	-1.0000 0.0000 0.0000 0.0000	</row2>
+					<row3>	0.0000 0.4727 5.4809 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_AM023_Hatch_1_INDEX_2	</identifier>
+				<transform>
+					<row0>	0.0002 0.0490 0.9988 0.0000	</row0>
+					<row1>	0.0045 0.9988 -0.0490 0.0000	</row1>
+					<row2>	-1.0000 0.0045 0.0000 0.0000	</row2>
+					<row3>	0.1204 0.3966 4.1813 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_AM028_Ammunition_Box2	</identifier>
+				<transform>
+					<row0>	0.0000 0.0000 1.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-1.0000 0.0000 0.0000 0.0000	</row2>
+					<row3>	0.0976 0.4994 5.8329 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_AM028_Ammunition_Box2_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.0000 0.0000 -1.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	1.0000 0.0000 0.0000 0.0000	</row2>
+					<row3>	-0.0976 0.4994 5.8329 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_AM071_Signal_Lamp_2	</identifier>
+				<transform>
+					<row0>	0.7598 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.7598 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 0.7598 0.0000	</row2>
+					<row3>	0.0000 0.7508 6.1782 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_AM077_Paravane	</identifier>
+				<transform>
+					<row0>	-0.0059 -0.0262 -1.1528 0.0000	</row0>
+					<row1>	0.0174 1.1527 -0.0263 0.0000	</row1>
+					<row2>	1.1530 -0.0175 -0.0055 0.0000	</row2>
+					<row3>	0.0643 0.4239 4.3838 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_AM161_Anchor_top	</identifier>
+				<transform>
+					<row0>	0.6133 0.0373 0.4502 0.0000	</row0>
+					<row1>	0.3649 0.4065 -0.5309 0.0000	</row1>
+					<row2>	-0.3415 0.8251 0.3970 0.0000	</row2>
+					<row3>	-0.1879 0.3762 5.6654 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_AM161_Anchor_top_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.6133 -0.0373 -0.4502 0.0000	</row0>
+					<row1>	-0.3649 0.4065 -0.5309 0.0000	</row1>
+					<row2>	0.3415 0.8251 0.3970 0.0000	</row2>
+					<row3>	0.1879 0.3762 5.6654 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_AM162_Anchor_down	</identifier>
+				<transform>
+					<row0>	0.9349 -0.3267 -0.1386 0.0000	</row0>
+					<row1>	0.0160 0.4289 -0.9032 0.0000	</row1>
+					<row2>	0.3545 0.8422 0.4062 0.0000	</row2>
+					<row3>	0.1857 0.3861 5.6465 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_AM162_Anchor_down_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.9349 0.3267 0.1386 0.0000	</row0>
+					<row1>	-0.0160 0.4289 -0.9032 0.0000	</row1>
+					<row2>	-0.3545 0.8422 0.4062 0.0000	</row2>
+					<row3>	-0.1857 0.3861 5.6465 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_AM590_Anchor_Chain_Jack	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.9975 -0.0710 0.0000	</row1>
+					<row2>	0.0000 0.0710 0.9975 0.0000	</row2>
+					<row3>	0.0000 0.4379 4.9479 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_AM683_Anchor_Capstan	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.9986 -0.0523 0.0000	</row1>
+					<row2>	0.0000 0.0523 0.9986 0.0000	</row2>
+					<row3>	0.0542 0.4279 4.7243 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_AM683_Anchor_Capstan_INDEX_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.9986 -0.0523 0.0000	</row1>
+					<row2>	0.0000 0.0523 0.9986 0.0000	</row2>
+					<row3>	-0.0542 0.4279 4.7243 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_AM684_Chain_Fairlead	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.9986 -0.0523 0.0000	</row1>
+					<row2>	0.0000 -0.0523 -0.9986 0.0000	</row2>
+					<row3>	0.0746 0.4343 4.8187 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_AM684_Chain_Fairlead_INDEX_1	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.9986 -0.0523 0.0000	</row1>
+					<row2>	0.0000 -0.0523 -0.9986 0.0000	</row2>
+					<row3>	-0.0765 0.4323 4.8187 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM011_Fire_Fighting_Gear	</identifier>
+				<transform>
+					<row0>	0.0000 0.0000 -1.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	1.0000 0.0000 0.0000 0.0000	</row2>
+					<row3>	-0.0064 0.4776 5.5226 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM011_Fire_Fighting_Gear_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.0000 0.0000 1.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-1.0000 0.0000 0.0000 0.0000	</row2>
+					<row3>	0.0175 0.4795 5.5424 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_VM950_Fairlead	</identifier>
+				<transform>
+					<row0>	0.3493 -0.0800 -0.9336 0.0000	</row0>
+					<row1>	0.0341 0.9968 -0.0726 0.0000	</row1>
+					<row2>	0.9364 -0.0064 0.3509 0.0000	</row2>
+					<row3>	0.0985 0.5206 6.0537 1.0000	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<boundingBox>
+		<min>	-0.0667 -0.0667 -0.0667	</min>
+		<max>	0.0667 0.0667 0.0667	</max>
+	</boundingBox>
+</ASC028_Boise_1951_Bow_ports.visual>

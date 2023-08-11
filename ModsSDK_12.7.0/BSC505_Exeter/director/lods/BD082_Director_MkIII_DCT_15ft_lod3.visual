@@ -1,0 +1,38 @@
+<BD082_Director_MkIII_DCT_15ft_lod3.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	BD082_Director_MkIII_DCT_15ft	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+				<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+			</transform>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	BD082_Director_MkIII_DCT_15ft	</node>
+		<geometry>
+			<vertices>	BD082_Director_MkIII_DCT_15ft_lod3Shape.vertices	</vertices>
+			<primitive>	BD082_Director_MkIII_DCT_15ft_lod3Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPMAT_PBS_Director	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/BSC505_Exeter/director/BD082_Director_MkIII_DCT_15ft.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.163194 0.000000 -0.115325	</min>
+		<max>	0.163215 0.213027 0.145578	</max>
+	</boundingBox>
+</BD082_Director_MkIII_DCT_15ft_lod3.visual>

@@ -1,0 +1,213 @@
+<BSB036_Collingwood_1942_Stern_ports.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+		</transform>
+		<node>
+			<identifier>	Stern_ports	</identifier>
+			<transform>
+				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+			</transform>
+			<node>
+				<identifier>	HP_BGA_23	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	-0.1858 0.5012 -6.8290 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_BGA_24	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	0.1858 0.5012 -6.8290 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_BGA_25	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	-0.0999 0.5018 -7.0139 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_BGA_26	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	0.0999 0.5018 -7.0139 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_BGS_11	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	-0.1867 0.4974 -6.1618 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_BGS_12	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	0.1867 0.4974 -6.1618 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_Fire_4	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.4590 -6.5145 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_WakeTraceBack	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 -7.5995 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_WakeTrace_screw_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-0.4050 -0.4360 -6.1650 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_WakeTrace_screw_2	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.4040 -0.4370 -6.1650 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM003_Night_lifebuoy	</identifier>
+				<transform>
+					<row0>	0.8163 0.5270 -0.2366 0.0000	</row0>
+					<row1>	-0.5061 0.8499 0.1467 0.0000	</row1>
+					<row2>	0.2784 0.0000 0.9605 0.0000	</row2>
+					<row3>	0.5468 0.5892 -6.3098 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM003_Night_lifebuoy_INDEX_1	</identifier>
+				<transform>
+					<row0>	-0.8147 0.5270 -0.2421 0.0000	</row0>
+					<row1>	0.5061 0.8499 0.1467 0.0000	</row1>
+					<row2>	0.2830 -0.0030 -0.9591 0.0000	</row2>
+					<row3>	-0.5468 0.5892 -6.3098 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM021_Crown	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 1.0641 -7.5638 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM139_Name_Plate_Collingwood_1942	</identifier>
+				<transform>
+					<row0>	0.2996 -0.0010 -0.9541 0.0000	</row0>
+					<row1>	-0.0774 0.9967 -0.0254 0.0000	</row1>
+					<row2>	0.9509 0.0814 0.2985 0.0000	</row2>
+					<row3>	-0.5427 0.4652 -6.4537 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM139_Name_Plate_Collingwood_1942_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.2996 0.0010 0.9541 0.0000	</row0>
+					<row1>	0.0774 0.9967 -0.0254 0.0000	</row1>
+					<row2>	-0.9509 0.0814 0.2985 0.0000	</row2>
+					<row3>	0.5427 0.4652 -6.4537 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM241_Fog_Light_Ice	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	0.0000 0.5713 -7.5833 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM877_Running_Lights_B	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.6315 -7.5917 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM964_3ton_electrik_winch_R	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0082 0.0048 0.0000	</row0>
+					<row1>	0.0082 1.0000 -0.0001 0.0000	</row1>
+					<row2>	-0.0048 0.0000 -1.0000 0.0000	</row2>
+					<row3>	0.4663 0.4935 -5.8396 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM965_3ton_electrik_winch_L	</identifier>
+				<transform>
+					<row0>	-0.9999 -0.0140 0.0040 0.0000	</row0>
+					<row1>	-0.0139 0.9999 0.0033 0.0000	</row1>
+					<row2>	-0.0040 0.0033 -1.0000 0.0000	</row2>
+					<row3>	-0.4646 0.4955 -5.8387 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM161_Propeller_4_8m_BB_R	</identifier>
+				<transform>
+					<row0>	1.2260 0.0000 -0.0029 0.0000	</row0>
+					<row1>	0.0000 1.2254 -0.0385 0.0000	</row1>
+					<row2>	0.0029 0.0385 1.2254 0.0000	</row2>
+					<row3>	0.4045 -0.4370 -6.1654 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM162_Propeller_4_8m_BB_L	</identifier>
+				<transform>
+					<row0>	1.2260 0.0000 0.0029 0.0000	</row0>
+					<row1>	0.0000 1.2254 -0.0385 0.0000	</row1>
+					<row2>	-0.0029 0.0385 1.2254 0.0000	</row2>
+					<row3>	-0.4045 -0.4370 -6.1654 1.0000	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<boundingBox>
+		<min>	-0.0667 -0.0667 -0.0667	</min>
+		<max>	0.0667 0.0667 0.0667	</max>
+	</boundingBox>
+</BSB036_Collingwood_1942_Stern_ports.visual>

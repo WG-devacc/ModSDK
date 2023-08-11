@@ -1,0 +1,114 @@
+<FSD007_Jaguar_1940_Bow_ports.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+		</transform>
+		<node>
+			<identifier>	Bow_ports	</identifier>
+			<transform>
+				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+			</transform>
+			<node>
+				<identifier>	HP_FX_Death_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 2.7986 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_Fire_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.4105 3.3696 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_WakeTrace	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 4.0678 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Ship_death_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 2.7986 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_FM015_Life_Buoy	</identifier>
+				<transform>
+					<row0>	-0.1069 0.0000 -0.9943 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.9943 0.0000 -0.1069 0.0000	</row2>
+					<row3>	-0.2762 0.4721 3.5126 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_FM015_Life_Buoy_INDEX_1	</identifier>
+				<transform>
+					<row0>	-0.1077 0.0000 0.9942 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-0.9942 0.0000 -0.1077 0.0000	</row2>
+					<row3>	0.2762 0.4721 3.5127 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_FM800_Ventilation	</identifier>
+				<transform>
+					<row0>	0.6230 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.6230 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 0.6230 0.0000	</row2>
+					<row3>	-0.2261 0.3964 2.8664 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_FM800_Ventilation_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.6230 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.6230 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 0.6230 0.0000	</row2>
+					<row3>	0.2262 0.3964 2.8664 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_FM800_Ventilation_INDEX_2	</identifier>
+				<transform>
+					<row0>	0.6231 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.6231 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 0.6231 0.0000	</row2>
+					<row3>	0.0003 0.4099 3.2514 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_FM968_Chain_Winch	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.4132 3.0376 1.0000	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<boundingBox>
+		<min>	-0.0667 -0.0667 -0.0667	</min>
+		<max>	0.0667 0.0667 0.0667	</max>
+	</boundingBox>
+</FSD007_Jaguar_1940_Bow_ports.visual>

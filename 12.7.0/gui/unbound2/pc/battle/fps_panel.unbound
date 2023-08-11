@@ -1,0 +1,93 @@
+(def css $TextFpsMessageStyle()
+	(extends $FontFamilyDefault)
+	(extends $FontFpsDropShadowWhite)
+	(extends $FontSizeSmall)
+	(extends $FontColorFPS)
+	(extends $TextMouseDisable)
+)
+
+(def css $TextFpsValueStyle()
+	(extends $FontFamilyDefaultBold)
+	(extends $FontFpsDropShadowWhite)
+	(extends $FontSizeSmall)
+	(extends $FontColorFPS)
+	(extends $TextMouseDisable)
+)
+
+(def element FpsDisplay(fps:number) layout=true
+	(style
+		(flow = "horizontal")
+	)
+
+	(tf
+		(class $TextFpsValueStyle)
+		(bind text "fps")
+		(style
+			(bind minWidth "floor(fps/10) ? 18 : 12")
+		)
+	)
+	(tf
+		(class $TextFpsMessageStyle)
+		(text = 'FPS')
+	)
+)
+
+(def element PingDisplay(ping:number) layout=true
+	(bind visible "ping > 0")
+	(style
+		(flow = "horizontal")
+	)
+
+	(tf
+		(class $TextFpsMessageStyle)
+		(text = 'ping')
+	)
+	(tf
+		(class $TextFpsValueStyle)
+		(style
+			(bind minWidth "floor(ping/100) ? 24 : 18")
+		)
+		(bind text "ping")
+	)
+	(tf
+		(class $TextFpsMessageStyle)
+		(text = 'ms')
+	)
+)
+
+(def element FpsPanel() layout=true
+	(scope
+		(var ui:cpp = "$UserPreferences.ui")
+		(var showPerformance:bool = "ui.showPerformance.value" (event "ui.showPerformance.evChanged"))
+
+		(var info:cpp = "$DataCenter.battle.info")
+		(var fps:number = "info.FPS" (event "info.evChanged"))
+		(var ping:number = "info.Ping" (event "info.evChanged"))
+		(var replayFps:number = "info.ReplayFPS" (event "info.evChanged"))
+		(var replayPing:number = "info.ReplayPing" (event "info.evChanged"))
+	)
+
+	(bind visible "showPerformance")
+
+	(style
+		(position = "absolute")
+		(paddingTop = 2)
+		(paddingLeft = 3)
+	)
+
+	(hblock
+		(element FpsDisplay "fps")
+		(element PingDisplay "ping")
+	)
+
+	(hblock
+		(bind visible "replayFps > 0 || replayPing > 0")
+		(tf
+			(class $TextFpsMessageStyle)
+			(text = 'Recorded')
+		)
+
+		(element FpsDisplay "replayFps")
+		(element PingDisplay "replayPing")
+	)
+)

@@ -1,0 +1,285 @@
+<ZSC009_Rahmat_1945_Stern_ports.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+		</transform>
+		<node>
+			<identifier>	Stern_ports	</identifier>
+			<transform>
+				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+			</transform>
+			<node>
+				<identifier>	HP_FX_Death_3	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 -3.3758 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_Fire_4	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.2396 -4.1374 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_Flood_steam_right	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.4507 0.1721 -3.1598 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_Flood_water_left	</identifier>
+				<transform>
+					<row0>	-0.9943 0.0000 -0.1071 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.1071 0.0000 -0.9943 0.0000	</row2>
+					<row3>	-0.4315 0.0820 -3.2023 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_Flood_water_right	</identifier>
+				<transform>
+					<row0>	0.9961 0.0000 -0.0889 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0889 0.0000 0.9961 0.0000	</row2>
+					<row3>	0.4322 0.0829 -3.2019 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_WakeTraceBack	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 -5.1243 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_WakeTrace_screw_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-0.3450 -0.1980 -3.8170 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_WakeTrace_screw_2	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-0.1940 -0.2180 -4.4000 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_WakeTrace_screw_3	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.1941 -0.2182 -4.4002 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_WakeTrace_screw_4	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.3450 -0.1980 -3.8170 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Ship_death_3	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 -3.0024 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_ZGB_1	</identifier>
+				<transform>
+					<row0>	-0.2779 0.0000 0.9606 0.0000	</row0>
+					<row1>	-0.0235 0.9997 -0.0068 0.0000	</row1>
+					<row2>	-0.9603 -0.0244 -0.2778 0.0000	</row2>
+					<row3>	-0.2442 0.2454 -4.5318 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_ZGB_2	</identifier>
+				<transform>
+					<row0>	-0.2779 0.0000 -0.9606 0.0000	</row0>
+					<row1>	0.0235 0.9997 -0.0068 0.0000	</row1>
+					<row2>	0.9603 -0.0244 -0.2778 0.0000	</row2>
+					<row3>	0.2442 0.2454 -4.5318 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_ZGB_3	</identifier>
+				<transform>
+					<row0>	-0.3819 0.0000 0.9242 0.0000	</row0>
+					<row1>	-0.0129 0.9999 -0.0053 0.0000	</row1>
+					<row2>	-0.9241 -0.0140 -0.3818 0.0000	</row2>
+					<row3>	-0.1419 0.2484 -4.8362 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_ZGB_4	</identifier>
+				<transform>
+					<row0>	-0.3819 0.0000 -0.9242 0.0000	</row0>
+					<row1>	0.0129 0.9999 -0.0053 0.0000	</row1>
+					<row2>	0.9241 -0.0140 -0.3818 0.0000	</row2>
+					<row3>	0.1419 0.2484 -4.8363 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_ZGB_5	</identifier>
+				<transform>
+					<row0>	-0.4344 -0.0046 0.9007 0.0000	</row0>
+					<row1>	-0.0064 1.0000 0.0020 0.0000	</row1>
+					<row2>	-0.9007 -0.0049 -0.4344 0.0000	</row2>
+					<row3>	-0.0518 0.2557 -4.9076 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_ZGM_5	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	0.0000 0.2515 -3.3350 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM001_Propeller3_L	</identifier>
+				<transform>
+					<row0>	0.8250 0.0000 -0.0029 0.0000	</row0>
+					<row1>	-0.0002 0.8239 -0.0432 0.0000	</row1>
+					<row2>	0.0029 0.0432 0.8239 0.0000	</row2>
+					<row3>	-0.1941 -0.2182 -4.4002 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM001_Propeller3_L_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.8248 0.0000 -0.0158 0.0000	</row0>
+					<row1>	-0.0005 0.8247 -0.0238 0.0000	</row1>
+					<row2>	0.0158 0.0238 0.8245 0.0000	</row2>
+					<row3>	-0.3452 -0.1976 -3.8165 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM011_Fire_Fighting_Gear	</identifier>
+				<transform>
+					<row0>	0.0000 0.0000 1.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-1.0000 0.0000 0.0000 0.0000	</row2>
+					<row3>	0.0000 0.2468 -3.5418 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM032_Propeller3_R	</identifier>
+				<transform>
+					<row0>	0.8250 0.0000 0.0029 0.0000	</row0>
+					<row1>	0.0002 0.8239 -0.0432 0.0000	</row1>
+					<row2>	-0.0029 0.0432 0.8239 0.0000	</row2>
+					<row3>	0.1941 -0.2182 -4.4002 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM032_Propeller3_R_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.8248 0.0000 0.0158 0.0000	</row0>
+					<row1>	0.0005 0.8247 -0.0238 0.0000	</row1>
+					<row2>	-0.0158 0.0238 0.8245 0.0000	</row2>
+					<row3>	0.3452 -0.1976 -3.8165 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM057_Accommodation_Ladder_Closed	</identifier>
+				<transform>
+					<row0>	0.9954 0.0296 0.0907 0.0000	</row0>
+					<row1>	-0.0305 0.9995 0.0086 0.0000	</row1>
+					<row2>	-0.0904 -0.0113 0.9958 0.0000	</row2>
+					<row3>	-0.2629 0.2426 -3.1489 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM057_Accommodation_Ladder_Closed_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.9959 -0.0298 -0.0854 0.0000	</row0>
+					<row1>	0.0307 0.9995 0.0087 0.0000	</row1>
+					<row2>	0.0851 -0.0113 0.9963 0.0000	</row2>
+					<row3>	0.2646 0.2424 -3.1491 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_ZM513_Liferaft_type_20_10ft	</identifier>
+				<transform>
+					<row0>	0.0000 -0.0035 1.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0035 0.0000	</row1>
+					<row2>	-1.0000 0.0000 0.0000 0.0000	</row2>
+					<row3>	0.0000 0.2466 -3.6251 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_ZM513_Liferaft_type_20_10ft_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.0000 -0.0035 1.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0035 0.0000	</row1>
+					<row2>	-1.0000 0.0000 0.0000 0.0000	</row2>
+					<row3>	0.0000 0.2713 -3.6251 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_ZM852_Running_Lights_B	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	0.0000 0.4736 -5.1476 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_ZM874_Screened_speed_light	</identifier>
+				<transform>
+					<row0>	0.5000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.5000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 0.5000 0.0000	</row2>
+					<row3>	0.0000 0.4369 -5.1432 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_ZM884_Fog_Light	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	0.0000 0.2751 -5.1172 1.0000	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<boundingBox>
+		<min>	-0.0667 -0.0667 -0.0667	</min>
+		<max>	0.0667 0.0667 0.0667	</max>
+	</boundingBox>
+</ZSC009_Rahmat_1945_Stern_ports.visual>

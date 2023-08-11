@@ -1,0 +1,132 @@
+<FSD009_Vauquelin_1940_Bow_ports.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+		</transform>
+		<node>
+			<identifier>	Bow_ports	</identifier>
+			<transform>
+				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+			</transform>
+			<node>
+				<identifier>	HP_FGM_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.4008 2.8319 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_Death_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 2.6670 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_Fire_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.4081 3.4680 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_WakeTrace	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 4.0582 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Ship_death_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 2.6670 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM149_Telegraph	</identifier>
+				<transform>
+					<row0>	0.0000 0.0000 1.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-1.0000 0.0000 0.0000 0.0000	</row2>
+					<row3>	0.0922 0.6791 2.0362 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_FM011_Reels	</identifier>
+				<transform>
+					<row0>	-1.2500 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.2500 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.2500 0.0000	</row2>
+					<row3>	0.1638 0.3965 3.1337 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_FM015_Life_Buoy	</identifier>
+				<transform>
+					<row0>	-0.0436 0.0000 0.9990 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-0.9990 0.0000 -0.0436 0.0000	</row2>
+					<row3>	0.3293 0.4457 2.8017 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_FM015_Life_Buoy_INDEX_1	</identifier>
+				<transform>
+					<row0>	-0.0436 0.0000 -0.9990 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.9990 0.0000 -0.0436 0.0000	</row2>
+					<row3>	-0.3293 0.4457 2.8017 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_FM015_Life_Buoy_INDEX_2	</identifier>
+				<transform>
+					<row0>	-0.1736 0.0000 0.9848 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-0.9848 0.0000 -0.1736 0.0000	</row2>
+					<row3>	0.2380 0.4614 3.7171 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_FM015_Life_Buoy_INDEX_3	</identifier>
+				<transform>
+					<row0>	-0.1736 0.0000 -0.9848 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.9848 0.0000 -0.1736 0.0000	</row2>
+					<row3>	-0.2380 0.4614 3.7171 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_FM016_Reels	</identifier>
+				<transform>
+					<row0>	0.6948 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.6948 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 0.6948 0.0000	</row2>
+					<row3>	-0.1505 0.3980 3.1328 1.0000	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<boundingBox>
+		<min>	-0.0667 -0.0667 -0.0667	</min>
+		<max>	0.0667 0.0667 0.0667	</max>
+	</boundingBox>
+</FSD009_Vauquelin_1940_Bow_ports.visual>

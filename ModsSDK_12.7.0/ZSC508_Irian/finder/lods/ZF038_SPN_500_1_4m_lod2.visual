@@ -1,0 +1,38 @@
+<ZF038_SPN_500_1_4m_lod2.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	ZF038_SPN_500_1_4m1	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+				<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+			</transform>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	ZF038_SPN_500_1_4m1	</node>
+		<geometry>
+			<vertices>	ZF038_SPN_500_1_4m1_lod2Shape.vertices	</vertices>
+			<primitive>	ZF038_SPN_500_1_4m1_lod2Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPMAT_PBS_Director	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/ZSC508_Irian/finder/ZF038_SPN_500_1_4m.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.155362 -0.000178 -0.130825	</min>
+		<max>	0.155219 0.243916 0.214190	</max>
+	</boundingBox>
+</ZF038_SPN_500_1_4m_lod2.visual>

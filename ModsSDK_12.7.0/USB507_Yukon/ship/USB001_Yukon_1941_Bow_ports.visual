@@ -1,0 +1,546 @@
+<USB001_Yukon_1941_Bow_ports.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+		</transform>
+		<node>
+			<identifier>	Bow_ports	</identifier>
+			<transform>
+				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+			</transform>
+			<node>
+				<identifier>	HP_BGA_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0007 0.3595 5.0884 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_BGA_2	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-0.2264 0.3596 4.9719 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_BGA_3	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.2237 0.3596 4.9719 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_BGA_4	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-0.3843 0.3509 4.5811 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_BGA_5	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.3843 0.3517 4.5729 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_Death_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 4.3221 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_Fire_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.3737 5.3666 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_WakeTrace	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 7.5165 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Ship_death_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 4.3221 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM001_Paravane	</identifier>
+				<transform>
+					<row0>	0.8999 0.0000 -0.4361 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.4361 0.0000 0.8999 0.0000	</row2>
+					<row3>	0.1321 0.3763 5.0702 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM001_Paravane_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.8999 0.0000 0.4361 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-0.4361 0.0000 0.8999 0.0000	</row2>
+					<row3>	-0.1321 0.3763 5.0702 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM004_Reels	</identifier>
+				<transform>
+					<row0>	0.7133 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.7133 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 0.7133 0.0000	</row2>
+					<row3>	0.0912 0.3583 4.9322 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM478_Gun_Deck	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.9998 -0.0217 0.0000	</row1>
+					<row2>	0.0000 -0.0217 -0.9998 0.0000	</row2>
+					<row3>	0.0007 0.3530 5.0884 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM478_Gun_Deck_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.8049 -0.0158 -0.5931 0.0000	</row0>
+					<row1>	0.0000 0.9996 -0.0266 0.0000	</row1>
+					<row2>	0.5934 0.0214 0.8047 0.0000	</row2>
+					<row3>	-0.2256 0.3510 4.9719 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM478_Gun_Deck_INDEX_2	</identifier>
+				<transform>
+					<row0>	0.8049 0.0158 0.5931 0.0000	</row0>
+					<row1>	0.0000 0.9996 -0.0266 0.0000	</row1>
+					<row2>	-0.5934 0.0214 0.8047 0.0000	</row2>
+					<row3>	0.2249 0.3510 4.9719 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM478_Gun_Deck_INDEX_3	</identifier>
+				<transform>
+					<row0>	-0.5885 -0.0109 -0.8084 0.0000	</row0>
+					<row1>	-0.0040 0.9999 -0.0106 0.0000	</row1>
+					<row2>	0.8085 -0.0030 -0.5885 0.0000	</row2>
+					<row3>	-0.3843 0.3432 4.5812 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM478_Gun_Deck_INDEX_4	</identifier>
+				<transform>
+					<row0>	0.8084 0.0087 0.5886 0.0000	</row0>
+					<row1>	0.0000 0.9999 -0.0148 0.0000	</row1>
+					<row2>	-0.5886 0.0120 0.8083 0.0000	</row2>
+					<row3>	0.3843 0.3432 4.5721 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM611_Telephone	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.9543 0.2988 0.0000	</row1>
+					<row2>	0.0000 -0.2988 0.9543 0.0000	</row2>
+					<row3>	-0.0116 0.4474 5.3849 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM625_Telephone	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.9538 0.3005 0.0000	</row1>
+					<row2>	0.0000 -0.3005 0.9538 0.0000	</row2>
+					<row3>	0.0169 0.4473 5.3851 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM625_Telephone_INDEX_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.9547 0.2976 0.0000	</row1>
+					<row2>	0.0000 -0.2976 0.9547 0.0000	</row2>
+					<row3>	0.0065 0.4473 5.3850 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM800_Ventilators_mushroom	</identifier>
+				<transform>
+					<row0>	0.9641 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.9641 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 0.9641 0.0000	</row2>
+					<row3>	-0.2339 0.3502 4.6498 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM800_Ventilators_mushroom_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.9641 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.9641 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 0.9641 0.0000	</row2>
+					<row3>	-0.5660 0.3502 4.9051 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM800_Ventilators_mushroom_INDEX_2	</identifier>
+				<transform>
+					<row0>	1.3284 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.3284 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.3284 0.0000	</row2>
+					<row3>	0.2027 0.3648 5.2769 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM800_Ventilators_mushroom_INDEX_3	</identifier>
+				<transform>
+					<row0>	1.4133 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.4133 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.4133 0.0000	</row2>
+					<row3>	-0.2910 0.3610 5.1843 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM800_Ventilators_mushroom_INDEX_4	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0513 0.3653 5.3390 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM800_Ventilators_mushroom_INDEX_5	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-0.1989 0.3610 5.2891 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM800_Ventilators_mushroom_INDEX_6	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0676 0.3653 5.3048 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM858_Signal_Lamp	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0133 0.9618 7.5901 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM957_Anchor_Capstan_big	</identifier>
+				<transform>
+					<row0>	0.7659 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.7659 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 0.7659 0.0000	</row2>
+					<row3>	0.0000 0.3921 5.9592 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM959_Anchor_WW2_top	</identifier>
+				<transform>
+					<row0>	1.4496 -0.0229 -0.0250 0.0000	</row0>
+					<row1>	-0.0035 0.9623 -1.0846 0.0000	</row1>
+					<row2>	0.0337 1.0844 0.9620 0.0000	</row2>
+					<row3>	0.1420 0.2224 7.1002 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM959_Anchor_WW2_top_INDEX_1	</identifier>
+				<transform>
+					<row0>	1.4496 0.0229 0.0250 0.0000	</row0>
+					<row1>	0.0035 0.9623 -1.0846 0.0000	</row1>
+					<row2>	-0.0337 1.0844 0.9620 0.0000	</row2>
+					<row3>	-0.1420 0.2224 7.1002 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM960_Anchor_WW2_down	</identifier>
+				<transform>
+					<row0>	1.4295 0.1859 -0.1564 0.0000	</row0>
+					<row1>	-0.2411 0.9697 -1.0508 0.0000	</row1>
+					<row2>	-0.0301 1.0619 0.9869 0.0000	</row2>
+					<row3>	-0.1450 0.2126 7.1110 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM960_Anchor_WW2_down_INDEX_1	</identifier>
+				<transform>
+					<row0>	1.4295 -0.1859 0.1564 0.0000	</row0>
+					<row1>	0.2411 0.9697 -1.0508 0.0000	</row1>
+					<row2>	0.0301 1.0619 0.9869 0.0000	</row2>
+					<row3>	0.1450 0.2126 7.1110 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM961_Anchor_Capstan_Cruiser_WW2_Bow	</identifier>
+				<transform>
+					<row0>	1.5019 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.5019 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.5019 0.0000	</row2>
+					<row3>	0.1461 0.4148 5.6446 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM961_Anchor_Capstan_Cruiser_WW2_Bow_INDEX_1	</identifier>
+				<transform>
+					<row0>	1.5019 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.5019 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.5019 0.0000	</row2>
+					<row3>	-0.1397 0.4148 5.6446 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM962_Chain_Fairlead	</identifier>
+				<transform>
+					<row0>	1.4117 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.4109 -0.0478 0.0000	</row1>
+					<row2>	0.0000 0.0478 1.4109 0.0000	</row2>
+					<row3>	0.1117 0.3878 5.7977 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM962_Chain_Fairlead_INDEX_1	</identifier>
+				<transform>
+					<row0>	1.4117 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.4109 -0.0478 0.0000	</row1>
+					<row2>	0.0000 0.0478 1.4109 0.0000	</row2>
+					<row3>	-0.1742 0.3876 5.7976 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM962_Chain_Fairlead_INDEX_2	</identifier>
+				<transform>
+					<row0>	1.3898 0.0000 0.2478 0.0000	</row0>
+					<row1>	0.0084 1.4109 -0.0471 0.0000	</row1>
+					<row2>	-0.2476 0.0478 1.3890 0.0000	</row2>
+					<row3>	0.2364 0.3841 5.7977 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM112_Fire_Extinguisher	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	0.3257 0.3903 4.9719 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	SP_YMS001_YHBM_M_1	</identifier>
+				<transform>
+					<row0>	1.0500 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0500 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0500 0.0000	</row2>
+					<row3>	0.0000 0.4529 7.6207 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	SP_YMS002_YHBL_M_1	</identifier>
+				<transform>
+					<row0>	1.0486 0.0000 -0.0550 0.0000	</row0>
+					<row1>	-0.0038 1.0474 -0.0731 0.0000	</row1>
+					<row2>	0.0548 0.0732 1.0460 0.0000	</row2>
+					<row3>	0.0000 0.4529 7.6207 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	SP_YMS003_YHBR_M_1	</identifier>
+				<transform>
+					<row0>	1.0486 0.0000 0.0550 0.0000	</row0>
+					<row1>	0.0038 1.0474 -0.0731 0.0000	</row1>
+					<row2>	-0.0548 0.0732 1.0460 0.0000	</row2>
+					<row3>	0.0000 0.4529 7.6207 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	SP_YMS004_YHXL_L_1	</identifier>
+				<transform>
+					<row0>	0.9138 0.3316 -0.2344 0.0000	</row0>
+					<row1>	-0.3223 0.9434 0.0781 0.0000	</row1>
+					<row2>	0.2471 0.0042 0.9690 0.0000	</row2>
+					<row3>	-0.1889 0.2546 6.7415 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	SP_YMS005_YHXR_L_1	</identifier>
+				<transform>
+					<row0>	0.9138 -0.3316 0.2344 0.0000	</row0>
+					<row1>	0.3223 0.9434 0.0781 0.0000	</row1>
+					<row2>	-0.2471 0.0042 0.9690 0.0000	</row2>
+					<row3>	0.1889 0.2546 6.7415 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	SP_YMS010_YHWM_L_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 -0.1141 7.4030 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	SP_YMS011_YHWL_M_1	</identifier>
+				<transform>
+					<row0>	0.9773 0.0000 -0.2120 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.2120 0.0000 0.9773 0.0000	</row2>
+					<row3>	-0.3413 -0.1023 5.6950 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	SP_YMS011_YHWL_M_1_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.9799 0.0000 -0.1997 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.1997 0.0000 0.9799 0.0000	</row2>
+					<row3>	-0.5153 -0.1023 4.8570 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	SP_YMS012_YHWR_M_1	</identifier>
+				<transform>
+					<row0>	0.9773 0.0000 0.2120 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-0.2120 0.0000 0.9773 0.0000	</row2>
+					<row3>	0.3413 -0.1023 5.6950 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	SP_YMS012_YHWR_M_1_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.9799 0.0000 0.1997 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-0.1997 0.0000 0.9799 0.0000	</row2>
+					<row3>	0.5153 -0.1023 4.8570 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	SP_YMS020_YHBU_M_1	</identifier>
+				<transform>
+					<row0>	1.0500 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0500 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0500 0.0000	</row2>
+					<row3>	0.0000 -0.2846 7.3583 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	SP_YMS051_YHDL_L_1	</identifier>
+				<transform>
+					<row0>	0.9833 0.0000 -0.1822 0.0000	</row0>
+					<row1>	-0.0050 0.9996 -0.0271 0.0000	</row1>
+					<row2>	0.1822 0.0276 0.9829 0.0000	</row2>
+					<row3>	-0.5564 0.3803 5.7250 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	SP_YMS052_YHDR_L_1	</identifier>
+				<transform>
+					<row0>	0.9833 0.0000 0.1822 0.0000	</row0>
+					<row1>	0.0050 0.9996 -0.0271 0.0000	</row1>
+					<row2>	-0.1822 0.0276 0.9829 0.0000	</row2>
+					<row3>	0.5564 0.3803 5.7250 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	SP_YMS053_YHDC_S_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.9992 -0.0396 0.0000	</row1>
+					<row2>	0.0000 0.0396 0.9992 0.0000	</row2>
+					<row3>	-0.2659 0.4123 6.3026 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	SP_YMS053_YHDC_S_1_INDEX_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.9992 -0.0396 0.0000	</row1>
+					<row2>	0.0000 0.0396 0.9992 0.0000	</row2>
+					<row3>	0.2659 0.4123 6.3026 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	SP_YMS053_YHDC_S_1_INDEX_2	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0084 0.0000	</row1>
+					<row2>	0.0000 -0.0084 1.0000 0.0000	</row2>
+					<row3>	-0.5963 0.3641 4.2724 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	SP_YMS053_YHDC_S_1_INDEX_3	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0084 0.0000	</row1>
+					<row2>	0.0000 -0.0084 1.0000 0.0000	</row2>
+					<row3>	0.5963 0.3641 4.2724 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	SP_YMS080_YHSL_M_1	</identifier>
+				<transform>
+					<row0>	0.9127 0.3799 -0.1504 0.0000	</row0>
+					<row1>	-0.3762 0.9250 0.0537 0.0000	</row1>
+					<row2>	0.1595 0.0075 0.9872 0.0000	</row2>
+					<row3>	-0.6486 0.2167 4.5799 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	SP_YMS081_YHSR_M_1	</identifier>
+				<transform>
+					<row0>	0.9127 -0.3799 0.1504 0.0000	</row0>
+					<row1>	0.3762 0.9250 0.0537 0.0000	</row1>
+					<row2>	-0.1595 0.0075 0.9872 0.0000	</row2>
+					<row3>	0.6486 0.2167 4.5799 1.0000	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<boundingBox>
+		<min>	-0.0667 -0.0667 -0.0667	</min>
+		<max>	0.0667 0.0667 0.0667	</max>
+	</boundingBox>
+</USB001_Yukon_1941_Bow_ports.visual>

@@ -1,0 +1,285 @@
+<ASB082_West_Virginia_1944_Bow_ports.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+		</transform>
+		<node>
+			<identifier>	Bow_ports	</identifier>
+			<transform>
+				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+			</transform>
+			<node>
+				<identifier>	HP_AGA_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.4587 5.0210 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_AGA_2	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-0.0989 0.5292 4.7862 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_AGA_3	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0989 0.5292 4.7862 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_AGM_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.5227 3.2874 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_Death_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 3.8453 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_Fire_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.4740 4.6128 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_Flood_water_left_3	</identifier>
+				<transform>
+					<row0>	-0.9708 0.0000 0.2397 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-0.2397 0.0000 -0.9708 0.0000	</row2>
+					<row3>	-0.7432 0.0096 3.6628 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_Flood_water_right_3	</identifier>
+				<transform>
+					<row0>	0.9646 0.0000 0.2639 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-0.2639 0.0000 0.9646 0.0000	</row2>
+					<row3>	0.7431 0.0102 3.6630 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_RepairLight_right_2	</identifier>
+				<transform>
+					<row0>	0.1915 0.0000 -0.9815 0.0000	</row0>
+					<row1>	0.1783 0.9834 0.0348 0.0000	</row1>
+					<row2>	0.9652 -0.1817 0.1883 0.0000	</row2>
+					<row3>	0.7498 0.4652 3.5700 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_WakeTrace	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 6.0734 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Ship_death_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 2.8225 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_AM022_Ventilators_4	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	-0.3579 0.4525 3.5636 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_AM024_Hatch_2	</identifier>
+				<transform>
+					<row0>	0.0000 0.0000 -1.3170 0.0000	</row0>
+					<row1>	0.0000 1.3170 0.0000 0.0000	</row1>
+					<row2>	1.3170 0.0000 0.0000 0.0000	</row2>
+					<row3>	-0.1054 0.4480 4.4104 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_AM077_Paravane	</identifier>
+				<transform>
+					<row0>	-0.8939 -0.0019 -0.4482 0.0000	</row0>
+					<row1>	0.0362 0.9964 -0.0766 0.0000	</row1>
+					<row2>	0.4468 -0.0847 -0.8906 0.0000	</row2>
+					<row3>	0.0065 0.4633 4.0445 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_AM219_Bollard	</identifier>
+				<transform>
+					<row0>	-1.3356 0.0000 0.3182 0.0000	</row0>
+					<row1>	0.0000 1.3730 0.0000 0.0000	</row1>
+					<row2>	-0.3182 0.0000 -1.3356 0.0000	</row2>
+					<row3>	-0.3751 0.4586 5.2295 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_AM219_Bollard_INDEX_1	</identifier>
+				<transform>
+					<row0>	-1.3662 0.0000 0.1369 0.0000	</row0>
+					<row1>	0.0000 1.3730 0.0000 0.0000	</row1>
+					<row2>	-0.1369 0.0000 -1.3662 0.0000	</row2>
+					<row3>	-0.7246 0.4516 3.1181 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_AM219_Bollard_INDEX_2	</identifier>
+				<transform>
+					<row0>	-1.3356 0.0000 -0.3182 0.0000	</row0>
+					<row1>	0.0000 1.3730 0.0000 0.0000	</row1>
+					<row2>	0.3182 0.0000 -1.3356 0.0000	</row2>
+					<row3>	0.3751 0.4586 5.2295 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_AM219_Bollard_INDEX_3	</identifier>
+				<transform>
+					<row0>	-1.3662 0.0000 -0.1369 0.0000	</row0>
+					<row1>	0.0000 1.3730 0.0000 0.0000	</row1>
+					<row2>	0.1369 0.0000 -1.3662 0.0000	</row2>
+					<row3>	0.7210 0.4516 3.1181 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_AM484_Ammo_hoist	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-0.0297 0.4600 5.4051 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_AM725_Ammobox	</identifier>
+				<transform>
+					<row0>	-0.8670 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.8670 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -0.8670 0.0000	</row2>
+					<row3>	0.1028 0.5294 4.6764 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_AM725_Ammobox_INDEX_1	</identifier>
+				<transform>
+					<row0>	-0.8670 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.8670 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -0.8670 0.0000	</row2>
+					<row3>	0.0000 0.4592 4.9081 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_AM725_Ammobox_INDEX_2	</identifier>
+				<transform>
+					<row0>	-0.8670 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.8670 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -0.8670 0.0000	</row2>
+					<row3>	-0.0385 0.5297 4.6764 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_AM725_Ammobox_INDEX_3	</identifier>
+				<transform>
+					<row0>	-0.8670 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.8670 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -0.8670 0.0000	</row2>
+					<row3>	0.0715 0.4595 4.9081 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_AM725_Ammobox_INDEX_4	</identifier>
+				<transform>
+					<row0>	-0.8670 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.8670 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -0.8670 0.0000	</row2>
+					<row3>	-0.1687 0.5288 4.6764 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_AM725_Ammobox_INDEX_5	</identifier>
+				<transform>
+					<row0>	-0.8670 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.8670 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -0.8670 0.0000	</row2>
+					<row3>	0.1675 0.5297 4.6764 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_AM725_Ammobox_INDEX_6	</identifier>
+				<transform>
+					<row0>	-0.8670 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.8670 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -0.8670 0.0000	</row2>
+					<row3>	-0.0715 0.4595 4.9081 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_AM725_Ammobox_INDEX_7	</identifier>
+				<transform>
+					<row0>	-0.8670 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.8670 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -0.8670 0.0000	</row2>
+					<row3>	-0.1033 0.5294 4.6764 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM104_Life_Buoy	</identifier>
+				<transform>
+					<row0>	-0.1723 0.0000 0.9850 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-0.9850 0.0000 -0.1723 0.0000	</row2>
+					<row3>	0.5902 0.5222 4.5771 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM104_Life_Buoy_INDEX_1	</identifier>
+				<transform>
+					<row0>	-0.1723 0.0000 -0.9850 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.9850 0.0000 -0.1723 0.0000	</row2>
+					<row3>	-0.5900 0.5222 4.5772 1.0000	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<boundingBox>
+		<min>	-0.0667 -0.0667 -0.0667	</min>
+		<max>	0.0667 0.0667 0.0667	</max>
+	</boundingBox>
+</ASB082_West_Virginia_1944_Bow_ports.visual>

@@ -1,0 +1,150 @@
+<VSC004_Almirante_Barroso_1897_Bow_ports.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+		</transform>
+		<node>
+			<identifier>	Bow_ports	</identifier>
+			<transform>
+				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+			</transform>
+			<node>
+				<identifier>	HP_FX_Fire_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.3699 2.8373 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_RepairLight_left_1	</identifier>
+				<transform>
+					<row0>	0.0301 0.0000 0.9995 0.0000	</row0>
+					<row1>	0.0001 1.0000 0.0000 0.0000	</row1>
+					<row2>	-0.9995 0.0001 0.0301 0.0000	</row2>
+					<row3>	-0.2711 0.3490 2.3035 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_WakeTrace	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 3.4978 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Ship_death_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 2.2215 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_VGM_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.3634 2.3804 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_VM006_Life_Buoy	</identifier>
+				<transform>
+					<row0>	0.9987 0.0002 0.0513 0.0000	</row0>
+					<row1>	0.0000 1.0000 -0.0041 0.0000	</row1>
+					<row2>	-0.0513 0.0041 0.9987 0.0000	</row2>
+					<row3>	0.2597 0.4039 2.5370 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_VM006_Life_Buoy_INDEX_1	</identifier>
+				<transform>
+					<row0>	-0.9985 0.0002 0.0549 0.0000	</row0>
+					<row1>	0.0000 1.0000 -0.0041 0.0000	</row1>
+					<row2>	-0.0549 -0.0041 -0.9985 0.0000	</row2>
+					<row3>	-0.2595 0.4039 2.5370 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_VM006_Life_Buoy_INDEX_2	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0011 0.0000	</row0>
+					<row1>	0.0000 1.0000 -0.0041 0.0000	</row1>
+					<row2>	-0.0011 0.0041 1.0000 0.0000	</row2>
+					<row3>	0.2177 0.4113 2.9077 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_VM006_Life_Buoy_INDEX_3	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0011 0.0000	</row0>
+					<row1>	0.0000 1.0000 -0.0041 0.0000	</row1>
+					<row2>	-0.0011 0.0041 1.0000 0.0000	</row2>
+					<row3>	-0.2244 0.4113 2.9077 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_VM021_6pdr_Mk1	</identifier>
+				<transform>
+					<row0>	-0.0281 0.0000 0.9996 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-0.9996 0.0000 -0.0281 0.0000	</row2>
+					<row3>	-0.2089 0.2233 2.5735 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_VM021_6pdr_Mk1_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.0281 0.0000 -0.9996 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.9996 0.0000 0.0281 0.0000	</row2>
+					<row3>	0.2089 0.2233 2.5735 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_VM901_Crane	</identifier>
+				<transform>
+					<row0>	1.0800 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0800 -0.0044 0.0000	</row1>
+					<row2>	0.0000 0.0044 1.0800 0.0000	</row2>
+					<row3>	0.0000 0.3726 3.2287 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_VM981_Anchor	</identifier>
+				<transform>
+					<row0>	0.9362 -0.2810 0.0011 0.0000	</row0>
+					<row1>	-0.0148 -0.0452 0.9763 0.0000	</row1>
+					<row2>	-0.2806 -0.9351 -0.0475 0.0000	</row2>
+					<row3>	0.1341 0.3467 3.0037 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_VM981_Anchor_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.9361 0.2812 -0.0011 0.0000	</row0>
+					<row1>	0.0148 -0.0452 0.9763 0.0000	</row1>
+					<row2>	0.2809 -0.9350 -0.0475 0.0000	</row2>
+					<row3>	-0.1336 0.3468 3.0035 1.0000	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<boundingBox>
+		<min>	-0.0667 -0.0667 -0.0667	</min>
+		<max>	0.0667 0.0667 0.0667	</max>
+	</boundingBox>
+</VSC004_Almirante_Barroso_1897_Bow_ports.visual>

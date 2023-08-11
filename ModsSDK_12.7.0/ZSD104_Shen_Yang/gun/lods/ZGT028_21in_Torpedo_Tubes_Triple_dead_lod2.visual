@@ -1,0 +1,38 @@
+<ZGT028_21in_Torpedo_Tubes_Triple_dead_lod2.visual>
+	<boundingBox>
+		<min>	-0.075467 -0.003110 -0.225306	</min>
+		<max>	0.072916 0.146443 0.312138	</max>
+	</boundingBox>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	AGT028_21in_Torpedo_Tubes_Triple_dead	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+				<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+			</transform>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AGT028_21in_Torpedo_Tubes_Triple_dead	</node>
+		<geometry>
+			<vertices>	AGT028_21in_Torpedo_Tubes_Triple_dead_lodShape2.vertices	</vertices>
+			<primitive>	AGT028_21in_Torpedo_Tubes_Triple_dead_lodShape2.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPMAT_PBS_GunDead	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/ZSD104_Shen_Yang/gun/ZGT028_21in_Torpedo_Tubes_Triple_dead.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+</ZGT028_21in_Torpedo_Tubes_Triple_dead_lod2.visual>

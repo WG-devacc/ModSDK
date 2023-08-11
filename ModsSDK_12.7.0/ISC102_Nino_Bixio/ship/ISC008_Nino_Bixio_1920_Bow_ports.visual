@@ -1,0 +1,177 @@
+<ISC008_Nino_Bixio_1920_Bow_ports.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+		</transform>
+		<node>
+			<identifier>	Bow_ports	</identifier>
+			<transform>
+				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+			</transform>
+			<node>
+				<identifier>	HP_FX_Fire_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.5187 4.0580 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_WakeTrace	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 4.5605 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Ship_death_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 3.6279 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM102_Anchor_Navy_Stockless_top	</identifier>
+				<transform>
+					<row0>	0.7050 0.0426 -0.1293 0.0000	</row0>
+					<row1>	-0.1199 0.5176 -0.4830 0.0000	</row1>
+					<row2>	0.0645 0.4958 0.5154 0.0000	</row2>
+					<row3>	0.1535 0.3604 4.1787 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM102_Anchor_Navy_Stockless_top_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.7050 -0.0426 0.1293 0.0000	</row0>
+					<row1>	0.1199 0.5176 -0.4830 0.0000	</row1>
+					<row2>	-0.0645 0.4958 0.5154 0.0000	</row2>
+					<row3>	-0.1537 0.3616 4.1799 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM103_Anchor_Navy_Stockless_Down	</identifier>
+				<transform>
+					<row0>	0.7075 0.1196 -0.0270 0.0000	</row0>
+					<row1>	-0.1021 0.4870 -0.5177 0.0000	</row1>
+					<row2>	-0.0680 0.5139 0.4968 0.0000	</row2>
+					<row3>	-0.1561 0.3613 4.1797 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM103_Anchor_Navy_Stockless_Down_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.7075 -0.1196 0.0270 0.0000	</row0>
+					<row1>	0.1021 0.4870 -0.5177 0.0000	</row1>
+					<row2>	0.0680 0.5139 0.4968 0.0000	</row2>
+					<row3>	0.1563 0.3600 4.1784 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM126_Cleat	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.5232 4.3820 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM126_Cleat_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.5000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.4998 -0.0128 0.0000	</row1>
+					<row2>	0.0000 0.0128 0.4998 0.0000	</row2>
+					<row3>	0.1481 0.5242 4.1748 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM126_Cleat_INDEX_2	</identifier>
+				<transform>
+					<row0>	0.5000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.4998 -0.0128 0.0000	</row1>
+					<row2>	0.0000 0.0128 0.4998 0.0000	</row2>
+					<row3>	-0.1485 0.5242 4.1748 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM023_Bow_Star	</identifier>
+				<transform>
+					<row0>	0.8000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.9836 0.1802 0.0000	</row1>
+					<row2>	0.0000 -0.1802 0.9836 0.0000	</row2>
+					<row3>	0.0000 0.4751 4.6659 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM028_Boat_Crane	</identifier>
+				<transform>
+					<row0>	-0.0015 0.7996 -0.0243 0.0000	</row0>
+					<row1>	0.0004 0.0243 0.7996 0.0000	</row1>
+					<row2>	0.8000 0.0015 -0.0004 0.0000	</row2>
+					<row3>	0.1484 0.5205 4.1622 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM028_Boat_Crane_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.0073 -0.7997 0.0189 0.0000	</row0>
+					<row1>	-0.0004 0.0189 0.7998 0.0000	</row1>
+					<row2>	-0.8000 -0.0073 -0.0002 0.0000	</row2>
+					<row3>	-0.1484 0.5199 4.1613 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM953_Bollard	</identifier>
+				<transform>
+					<row0>	0.6583 -0.0307 0.0000 0.0000	</row0>
+					<row1>	0.0307 0.6583 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 0.6590 0.0000	</row2>
+					<row3>	0.1925 0.5085 3.8422 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM953_Bollard_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.6588 0.0147 0.0000 0.0000	</row0>
+					<row1>	-0.0147 0.6588 -0.0092 0.0000	</row1>
+					<row2>	-0.0002 0.0092 0.6589 0.0000	</row2>
+					<row3>	-0.0510 0.5181 4.1178 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM953_Bollard_INDEX_2	</identifier>
+				<transform>
+					<row0>	0.6588 -0.0147 0.0000 0.0000	</row0>
+					<row1>	0.0147 0.6588 -0.0092 0.0000	</row1>
+					<row2>	0.0002 0.0092 0.6589 0.0000	</row2>
+					<row3>	0.0510 0.5181 4.1178 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_IM953_Bollard_INDEX_3	</identifier>
+				<transform>
+					<row0>	0.6583 0.0307 0.0000 0.0000	</row0>
+					<row1>	-0.0307 0.6583 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 0.6590 0.0000	</row2>
+					<row3>	-0.1925 0.5085 3.8422 1.0000	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<boundingBox>
+		<min>	-0.0667 -0.0667 -0.0667	</min>
+		<max>	0.0667 0.0667 0.0667	</max>
+	</boundingBox>
+</ISC008_Nino_Bixio_1920_Bow_ports.visual>

@@ -1,0 +1,38 @@
+<BD024_Directorscope_mk2_lod2.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	AD079_Directorscope_mk2	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+				<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+			</transform>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AD079_Directorscope_mk2	</node>
+		<geometry>
+			<vertices>	AD079_Directorscope_mk2_lod2Shape.vertices	</vertices>
+			<primitive>	AD079_Directorscope_mk2_lod2Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPMAT_PBS_Director	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/BSD503_Campbeltown_1941/director/BD024_Directorscope_mk2.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.010935 -0.000054 -0.012713	</min>
+		<max>	0.011834 0.170146 0.012713	</max>
+	</boundingBox>
+</BD024_Directorscope_mk2_lod2.visual>

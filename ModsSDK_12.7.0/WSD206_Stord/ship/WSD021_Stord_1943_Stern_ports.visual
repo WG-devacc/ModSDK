@@ -1,0 +1,276 @@
+<WSD021_Stord_1943_Stern_ports.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+		</transform>
+		<node>
+			<identifier>	Stern_ports	</identifier>
+			<transform>
+				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+			</transform>
+			<node>
+				<identifier>	HP_FX_Fire_4	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.1832 -3.2797 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_Flood_water_left_2	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0099 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-0.0099 0.0000 -1.0000 0.0000	</row2>
+					<row3>	-0.2997 0.0370 -2.6788 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_WakeTraceBack	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 -3.5943 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_WakeTrace_screw_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-0.1467 -0.2165 -3.1993 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_WakeTrace_screw_2	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.1467 -0.2165 -3.1993 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Ship_death_3	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 -2.4313 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM009_Depth_Charge	</identifier>
+				<transform>
+					<row0>	-0.2384 0.0246 -0.9708 0.0000	</row0>
+					<row1>	-0.9691 0.0591 0.2395 0.0000	</row1>
+					<row2>	0.0632 0.9980 0.0098 0.0000	</row2>
+					<row3>	0.1879 0.1717 -3.5182 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM009_Depth_Charge_INDEX_1	</identifier>
+				<transform>
+					<row0>	-0.2384 0.0246 -0.9708 0.0000	</row0>
+					<row1>	-0.9691 0.0591 0.2395 0.0000	</row1>
+					<row2>	0.0632 0.9980 0.0098 0.0000	</row2>
+					<row3>	0.2054 0.1710 -3.4473 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM009_Depth_Charge_INDEX_2	</identifier>
+				<transform>
+					<row0>	-0.2384 0.0246 -0.9708 0.0000	</row0>
+					<row1>	-0.9691 0.0591 0.2395 0.0000	</row1>
+					<row2>	0.0632 0.9980 0.0098 0.0000	</row2>
+					<row3>	0.1967 0.1713 -3.4825 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM009_Depth_Charge_INDEX_3	</identifier>
+				<transform>
+					<row0>	-0.1721 -0.0246 0.9848 0.0000	</row0>
+					<row1>	0.9831 0.0591 0.1733 0.0000	</row1>
+					<row2>	-0.0624 0.9980 0.0141 0.0000	</row2>
+					<row3>	-0.2142 0.1702 -3.4288 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM009_Depth_Charge_INDEX_4	</identifier>
+				<transform>
+					<row0>	-0.1721 -0.0246 0.9848 0.0000	</row0>
+					<row1>	0.9831 0.0591 0.1733 0.0000	</row1>
+					<row2>	-0.0624 0.9980 0.0141 0.0000	</row2>
+					<row3>	-0.2206 0.1699 -3.3926 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM009_Depth_Charge_INDEX_5	</identifier>
+				<transform>
+					<row0>	-0.1721 -0.0246 0.9848 0.0000	</row0>
+					<row1>	0.9831 0.0591 0.1733 0.0000	</row1>
+					<row2>	-0.0624 0.9980 0.0141 0.0000	</row2>
+					<row3>	-0.2269 0.1695 -3.3570 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_BM045_Smoke_Apparatus	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0457 0.1819 -3.1586 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM161_Propeller_4_8m_BB_R	</identifier>
+				<transform>
+					<row0>	0.7456 -0.0001 -0.0034 0.0000	</row0>
+					<row1>	-0.0001 0.7440 -0.0493 0.0000	</row1>
+					<row2>	0.0034 0.0493 0.7440 0.0000	</row2>
+					<row3>	0.1467 -0.2165 -3.1993 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM162_Propeller_4_8m_BB_L	</identifier>
+				<transform>
+					<row0>	0.7456 0.0001 0.0034 0.0000	</row0>
+					<row1>	0.0001 0.7440 -0.0493 0.0000	</row1>
+					<row2>	-0.0034 0.0493 0.7440 0.0000	</row2>
+					<row3>	-0.1467 -0.2165 -3.1993 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_WM020_Reels	</identifier>
+				<transform>
+					<row0>	0.9653 0.0295 -0.2594 0.0000	</row0>
+					<row1>	-0.0348 0.9993 -0.0158 0.0000	</row1>
+					<row2>	0.2587 0.0243 0.9656 0.0000	</row2>
+					<row3>	-0.1406 0.1731 -3.1740 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_WM020_Reels_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.9653 -0.0295 0.2594 0.0000	</row0>
+					<row1>	0.0348 0.9993 -0.0158 0.0000	</row1>
+					<row2>	-0.2587 0.0243 0.9656 0.0000	</row2>
+					<row3>	0.1406 0.1731 -3.1740 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_WM047_Smoke_floats	</identifier>
+				<transform>
+					<row0>	0.9977 -0.0681 0.0000 0.0000	</row0>
+					<row1>	0.0681 0.9977 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.2269 0.1704 -3.2540 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_WM047_Smoke_floats_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.9977 -0.0681 0.0000 0.0000	</row0>
+					<row1>	0.0681 0.9977 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.2194 0.1710 -3.3047 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_WM047_Smoke_floats_INDEX_2	</identifier>
+				<transform>
+					<row0>	0.9977 -0.0681 0.0000 0.0000	</row0>
+					<row1>	0.0681 0.9977 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.2137 0.1715 -3.3475 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_WM047_Smoke_floats_INDEX_3	</identifier>
+				<transform>
+					<row0>	0.9978 0.0658 0.0008 0.0000	</row0>
+					<row1>	-0.0658 0.9978 -0.0010 0.0000	</row1>
+					<row2>	-0.0009 0.0009 1.0000 0.0000	</row2>
+					<row3>	-0.1749 0.1733 -3.5017 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_WM047_Smoke_floats_INDEX_4	</identifier>
+				<transform>
+					<row0>	0.9978 0.0658 0.0008 0.0000	</row0>
+					<row1>	-0.0658 0.9978 -0.0010 0.0000	</row1>
+					<row2>	-0.0009 0.0009 1.0000 0.0000	</row2>
+					<row3>	-0.1884 0.1728 -3.4606 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_WM047_Smoke_floats_INDEX_5	</identifier>
+				<transform>
+					<row0>	0.9978 0.0658 0.0008 0.0000	</row0>
+					<row1>	-0.0658 0.9978 -0.0010 0.0000	</row1>
+					<row2>	-0.0009 0.0009 1.0000 0.0000	</row2>
+					<row3>	-0.2195 0.1709 -3.3091 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_WM047_Smoke_floats_INDEX_6	</identifier>
+				<transform>
+					<row0>	0.9978 0.0658 0.0008 0.0000	</row0>
+					<row1>	-0.0658 0.9978 -0.0010 0.0000	</row1>
+					<row2>	-0.0009 0.0009 1.0000 0.0000	</row2>
+					<row3>	-0.2269 0.1701 -3.2527 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_WM758_24in_round_hatch	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	-0.0397 0.1864 -3.2157 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_WM758_24in_round_hatch_INDEX_1	</identifier>
+				<transform>
+					<row0>	-1.1361 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.1361 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.1361 0.0000	</row2>
+					<row3>	-0.0309 0.1752 -3.1222 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_WM804_Ventilators_mushroom	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0149 0.1635 -3.1114 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_WM872_Running_Lights_B	</identifier>
+				<transform>
+					<row0>	0.5665 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.5665 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 0.5665 0.0000	</row2>
+					<row3>	-0.0001 0.3623 -3.5720 1.0000	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<boundingBox>
+		<min>	-0.0667 -0.0667 -0.0667	</min>
+		<max>	0.0667 0.0667 0.0667	</max>
+	</boundingBox>
+</WSD021_Stord_1943_Stern_ports.visual>

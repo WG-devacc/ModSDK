@@ -1,0 +1,150 @@
+<HSC002_Gelderland_1939_Bow_ports.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+		</transform>
+		<node>
+			<identifier>	Bow_ports	</identifier>
+			<transform>
+				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+			</transform>
+			<node>
+				<identifier>	HP_FX_Death_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 1.8405 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_Fire_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.4082 2.4090 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_WakeTrace	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 3.1401 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_HGM_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0053 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-0.0053 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0052 0.4053 1.9904 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Ship_death_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 1.7607 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_HM001_Anchor_down	</identifier>
+				<transform>
+					<row0>	0.5842 -1.0620 -0.2720 0.0000	</row0>
+					<row1>	0.2315 -0.1818 1.2069 0.0000	</row1>
+					<row2>	-1.0716 -0.6182 0.1124 0.0000	</row2>
+					<row3>	-0.2568 0.3999 2.0413 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_HM001_Anchor_down_INDEX_1	</identifier>
+				<transform>
+					<row0>	1.2355 0.1214 0.1408 0.0000	</row0>
+					<row1>	-0.0417 1.1030 -0.5855 0.0000	</row1>
+					<row2>	-0.1812 0.5742 1.0948 0.0000	</row2>
+					<row3>	0.0857 0.2115 2.9237 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_HM001_Anchor_down_INDEX_2	</identifier>
+				<transform>
+					<row0>	1.2330 -0.1309 -0.1542 0.0000	</row0>
+					<row1>	0.0439 1.1029 -0.5855 0.0000	</row1>
+					<row2>	0.1975 0.5724 1.0929 0.0000	</row2>
+					<row3>	-0.0841 0.2090 2.9192 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_HM001_Anchor_down_INDEX_3	</identifier>
+				<transform>
+					<row0>	0.5813 1.0620 0.2782 0.0000	</row0>
+					<row1>	-0.2443 -0.1818 1.2043 0.0000	</row1>
+					<row2>	1.0703 -0.6182 0.1238 0.0000	</row2>
+					<row3>	0.2666 0.3999 2.0441 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_HM002_Anchor_up	</identifier>
+				<transform>
+					<row0>	0.6172 1.0772 0.0428 0.0000	</row0>
+					<row1>	-0.1286 0.0247 1.2353 0.0000	</row1>
+					<row2>	1.0704 -0.6182 0.1238 0.0000	</row2>
+					<row3>	0.2651 0.3972 2.0436 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_HM002_Anchor_up_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.6176 -1.0772 -0.0362 0.0000	</row0>
+					<row1>	0.1155 0.0247 1.2366 0.0000	</row1>
+					<row2>	-1.0716 -0.6182 0.1124 0.0000	</row2>
+					<row3>	-0.2553 0.3972 2.0408 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_HM002_Anchor_up_INDEX_2	</identifier>
+				<transform>
+					<row0>	1.2094 0.3059 0.0699 0.0000	</row0>
+					<row1>	-0.2341 1.0649 -0.6101 0.0000	</row1>
+					<row2>	-0.2090 0.5775 1.0881 0.0000	</row2>
+					<row3>	0.0872 0.2110 2.9244 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_HM002_Anchor_up_INDEX_3	</identifier>
+				<transform>
+					<row0>	1.2053 -0.3166 -0.0901 0.0000	</row0>
+					<row1>	0.2341 1.0649 -0.6101 0.0000	</row1>
+					<row2>	0.2314 0.5717 1.0866 0.0000	</row2>
+					<row3>	-0.0861 0.2082 2.9200 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_HM854_Signal_Lamp_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.7726 3.0415 1.0000	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<boundingBox>
+		<min>	-0.0667 -0.0667 -0.0667	</min>
+		<max>	0.0667 0.0667 0.0667	</max>
+	</boundingBox>
+</HSC002_Gelderland_1939_Bow_ports.visual>

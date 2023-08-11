@@ -1,0 +1,17 @@
+<shipConfigs>
+	<!-- config="Any_Ship" -->
+    <ship name="Any_Ship">
+	<crew paramsId="PJW001_DefaultCrew" skills=""/>
+		
+        <camouflage>
+            <name>PCEC001_Camo_1</name>
+        </camouflage>		
+ 
+        <flags>
+            <slot1>PCEF005_SM_SignalFlag</slot1>
+            <slot2>PCEF006_HY_SignalFlag</slot2>
+			<slot3>PCEF014_NF_SignalFlag</slot3>
+        </flags> 
+    </ship>
+
+</shipConfigs>

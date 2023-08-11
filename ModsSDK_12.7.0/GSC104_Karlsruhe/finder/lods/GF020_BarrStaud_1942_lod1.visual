@@ -1,0 +1,38 @@
+<GF020_BarrStaud_1942_lod1.visual>
+	<boundingBox>
+		<min>	-0.037635 0.000000 -0.004002	</min>
+		<max>	0.037635 0.011766 0.004348	</max>
+	</boundingBox>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	GF020	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+				<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+			</transform>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	GF020	</node>
+		<geometry>
+			<vertices>	GF020_lod1Shape.vertices	</vertices>
+			<primitive>	GF020_lod1Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPMAT_PBS_Misc	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/GSC104_Karlsruhe/finder/GF020_BarrStaud_1942.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+</GF020_BarrStaud_1942_lod1.visual>

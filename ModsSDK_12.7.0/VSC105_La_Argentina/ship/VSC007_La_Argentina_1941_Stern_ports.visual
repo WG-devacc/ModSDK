@@ -1,0 +1,267 @@
+<VSC007_La_Argentina_1941_Stern_ports.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+		</transform>
+		<node>
+			<identifier>	Stern_ports	</identifier>
+			<transform>
+				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+			</transform>
+			<node>
+				<identifier>	HP_FX_Fire_4	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.2756 -4.3442 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_Flood_water_left	</identifier>
+				<transform>
+					<row0>	-0.9907 0.0000 -0.1363 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.1363 0.0000 -0.9907 0.0000	</row2>
+					<row3>	-0.3183 0.0478 -4.2557 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_Flood_water_right	</identifier>
+				<transform>
+					<row0>	0.9856 0.0000 -0.1686 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.1686 0.0000 0.9856 0.0000	</row2>
+					<row3>	0.3184 0.0480 -4.2552 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_RepairLight_left_2	</identifier>
+				<transform>
+					<row0>	-0.1134 0.0000 0.9935 0.0000	</row0>
+					<row1>	-0.1245 0.9921 -0.0142 0.0000	</row1>
+					<row2>	-0.9857 -0.1253 -0.1125 0.0000	</row2>
+					<row3>	-0.4405 0.2799 -3.7119 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_WakeTraceBack	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 -5.3798 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_WakeTrace_screw_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-0.4095 -0.1878 -3.8826 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_WakeTrace_screw_2	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-0.2239 -0.1877 -4.6376 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_WakeTrace_screw_3	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.2239 -0.1877 -4.6376 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_WakeTrace_screw_4	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.4100 -0.1878 -3.8826 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Ship_death_3	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 -3.5095 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_VGM_3	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	0.0000 0.3291 -3.6211 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM057_Accommodation_Ladder_Closed	</identifier>
+				<transform>
+					<row0>	0.9929 -0.0171 -0.1174 0.0000	</row0>
+					<row1>	0.0187 0.9997 0.0123 0.0000	</row1>
+					<row2>	0.1171 -0.0144 0.9930 0.0000	</row2>
+					<row3>	0.3876 0.2772 -3.3776 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM057_Accommodation_Ladder_Closed_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.9924 0.0170 0.1221 0.0000	</row0>
+					<row1>	-0.0187 0.9997 0.0123 0.0000	</row1>
+					<row2>	-0.1219 -0.0145 0.9924 0.0000	</row2>
+					<row3>	-0.3854 0.2773 -3.3774 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM161_Propeller_4_8m_BB_R	</identifier>
+				<transform>
+					<row0>	0.8693 0.0000 0.0254 0.0000	</row0>
+					<row1>	0.0008 0.8692 -0.0281 0.0000	</row1>
+					<row2>	-0.0254 0.0282 0.8688 0.0000	</row2>
+					<row3>	0.4100 -0.1878 -3.8826 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM161_Propeller_4_8m_BB_R_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.8722 0.0001 0.0078 0.0000	</row0>
+					<row1>	0.0003 0.8712 -0.0426 0.0000	</row1>
+					<row2>	-0.0078 0.0426 0.8711 0.0000	</row2>
+					<row3>	0.2239 -0.1877 -4.6376 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM162_Propeller_4_8m_BB_L	</identifier>
+				<transform>
+					<row0>	0.8693 0.0000 -0.0254 0.0000	</row0>
+					<row1>	-0.0008 0.8692 -0.0281 0.0000	</row1>
+					<row2>	0.0254 0.0282 0.8688 0.0000	</row2>
+					<row3>	-0.4095 -0.1878 -3.8826 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM162_Propeller_4_8m_BB_L_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.8722 -0.0001 -0.0078 0.0000	</row0>
+					<row1>	-0.0003 0.8712 -0.0426 0.0000	</row1>
+					<row2>	0.0078 0.0426 0.8711 0.0000	</row2>
+					<row3>	-0.2239 -0.1877 -4.6376 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_VM001_Nueve_de_Julio_arms	</identifier>
+				<transform>
+					<row0>	-0.7409 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.7277 0.1390 0.0000	</row1>
+					<row2>	0.0000 0.2448 -1.2816 0.0000	</row2>
+					<row3>	0.0000 0.2487 -5.3964 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_VM016_Reels	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-0.1251 0.2824 -3.9870 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_VM040_Reels_4	</identifier>
+				<transform>
+					<row0>	0.9995 0.0324 0.0002 0.0000	</row0>
+					<row1>	-0.0227 0.6996 0.0086 0.0000	</row1>
+					<row2>	0.0002 -0.0086 0.6999 0.0000	</row2>
+					<row3>	-0.0714 0.2963 -4.6741 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_VM059_Night_lifebuoy	</identifier>
+				<transform>
+					<row0>	0.9208 -0.1324 -0.1925 0.0000	</row0>
+					<row1>	0.1296 0.9407 -0.0271 0.0000	</row1>
+					<row2>	0.1944 0.0000 0.9299 0.0000	</row2>
+					<row3>	0.3223 0.2621 -4.4605 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_VM059_Night_lifebuoy_INDEX_1	</identifier>
+				<transform>
+					<row0>	-0.9208 -0.1324 -0.1925 0.0000	</row0>
+					<row1>	-0.1296 0.9407 -0.0271 0.0000	</row1>
+					<row2>	0.1944 0.0000 -0.9299 0.0000	</row2>
+					<row3>	-0.3223 0.2621 -4.4605 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_VM756_Deck_Hatch	</identifier>
+				<transform>
+					<row0>	0.0004 0.0140 -0.8367 0.0000	</row0>
+					<row1>	0.0000 0.9684 0.0162 0.0000	</row1>
+					<row2>	0.9633 0.0000 0.0004 0.0000	</row2>
+					<row3>	-0.0096 0.2909 -3.9850 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_VM756_Deck_Hatch_INDEX_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0005 0.0000	</row0>
+					<row1>	0.0000 0.9999 0.0167 0.0000	</row1>
+					<row2>	-0.0005 -0.0167 0.9999 0.0000	</row2>
+					<row3>	-0.0070 0.2989 -4.5326 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_VM859_Screened_speed_light	</identifier>
+				<transform>
+					<row0>	0.5000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.5000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 0.5000 0.0000	</row2>
+					<row3>	0.0000 0.3055 -5.3922 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_VM861_Running_Lights_F	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	0.0000 0.4611 -5.3834 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_VM983_Capstan_for_Argentina	</identifier>
+				<transform>
+					<row0>	1.1168 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0155 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.1168 0.0000	</row2>
+					<row3>	0.0000 0.2894 -4.2413 1.0000	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<boundingBox>
+		<min>	-0.0667 -0.0667 -0.0667	</min>
+		<max>	0.0667 0.0667 0.0667	</max>
+	</boundingBox>
+</VSC007_La_Argentina_1941_Stern_ports.visual>

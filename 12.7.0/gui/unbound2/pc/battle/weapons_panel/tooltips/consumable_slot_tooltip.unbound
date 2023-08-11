@@ -1,0 +1,59 @@
+(def element BattleConsumableTooltip (_consumableEntityId:number) layout=true
+	(scope
+		(var consumableEntityId:number = "_consumableEntityId")
+		(var consumableEntity:gfx = "$datahub.getEntity(consumableEntityId)")
+		(var battleConsumable:gfx = "consumableEntity.battleConsumable")
+
+		(var iconPath:str = "'url:' + battleConsumable.iconPath")
+		(var title:str = "battleConsumable.title")
+		(var subHeader:str = "battleConsumable ? (battleConsumable.ownerSquadronId > -1 ? 'IDS_AIRPLANE_CONSUMABLES' : 'IDS_CONSUMABLES') : ''")
+		(var description:str = "battleConsumable.description")
+		(var attributesNegative:array = "battleConsumable.attributesNegative")
+		(var attributesPositive:array = "battleConsumable.attributesPositive")
+		(var attributesNeutral:array = "battleConsumable.attributesNeutral" (event "battleConsumable.evConsumeNumChanged") (event "battleConsumable.evReloadTimeCoeffChanged") (event "battleConsumable.evWorkTimeCoeffChanged"))
+	)
+	(style (width = 340) (hitTest = false))
+
+	(macro TOOLTIP_SYSTEM_DEFAULT_BACKGROUND)
+	
+	(element TOOLTIP_SYSTEM_DEFAULT_CONTAINER
+		(block
+			(style (width = 100%))
+			(controller $Instance renderer='TooltipSystemHeaderWithIconAndText'
+				(args
+					_imageUrl="iconPath"
+					_imageWidth=60
+					_imageHeight=60
+					_unifiedStatus=''
+					_headerText="title"
+					_subheaderText="subHeader"
+				)
+			)
+		)
+
+		(controller $Instance renderer='TooltipSystemHorizontalDivider')
+		(block
+			(style (width = 100%))
+			(controller $Instance renderer='TooltipSystemDescriptionText'
+				(args
+					_descriptionText="description"
+				)
+			)
+		)
+
+		(controller $Instance renderer='TooltipSystemHorizontalDivider')
+		(block
+			(style
+			 (width = 100%)
+			)
+			(controller $Instance renderer='TooltipSystemParamsModifiersList'
+				(args
+					_attributesNegative="attributesNegative"
+					_attributesPositive="attributesPositive"
+					_attributesNeutral="attributesNeutral"
+					_ownerId="consumableEntity.id"
+				)
+			)
+		)
+	)
+)

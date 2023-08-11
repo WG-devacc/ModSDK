@@ -1,0 +1,617 @@
+(def constant SECONDARY_TAB_BUTTON_DEFAULT_HEIGHT 38)
+
+(def macro SECONDARY_TAB_BUTTON_DEFAULT_MOUSEDOWN_ANIMATION (_isDown:expression)
+	(controller $Animation
+		(bindcall play
+			duration = 0.05
+			from = "{ alpha: 1 }"
+			to = "{ alpha: 0.3 }"
+			action="kill"
+			easing = "Easing.quad_in"
+			(bind enabled "_isDown")
+		)
+		(bindcall play
+			duration = 0.05
+			from = "{ alpha: 0.3 }"
+			to = "{ alpha: 1 }"
+			action="kill"
+			easing = "Easing.quad_in"
+			(bind enabled "!_isDown")
+		)
+	)
+)
+
+(def element SecondaryTabButton (	_label:str='', _isSelected:bool=false, _isDisabled:bool=false, _width:str='', _height:number="SECONDARY_TAB_BUTTON_DEFAULT_HEIGHT",
+									_isNewMarker:bool=false, _isAttentionMarker:bool=false, _newContentCounter:number=0, _image:str='', _isCounterTab:bool=false,
+									_dispatchedEv:str='', _dispatchParams:gfx={}, _methods:array=[], _tooltipText:str='', _name:str='')
+	(scope
+		(event evStartHover)
+		(event evStopHover)
+
+		(macro COMPONENT_MOUSE_HANDLER_SCOPE)
+
+		(var isDown:bool = "!_isDisabled && mouseDown")
+
+		(var showAttentionMarker:bool = "_isAttentionMarker && !_isNewMarker")
+		(var counterMarkerVisible:bool = "_newContentCounter > 0 && !_isNewMarker && !showAttentionMarker")
+
+		(var initialImgAlpha:number = "	_isDisabled		? 0.2 :
+										_isSelected		? TC
+														: TS" watch=false)
+		(var initialLabelAlpha:number = "_isDisabled	? 0.2 :
+										 _isSelected	? TC
+														: 0.6" watch=false)
+
+		(var initialSelectionAlpha:number = "_isSelected ? TC : 0" watch=false)
+		(var initialMarkerNewAlpha:number = "_isNewMarker ? 1 : 0" watch=false)
+		(var initialCounterMarkerAlpha:number = "counterMarkerVisible ? 1 : 0" watch=false)
+		(var initialMarkerAttentionAlpha:number = "showAttentionMarker ? 1 : 0" watch=false)
+
+		(var label:str = "_label ? toUpper(tr(_label)) : ''")
+
+		(var textFieldWidth:number = "	_newContentCounter <= 0					? 0 :
+										floor(_newContentCounter / 10000) > 0	? 41 + XS :
+										floor(_newContentCounter / 1000) > 0	? 33 + XS :
+										floor(_newContentCounter / 100) > 0		? 24 + XS :
+										floor(_newContentCounter / 10) > 0		? 15 + XS
+																				: 7 + XS")
+
+		(dispatch evStartHover (bind trigger "rollOver") (bind enabled "!(!_isDisabled && rollOver)"))
+		(dispatch evStopHover (bind trigger "rollOver") (bind enabled "!_isDisabled && rollOver"))
+	)
+
+	(bind name "_name")
+
+	(style
+		(align = "center")
+		(bind width "_width ? _width : 'auto'")
+		(bind height "_height")
+		(backgroundColor = 0x01000000)
+	)
+
+	(hblock
+		(bind name "_isSelected ? 'true' : 'false'")
+		(style
+			(bind marginLeft "_width ? 0px : MS")
+			(bind marginRight "_width ? 0px : MS")
+			(paddingTop = "SXS")
+			(paddingBottom = "SXS")
+			(bind marginBottom "_image ? -6px : 0px")
+		)
+
+		
+		(block
+			(bind visible "_image")
+			(style (alpha = 1))
+
+			(block
+				(style
+					(marginTop = -6px)
+					(width = 24px)
+					(height = 24px)
+					(bind alpha "initialImgAlpha")
+					(bind backgroundImage "_image")
+				)
+
+				(controller $Animation
+					(bindcall play
+						duration = "_isDisabled ? 0.1 : 0.2"
+						to = "{ alpha:	_isDisabled	? 0.2 :
+										_isSelected	? TC : TS }"
+						easing = "Easing.quad_in"
+						action="kill"
+						init=false
+						(bind trigger "_isDisabled")
+					)
+					(bindcall play
+						duration = 0.2
+						to = "{ alpha: TA }"
+						easing = "Easing.quad_in"
+						action="kill"
+						(event "evStartHover")
+					)
+					(bindcall play
+						duration = 0.1
+						to = "{ alpha:	_isDisabled ? 0.2 :
+										_isSelected ? TC : TS }"
+						easing = "Easing.quad_in"
+						action="kill"
+						(event "evStopHover")
+					)
+				)
+			)
+
+			(macro SECONDARY_TAB_BUTTON_DEFAULT_MOUSEDOWN_ANIMATION "isDown")
+		)
+		
+
+		
+		(block
+			(bind visible "!_isCounterTab && _label")
+			(style (alpha = 1))
+
+			(tf
+				(class $TextDefaultBold17NM)
+
+				(style
+					(multiline = false)
+					(hitTest = false)
+					(bind alpha "initialLabelAlpha")
+					(bind marginLeft "_image ? XS : 0px")
+				)
+
+				(bind text "toUpper(tr(_label))")
+
+				(controller $Animation
+					(bindcall play
+						duration = "_isDisabled ? 0.1 : 0.2"
+						to = "{ alpha:	_isDisabled	? 0.2 :
+										_isSelected	? TC : 0.6 }"
+						easing = "Easing.quad_in"
+						action="kill"
+						init=false
+						(bind trigger "_isDisabled")
+					)
+					(bindcall play
+						duration = 0.2
+						to = "{ alpha: TA }"
+						easing = "Easing.quad_in"
+						action="kill"
+						(event "evStartHover")
+					)
+					(bindcall play
+						duration = 0.1
+						to = "{ alpha:	_isDisabled	? 0.2 :
+										_isSelected	? TC : 0.6 }"
+						easing = "Easing.quad_in"
+						action="kill"
+						(event "evStopHover")
+					)
+				)
+			)
+
+			(macro SECONDARY_TAB_BUTTON_DEFAULT_MOUSEDOWN_ANIMATION "isDown")
+		)
+		
+
+		
+		(block
+			(bind visible "_isCounterTab")
+			(style
+				(alpha = 1)
+				(align = "right")
+				(bind width "textFieldWidth")
+			)
+
+			(tf
+				(bind visible "_newContentCounter > 0")
+				(class $TextDefaultBold17NM)
+
+				(style
+					(multiline = false)
+					(hitTest = false)
+					(bind alpha "initialLabelAlpha")
+				)
+
+				(bind text "toUpper(tr(_newContentCounter))")
+
+				(controller $Animation
+					(bindcall play
+						duration = "_isDisabled ? 0.1 : 0.2"
+						to = "{ alpha:	_isDisabled	? 0.2 :
+										_isSelected	? TC : 0.6 }"
+						easing = "Easing.quad_in"
+						action="kill"
+						init=false
+						(bind trigger "_isDisabled")
+					)
+					(bindcall play
+						duration = 0.2
+						to = "{ alpha: TA }"
+						easing = "Easing.quad_in"
+						action="kill"
+						(event "evStartHover")
+					)
+					(bindcall play
+						duration = 0.1
+						to = "{ alpha:	_isDisabled	? 0.2 :
+										_isSelected	? TC : 0.6 }"
+						easing = "Easing.quad_in"
+						action="kill"
+						(event "evStopHover")
+					)
+				)
+			)
+
+			(controller $Animation
+				(bindcall play
+					duration = 0.1
+					to = "{ width: textFieldWidth }"
+					easing = "Easing.quart_out"
+					init = true
+					(bind enabled "_isCounterTab")
+					(bind trigger "textFieldWidth")
+				)
+			)
+
+			(macro SECONDARY_TAB_BUTTON_DEFAULT_MOUSEDOWN_ANIMATION "isDown")
+		)
+		
+
+		
+		(block
+			(bind visible "!_isCounterTab")
+
+			(style
+				(position = "absolute")
+				(right = -3px)
+				(top = -5px)
+				(bind alpha "initialCounterMarkerAlpha")
+			)
+
+			(block
+				(style (position = "absolute"))
+				(element MarkerNewCounter
+					_newContentCounter = "_newContentCounter"
+				)
+			)
+
+			(controller $Animation
+				(bindcall play
+					duration = 0.15
+					from	 = { alpha: 0, top: 5 }
+					to		 = { alpha: 1, top: -5 }
+					easing = "Easing.quad_in"
+					(bind enabled "counterMarkerVisible")
+				)
+				(bindcall play
+					duration = 0.15
+					from	 = { alpha: 1, top: -5 }
+					to		 = { alpha: 0, top: -15 }
+					easing = "Easing.quad_in"
+					(bind enabled "!counterMarkerVisible")
+				)
+			)
+		)
+		
+
+		
+		(block
+			(style
+				(position = "absolute")
+				(bind right "_width ? -35px : -23px")
+				(top = -5px)
+				(bind alpha "initialMarkerNewAlpha")
+			)
+			(element MarkerNewAttention)
+
+			(controller $Animation
+				(bindcall play
+					duration = 0.15
+					from	 = { alpha: 0, top: 5 }
+					to		 = { alpha: 1, top: -5 }
+					easing = "Easing.quad_in"
+					(bind enabled "_isNewMarker")
+				)
+				(bindcall play
+					duration = 0.15
+					from	 = { alpha: 1, top: -5 }
+					to		 = { alpha: 0, top: -15 }
+					easing = "Easing.quad_in"
+					(bind enabled "!_isNewMarker")
+				)
+			)
+		)
+		
+
+		
+		(block
+			(style
+				(position = "absolute")
+				(right = "-MS")
+				(top = -7px)
+				(bind alpha "initialMarkerAttentionAlpha")
+			)
+
+			(element MarkerAttention)
+
+			(controller $Animation
+				(bindcall play
+					duration = 0.15
+					from	 = { alpha: 0, top: 3 }
+					to		 = { alpha: 1, top: -7 }
+					easing = "Easing.quad_in"
+					(bind enabled "showAttentionMarker")
+				)
+				(bindcall play
+					duration = 0.15
+					from	 = { alpha: 1, top: -7 }
+					to		 = { alpha: 0, top: -17 }
+					easing = "Easing.quad_in"
+					(bind enabled "!showAttentionMarker")
+				)
+			)
+		)
+		
+	)
+
+	
+	(block
+		(style
+			(position = "absolute")
+			(alpha = 1)
+			(width = 100%)
+			(bottom = 0px)
+			(height = 2px)
+		)
+
+		(block
+			(class $Fullsize)
+			(style
+				(bind alpha "initialSelectionAlpha")
+				(backgroundColor = 0xFFFFFFFF)
+			)
+
+			(controller $Animation
+				(bindcall play
+					duration = "_isDisabled ? 0.1 : 0.2"
+					to = "{ alpha:	_isDisabled	? 0 :
+									_isSelected	? TC : 0 }"
+					easing = "Easing.quad_in"
+					action="kill"
+					init=false
+					(bind trigger "_isDisabled")
+				)
+
+				(bindcall play
+					duration = 0.2
+					from = "{ alpha: 0 }"
+					to = "{ alpha: TC }"
+					action="kill"
+					easing = "Easing.quad_out"
+					(bind enabled "_isSelected")
+				)
+				(bindcall play
+					duration = 0.1
+					from = "{ alpha: TC }"
+					to = "{ alpha: 0 }"
+					action="kill"
+					easing = "Easing.quad_out"
+					(bind enabled "!_isSelected")
+				)
+
+				(bindcall play
+					duration = 0.2
+					to = "{ alpha: 1 }"
+					action="kill"
+					easing = "Easing.quad_out"
+					(event "evStartHover")
+				)
+				(bindcall play
+					duration = 0.1
+					to = "{ alpha: _isSelected ? TC : 0 }"
+					action="kill"
+					easing = "Easing.quad_out"
+					(event "evStopHover")
+				)
+			)
+		)
+
+		(macro SECONDARY_TAB_BUTTON_DEFAULT_MOUSEDOWN_ANIMATION "isDown")
+	)
+	
+
+	(macro COMPONENT_MOUSE_HANDLER
+		_enabled = "!_isDisabled && !_isSelected"
+		_dispatchedEv = "_dispatchedEv"
+		_dispatchParams = "_dispatchParams"
+		_methods = "_methods"
+		_soundSet = "'button_tab'"
+	)
+
+	(controller $Tooltip
+		(renderer='SimpleStatusTooltip')
+		(bind enabled "_tooltipText")
+		(args
+			_text = "_tooltipText"
+		)
+		(macro DEFAULT_TOOLTIP_BEHAVIOUR "0")
+		(align = "right|innerTop")
+		(offset = { x: 6, y: -26 })
+	)
+)
+
+
+(def element AsideNavigationButton (_label:str, _isSelected:bool, _dispatchedEv:str='', _dispatchParams:gfx={}, _methods:array=[])
+	(scope
+		
+		
+
+		
+
+		
+
+
+		(macro COMPONENT_MOUSE_HANDLER_SCOPE)
+	)
+
+	(style
+		(width = 100%)
+		(height = 36px)
+		(marginBottom = 1px)
+		(bind hitTest "!_isSelected")
+	)
+
+	(block
+		(style
+			(position = "absolute")
+			(width = 100%)
+			
+			(height = 36px)
+			(marginBottom = 1px)
+		)
+
+		(element NavButtonBgAndCounter
+			_isSelected = "_isSelected"
+			_rollOver = "rollOver"
+			
+			
+			
+			
+		)
+	)
+
+	(block
+		
+		(style (hitTest = false) (width = 100%))
+
+		(element NavButtonLabelAndMarker
+			_isSelected = "_isSelected"
+			_label = "_label"
+		)
+	)
+
+	(macro COMPONENT_MOUSE_HANDLER
+		_enabled = "!_isSelected"
+		_dispatchedEv = "_dispatchedEv"
+		_dispatchParams = "_dispatchParams"
+		_methods = "_methods"
+		_soundSet = "'button_secondary'"
+	)
+)
+
+
+(def element NavButtonBgAndCounter (_isSelected:bool, _rollOver:bool)
+	(scope
+		(var bgState:str = "_isSelected ? 'selected' : 'down'")
+	)
+
+	(style (width = 100%) (height = 36px))
+
+	(block
+		(class $FullsizeAbsolute)
+		(style
+			(alpha = 1)
+			(bind backgroundImage "'url:../service_kit/buttons/navigation_button/button_navigation_' +  bgState + '.png'")
+			(scale9grid = [12, 0, 9, 0])
+		)
+
+		(controller $Animation
+			(bindcall play
+				duration = 0.1
+				from	 = { alpha: 0 }
+				to		 = { alpha: 1 }
+				easing = "Easing.quad_in"
+				action="kill"
+				(bind trigger "_isSelected")
+			)
+		)
+	)
+
+	(block
+		(bind visible "!_isSelected")
+
+		(class $FullsizeAbsolute)
+		(style
+			(alpha = 0)
+			(backgroundImage = 'url:../service_kit/buttons/navigation_button/button_navigation_over.png')
+			(scale9grid = [12, 0, 9, 0])
+		)
+
+		(controller $Animation
+			(bindcall play
+				duration = 0.1
+				from	 = { alpha: 0 }
+				to		 = { alpha: 1 }
+				easing = "Easing.quad_in"
+				action="kill"
+				reverse	 = "!_rollOver"
+				(bind trigger "_rollOver")
+			)
+		)
+	)
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+)
+
+(def element NavButtonLabelAndMarker (_isSelected:bool, _label:str, _fontClass:str='', _paddingRight:number="LM")
+	(scope
+		
+		
+		
+		
+		
+
+		
+		
+		
+		
+		
+		
+	)
+
+	(style
+		(hitTest = false)
+		(flow = "horizontal")
+		
+		(width = 100%)
+		(minWidth = 160px)
+		(marginLeft = "SXS")
+		(marginTop = "SXS")
+		(marginBottom = "SXS")
+		(bind paddingRight "_paddingRight")
+	)
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	(tf
+		(class $TextDefaultBold17NM)
+		(bind class "_isSelected ? '$DropShadowDisabler' : '$FontDropShadowFilter'")
+		
+		(style
+			(bind textColor "_isSelected ? '0xff08222a' : '0xffffffff'")
+			(multiline = false)
+			
+		)
+
+		(bind text "toUpper(tr(_label))")
+	)
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+)

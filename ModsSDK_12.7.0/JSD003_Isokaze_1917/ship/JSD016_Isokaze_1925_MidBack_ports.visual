@@ -1,0 +1,312 @@
+<JSD016_Isokaze_1925_MidBack_ports.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+		</transform>
+		<node>
+			<identifier>	MidBack_ports	</identifier>
+			<transform>
+				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+			</transform>
+			<node>
+				<identifier>	HP_FX_Death_3	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 -2.1461 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_Fire_3	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.1953 -1.6064 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_Fire_3_side_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-0.1661 0.1800 -0.8500 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_Flood_water_left_2	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	-0.2809 0.0820 -0.8382 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_Flood_water_right_2	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.2809 0.0830 -0.8376 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Flagpole	</identifier>
+				<transform>
+					<row0>	0.7502 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.7430 -0.1036 0.0000	</row1>
+					<row2>	0.0000 0.1036 0.7430 0.0000	</row2>
+					<row3>	0.0000 1.0550 -2.0071 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_JGM_3	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.1799 -1.7679 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_JGT_2	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	0.0000 0.2152 -0.6785 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_JGT_3	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.2149 -1.2473 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Ship_death_2	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 -0.5124 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_flag_nation	</identifier>
+				<transform>
+					<row0>	0.9937 0.1122 -0.0005 0.0000	</row0>
+					<row1>	-0.1122 0.9936 -0.0094 0.0000	</row1>
+					<row2>	-0.0005 0.0094 1.0000 0.0000	</row2>
+					<row3>	0.0065 0.8465 -2.1117 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM008_Life_Buoy_1	</identifier>
+				<transform>
+					<row0>	0.0000 0.0000 0.8000 0.0000	</row0>
+					<row1>	0.0000 0.8000 0.0000 0.0000	</row1>
+					<row2>	-0.8000 0.0000 0.0000 0.0000	</row2>
+					<row3>	0.0669 0.3582 -2.0358 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM011_Fire_Fighting_Gear	</identifier>
+				<transform>
+					<row0>	0.0000 0.0000 1.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-1.0000 0.0000 0.0000 0.0000	</row2>
+					<row3>	0.0784 0.1824 -2.0707 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM012_Fire_Hose_Rack_1	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	0.0626 0.2474 -2.0694 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM029_Emergency_Box	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.2711 -2.1157 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_JM060_Deck_Hatch_9	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0397 0.1824 -2.1279 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_JM060_Deck_Hatch_9_INDEX_1	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	0.0416 0.1807 -1.9420 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_JM060_Deck_Hatch_9_INDEX_2	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	-0.0417 0.1812 -1.9421 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_JM135_Runway_Lights_Back	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.7210 -1.9831 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_JM156_Ventilation	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	0.0933 0.1433 -2.1270 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_JM156_Ventilation_INDEX_1	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	-0.0933 0.1433 -1.9390 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_JM156_Ventilation_INDEX_2	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	-0.0933 0.1433 -2.1270 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_JM156_Ventilation_INDEX_3	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	0.0933 0.1433 -1.9390 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_JM157_Ventilation	</identifier>
+				<transform>
+					<row0>	-0.5493 0.0000 0.3705 0.0000	</row0>
+					<row1>	0.0000 0.6626 0.0000 0.0000	</row1>
+					<row2>	-0.3707 0.0000 -0.5497 0.0000	</row2>
+					<row3>	-0.1420 0.1759 -1.5472 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_JM157_Ventilation_INDEX_1	</identifier>
+				<transform>
+					<row0>	-0.5493 0.0000 -0.3705 0.0000	</row0>
+					<row1>	0.0000 0.6626 0.0000 0.0000	</row1>
+					<row2>	0.3705 0.0000 -0.5493 0.0000	</row2>
+					<row3>	0.1367 0.1759 -1.5478 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_JM158_Main_Wheel	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.3232 -2.0394 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_JM166_Voice_Tube	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0350 0.3228 -2.0293 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_JM189_Compass_Binnacle	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.3233 -1.9951 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_JM215_Day_Light_Wind_Intensity	</identifier>
+				<transform>
+					<row0>	0.8430 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.8411 -0.0569 0.0000	</row1>
+					<row2>	0.0000 0.0569 0.8411 0.0000	</row2>
+					<row3>	0.0000 1.0980 -1.9979 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_JM218_Deck_Hatch	</identifier>
+				<transform>
+					<row0>	1.4963 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.4963 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.4963 0.0000	</row2>
+					<row3>	0.0971 0.1782 -0.9566 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_JM219_Barbette_TA	</identifier>
+				<transform>
+					<row0>	1.1850 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.1850 0.0000	</row2>
+					<row3>	0.0000 0.1789 -1.2473 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_JM219_Barbette_TA_INDEX_1	</identifier>
+				<transform>
+					<row0>	1.1850 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.1850 0.0000	</row2>
+					<row3>	0.0000 0.1792 -0.6785 1.0000	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<boundingBox>
+		<min>	-0.0667 -0.0667 -0.0667	</min>
+		<max>	0.0667 0.0667 0.0667	</max>
+	</boundingBox>
+</JSD016_Isokaze_1925_MidBack_ports.visual>

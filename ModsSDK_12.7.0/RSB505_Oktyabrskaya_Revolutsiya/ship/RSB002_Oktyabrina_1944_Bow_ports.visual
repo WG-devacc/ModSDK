@@ -1,0 +1,177 @@
+<RSB002_Oktyabrina_1944_Bow_ports.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+		</transform>
+		<node>
+			<identifier>	Bow_ports	</identifier>
+			<transform>
+				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+			</transform>
+			<node>
+				<identifier>	HP_FX_Fire_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.3710 4.8496 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_RepairLight_right_1	</identifier>
+				<transform>
+					<row0>	0.0797 0.0000 -0.9968 0.0000	</row0>
+					<row1>	-0.0021 1.0000 -0.0002 0.0000	</row1>
+					<row2>	0.9968 0.0021 0.0797 0.0000	</row2>
+					<row3>	0.3581 0.3014 4.4743 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_WakeTrace	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 6.0416 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_RGA_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0007 0.4152 6.0519 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_RGA_2	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.4148 5.8954 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_RGA_3	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.5061 5.5375 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_RGA_4	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.4051 5.1881 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Ship_death_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 4.1863 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM086_Anchor_top	</identifier>
+				<transform>
+					<row0>	0.6262 -1.2356 -1.0971 0.0000	</row0>
+					<row1>	0.5548 0.8668 -0.6595 0.0000	</row1>
+					<row2>	1.4446 -0.1601 1.0049 0.0000	</row2>
+					<row3>	-0.2207 0.2317 5.1509 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM086_Anchor_top_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.6262 1.2356 1.0971 0.0000	</row0>
+					<row1>	-0.5548 0.8668 -0.6595 0.0000	</row1>
+					<row2>	-1.4446 -0.1601 1.0049 0.0000	</row2>
+					<row3>	0.2207 0.2317 5.1509 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM087_Anchor_down	</identifier>
+				<transform>
+					<row0>	0.6262 -1.2357 -1.0972 0.0000	</row0>
+					<row1>	-0.3834 1.0327 -1.3819 0.0000	</row1>
+					<row2>	1.6075 0.7277 0.0979 0.0000	</row2>
+					<row3>	-0.2207 0.2317 5.1508 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM087_Anchor_down_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.6262 1.2357 1.0972 0.0000	</row0>
+					<row1>	0.3834 1.0327 -1.3819 0.0000	</row1>
+					<row2>	-1.6075 0.7277 0.0979 0.0000	</row2>
+					<row3>	0.2207 0.2317 5.1508 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_RM028_Signal_Lamp	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.7185 6.2309 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_RM295_Ventilation	</identifier>
+				<transform>
+					<row0>	1.1475 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.1475 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.1475 0.0000	</row2>
+					<row3>	0.0200 0.3018 4.9100 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_RM347_Ventilation_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.1418 0.3075 4.3375 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_RM347_Ventilation_1_INDEX_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-0.0186 0.3075 4.2064 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_RM347_Ventilation_1_INDEX_2	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-0.0200 0.3219 4.9100 1.0000	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<boundingBox>
+		<min>	-0.0667 -0.0667 -0.0667	</min>
+		<max>	0.0667 0.0667 0.0667	</max>
+	</boundingBox>
+</RSB002_Oktyabrina_1944_Bow_ports.visual>

@@ -1,0 +1,27 @@
+(def element MapTorpedoMarker (_entity:gfx, _mapScale:number, _itemScale:number, _scaleRatio:number) layout=true
+	(scope
+		(var markerEntity:gfx = "_entity")
+		(var markerYaw:number = "radToGrad(_entity.mapPosition.yaw)" (event "evEnterFrame"))
+		(var markerScale:number = "_itemScale / _mapScale")
+
+		(macro GET_MARKER_ENTITY_COMPONENT 'torpedo')
+		(macro GET_MARKER_ENTITY_COMPONENT 'distance')
+		(macro VAR_RELATION "markerEntity")
+
+		(var type:str = "torpedoComponent.type" (event "torpedoComponent.evTypeChanged"))
+		
+		(var visibleAsNormal:bool = "isIn(type, SC.Battle.TORPEDO_MARKER_TYPE.GUIDED_TYPES)")
+
+		(var markerIcon:str = "visibleAsNormal	?	'icon_torpedo_' + SC.Battle.TORPEDO_MARKER_TYPE.NORMAL + '_' + relation
+												:	'icon_torpedo_' + type + '_' + relation")
+	)
+
+	(macro BIND_FAIR_SCALE "markerScale * 0.75")
+
+	(block
+		(style
+			(bind backgroundImage "'url:../battle_hud/markers/torpedoes/' + markerIcon + '.png'")
+			(backgroundSize = "autosize")
+		)
+	)
+)

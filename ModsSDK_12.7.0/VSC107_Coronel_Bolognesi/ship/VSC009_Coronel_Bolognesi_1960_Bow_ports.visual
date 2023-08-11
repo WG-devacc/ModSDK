@@ -1,0 +1,339 @@
+<VSC009_Coronel_Bolognesi_1960_Bow_ports.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+		</transform>
+		<node>
+			<identifier>	Bow_ports	</identifier>
+			<transform>
+				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+			</transform>
+			<node>
+				<identifier>	HP_FX_Fire_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.5155 4.5717 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_Flood_water_left_4	</identifier>
+				<transform>
+					<row0>	-0.7413 -0.6711 0.0000 0.0000	</row0>
+					<row1>	-0.6711 0.7413 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	-0.3123 0.1546 4.1005 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_Flood_water_right_4	</identifier>
+				<transform>
+					<row0>	0.7151 -0.6990 0.0000 0.0000	</row0>
+					<row1>	0.6990 0.7151 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.3132 0.1571 4.0994 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_WakeTrace	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 5.5821 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Ship_death_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 3.5634 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_VGM_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.5322 3.7691 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM013_Fire_Hose_Rack_2	</identifier>
+				<transform>
+					<row0>	0.0000 0.0000 1.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-1.0000 0.0000 0.0000 0.0000	</row2>
+					<row3>	-0.0010 0.5256 4.2861 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM156_Fire_Fighting_Gear	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	0.0291 0.5010 4.3033 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_VM016_Reels	</identifier>
+				<transform>
+					<row0>	0.6051 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.6051 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 0.6051 0.0000	</row2>
+					<row3>	0.0466 0.4943 4.1606 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_VM016_Reels_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.6050 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.6050 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 0.6050 0.0000	</row2>
+					<row3>	-0.1602 0.4917 4.1245 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_VM763_Deck_Hatch	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.9990 -0.0440 0.0000	</row1>
+					<row2>	0.0000 -0.0440 -0.9990 0.0000	</row2>
+					<row3>	-0.0277 0.4956 4.1908 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_VM803_Ventilators_mushroom	</identifier>
+				<transform>
+					<row0>	-0.7119 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.7119 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -0.7119 0.0000	</row2>
+					<row3>	-0.2459 0.5143 4.9303 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_VM803_Ventilators_mushroom_INDEX_1	</identifier>
+				<transform>
+					<row0>	-0.6877 0.0000 -0.1843 0.0000	</row0>
+					<row1>	0.0000 0.7119 0.0000 0.0000	</row1>
+					<row2>	0.1843 0.0000 -0.6877 0.0000	</row2>
+					<row3>	-0.4200 0.4823 4.0730 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_VM803_Ventilators_mushroom_INDEX_10	</identifier>
+				<transform>
+					<row0>	-0.7119 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.7119 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -0.7119 0.0000	</row2>
+					<row3>	0.3689 0.4958 4.3911 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_VM803_Ventilators_mushroom_INDEX_11	</identifier>
+				<transform>
+					<row0>	0.7119 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.7119 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 0.7119 0.0000	</row2>
+					<row3>	0.1445 0.4959 4.2111 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_VM803_Ventilators_mushroom_INDEX_2	</identifier>
+				<transform>
+					<row0>	0.7119 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.7119 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 0.7119 0.0000	</row2>
+					<row3>	0.1795 0.4946 4.1826 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_VM803_Ventilators_mushroom_INDEX_3	</identifier>
+				<transform>
+					<row0>	0.7119 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.7119 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 0.7119 0.0000	</row2>
+					<row3>	0.4278 0.4755 3.9009 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_VM803_Ventilators_mushroom_INDEX_4	</identifier>
+				<transform>
+					<row0>	-0.7119 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.7119 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -0.7119 0.0000	</row2>
+					<row3>	-0.3671 0.4960 4.3943 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_VM803_Ventilators_mushroom_INDEX_5	</identifier>
+				<transform>
+					<row0>	-0.7119 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.7119 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -0.7119 0.0000	</row2>
+					<row3>	-0.3450 0.5026 4.5145 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_VM803_Ventilators_mushroom_INDEX_6	</identifier>
+				<transform>
+					<row0>	0.7119 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.7119 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 0.7119 0.0000	</row2>
+					<row3>	-0.3476 0.4851 4.0714 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_VM803_Ventilators_mushroom_INDEX_7	</identifier>
+				<transform>
+					<row0>	-0.7119 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.7119 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -0.7119 0.0000	</row2>
+					<row3>	0.2067 0.5254 5.0976 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_VM803_Ventilators_mushroom_INDEX_8	</identifier>
+				<transform>
+					<row0>	0.7119 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.7119 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 0.7119 0.0000	</row2>
+					<row3>	0.4258 0.4755 3.9313 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_VM803_Ventilators_mushroom_INDEX_9	</identifier>
+				<transform>
+					<row0>	0.7119 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.7119 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 0.7119 0.0000	</row2>
+					<row3>	-0.3689 0.4835 4.0495 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_VM804_Ventilation_box	</identifier>
+				<transform>
+					<row0>	-0.6433 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.6433 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -0.6433 0.0000	</row2>
+					<row3>	0.0978 0.4949 4.1972 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_VM962_Bollard	</identifier>
+				<transform>
+					<row0>	0.9727 0.0000 -0.2320 0.0000	</row0>
+					<row1>	-0.0112 0.9988 -0.0468 0.0000	</row1>
+					<row2>	0.2317 0.0481 0.9716 0.0000	</row2>
+					<row3>	-0.2923 0.5135 4.7113 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_VM962_Bollard_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.9947 0.0169 -0.1011 0.0000	</row0>
+					<row1>	-0.0204 0.9992 -0.0335 0.0000	</row1>
+					<row2>	0.1005 0.0354 0.9943 0.0000	</row2>
+					<row3>	-0.4723 0.4695 3.6231 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_VM962_Bollard_INDEX_2	</identifier>
+				<transform>
+					<row0>	0.9727 0.0000 0.2320 0.0000	</row0>
+					<row1>	0.0112 0.9988 -0.0468 0.0000	</row1>
+					<row2>	-0.2317 0.0481 0.9716 0.0000	</row2>
+					<row3>	0.2923 0.5135 4.7113 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_VM962_Bollard_INDEX_3	</identifier>
+				<transform>
+					<row0>	0.9947 -0.0169 0.1011 0.0000	</row0>
+					<row1>	0.0204 0.9992 -0.0335 0.0000	</row1>
+					<row2>	-0.1005 0.0354 0.9943 0.0000	</row2>
+					<row3>	0.4723 0.4695 3.6231 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_VM964_Anchor_Capstan_big	</identifier>
+				<transform>
+					<row0>	0.6610 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.6610 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 0.6610 0.0000	</row2>
+					<row3>	0.0000 0.5314 4.7125 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_VM965_Chain_Fairlead	</identifier>
+				<transform>
+					<row0>	0.9974 0.0000 0.0723 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-0.0723 0.0000 0.9974 0.0000	</row2>
+					<row3>	0.0615 0.5170 4.8209 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_VM965_Chain_Fairlead_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.9974 0.0000 -0.0723 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0723 0.0000 0.9974 0.0000	</row2>
+					<row3>	-0.0615 0.5170 4.8209 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_VM972_Anchor_WW2_top	</identifier>
+				<transform>
+					<row0>	0.9794 0.1581 -0.1259 0.0000	</row0>
+					<row1>	-0.1895 0.5027 -0.8434 0.0000	</row1>
+					<row2>	-0.0700 0.8499 0.5223 0.0000	</row2>
+					<row3>	0.1200 0.4448 5.4501 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_VM972_Anchor_WW2_top_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.9794 -0.1581 0.1259 0.0000	</row0>
+					<row1>	0.1895 0.5027 -0.8434 0.0000	</row1>
+					<row2>	0.0700 0.8499 0.5223 0.0000	</row2>
+					<row3>	-0.1200 0.4448 5.4501 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_VM973_Anchor_WW2_down	</identifier>
+				<transform>
+					<row0>	0.9854 0.0714 -0.1545 0.0000	</row0>
+					<row1>	-0.1689 0.5232 -0.8353 0.0000	</row1>
+					<row2>	0.0212 0.8492 0.5277 0.0000	</row2>
+					<row3>	-0.1200 0.4448 5.4501 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_VM973_Anchor_WW2_down_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.9854 -0.0714 0.1545 0.0000	</row0>
+					<row1>	0.1689 0.5232 -0.8353 0.0000	</row1>
+					<row2>	-0.0212 0.8492 0.5277 0.0000	</row2>
+					<row3>	0.1200 0.4448 5.4501 1.0000	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<boundingBox>
+		<min>	-0.0667 -0.0667 -0.0667	</min>
+		<max>	0.0667 0.0667 0.0667	</max>
+	</boundingBox>
+</VSC009_Coronel_Bolognesi_1960_Bow_ports.visual>

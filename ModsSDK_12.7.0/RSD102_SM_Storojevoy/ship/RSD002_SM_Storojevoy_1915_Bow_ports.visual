@@ -1,0 +1,231 @@
+<RSD002_SM_Storojevoy_1915_Bow_ports.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+		</transform>
+		<node>
+			<identifier>	Bow_ports	</identifier>
+			<transform>
+				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+			</transform>
+			<node>
+				<identifier>	HP_FX_Fire_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0349 0.2777 2.4199 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_WakeTrace	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 3.0028 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_RGA_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.2796 2.0656 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_RGM_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.2778 2.3130 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Ship_death_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 2.0457 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_RM016_Fairlead	</identifier>
+				<transform>
+					<row0>	0.4882 0.0000 -0.1081 0.0000	</row0>
+					<row1>	0.0000 0.5000 0.0000 0.0000	</row1>
+					<row2>	0.1081 0.0000 0.4882 0.0000	</row2>
+					<row3>	-0.0592 0.2772 2.9145 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_RM016_Fairlead_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.4882 0.0000 0.1081 0.0000	</row0>
+					<row1>	0.0000 0.5000 0.0000 0.0000	</row1>
+					<row2>	-0.1081 0.0000 0.4882 0.0000	</row2>
+					<row3>	0.0592 0.2772 2.9145 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_RM054_Life_buoy	</identifier>
+				<transform>
+					<row0>	0.0830 0.0000 0.9966 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-0.9966 0.0000 0.0830 0.0000	</row2>
+					<row3>	-0.1626 0.3095 2.1751 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_RM054_Life_buoy_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.0830 0.0000 -0.9966 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.9966 0.0000 0.0830 0.0000	</row2>
+					<row3>	0.1626 0.3095 2.1751 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_RM111_Bollard	</identifier>
+				<transform>
+					<row0>	0.4529 0.0495 -0.0815 0.0000	</row0>
+					<row1>	-0.0507 0.4600 -0.0025 0.0000	</row1>
+					<row2>	0.0808 0.0114 0.4556 0.0000	</row2>
+					<row3>	-0.0910 0.2738 2.7157 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_RM111_Bollard_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.4529 -0.0495 0.0815 0.0000	</row0>
+					<row1>	0.0507 0.4600 -0.0025 0.0000	</row1>
+					<row2>	-0.0808 0.0114 0.4556 0.0000	</row2>
+					<row3>	0.0910 0.2738 2.7157 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_RM162_Hatch	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	0.0000 0.2670 2.9095 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_RM179_Anchor_Stopper	</identifier>
+				<transform>
+					<row0>	0.8691 0.0000 -0.1382 0.0000	</row0>
+					<row1>	0.0000 0.8800 0.0000 0.0000	</row1>
+					<row2>	0.1382 0.0000 0.8691 0.0000	</row2>
+					<row3>	0.0416 0.2725 2.6789 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_RM179_Anchor_Stopper_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.8691 0.0000 0.1382 0.0000	</row0>
+					<row1>	0.0000 0.8800 0.0000 0.0000	</row1>
+					<row2>	-0.1382 0.0000 0.8691 0.0000	</row2>
+					<row3>	-0.0416 0.2725 2.6789 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_RM181_Anchor_Fairled	</identifier>
+				<transform>
+					<row0>	-1.0906 0.0640 0.1833 0.0000	</row0>
+					<row1>	0.0649 1.1059 0.0000 0.0000	</row1>
+					<row2>	-0.1830 0.0107 -1.0925 0.0000	</row2>
+					<row3>	0.0234 0.2820 2.7132 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_RM181_Anchor_Fairled_INDEX_1	</identifier>
+				<transform>
+					<row0>	-1.0906 -0.0640 -0.1833 0.0000	</row0>
+					<row1>	-0.0649 1.1059 0.0000 0.0000	</row1>
+					<row2>	0.1830 0.0107 -1.0925 0.0000	</row2>
+					<row3>	-0.0234 0.2820 2.7132 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_RM204_Crane_for_Paravane_and_TA	</identifier>
+				<transform>
+					<row0>	0.0921 0.4914 0.0045 0.0000	</row0>
+					<row1>	-0.0632 0.0073 0.4959 0.0000	</row1>
+					<row2>	0.4874 -0.0919 0.0634 0.0000	</row2>
+					<row3>	0.0489 0.2859 2.4263 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_RM204_Crane_for_Paravane_and_TA_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.0921 -0.4914 -0.0045 0.0000	</row0>
+					<row1>	0.0632 0.0073 0.4959 0.0000	</row1>
+					<row2>	-0.4874 -0.0919 0.0634 0.0000	</row2>
+					<row3>	-0.0489 0.2859 2.4263 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_RM218_Deck_Hatch	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-0.0508 0.2761 2.1371 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_RM218_Deck_Hatch_INDEX_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0508 0.2761 2.1371 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_RM221_Ventilation_Mushroom	</identifier>
+				<transform>
+					<row0>	1.3718 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.3718 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.3718 0.0000	</row2>
+					<row3>	-0.1034 0.2673 2.0765 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_RM221_Ventilation_Mushroom_INDEX_1	</identifier>
+				<transform>
+					<row0>	1.3718 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.3718 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.3718 0.0000	</row2>
+					<row3>	0.1271 0.2692 2.2499 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_RM222_Ventilation_Sphere	</identifier>
+				<transform>
+					<row0>	0.9746 0.0000 0.2240 0.0000	</row0>
+					<row1>	0.0041 0.9998 -0.0180 0.0000	</row1>
+					<row2>	-0.2240 0.0185 0.9744 0.0000	</row2>
+					<row3>	0.1468 0.2621 2.1021 1.0000	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<boundingBox>
+		<min>	-0.0667 -0.0667 -0.0667	</min>
+		<max>	0.0667 0.0667 0.0667	</max>
+	</boundingBox>
+</RSD002_SM_Storojevoy_1915_Bow_ports.visual>

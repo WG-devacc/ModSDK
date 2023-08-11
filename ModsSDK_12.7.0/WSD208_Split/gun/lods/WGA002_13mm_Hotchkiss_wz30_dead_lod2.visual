@@ -1,0 +1,38 @@
+<WGA002_13mm_Hotchkiss_wz30_dead_lod2.visual>
+	<boundingBox>
+		<min>	-0.026391 -0.000100 -0.051488	</min>
+		<max>	0.016201 0.053443 0.080134	</max>
+	</boundingBox>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	Type93_dead	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+				<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+			</transform>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Type93_dead	</node>
+		<geometry>
+			<vertices>	Type93_dead_lod2Shape.vertices	</vertices>
+			<primitive>	Type93_dead_lod2Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPMAT_PBS_GunDead	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/WSD208_Split/gun/WGA002_13mm_Hotchkiss_wz30_dead.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+</WGA002_13mm_Hotchkiss_wz30_dead_lod2.visual>
