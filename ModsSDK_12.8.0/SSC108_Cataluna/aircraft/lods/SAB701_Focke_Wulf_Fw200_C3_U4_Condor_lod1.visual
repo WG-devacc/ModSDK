@@ -1,0 +1,1783 @@
+<SAB701_Focke_Wulf_Fw200_C3_U4_Condor_lod1.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+		</transform>
+		<node>
+			<identifier>	Root	</identifier>
+			<transform>
+				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+			</transform>
+			<node>
+				<identifier>	HP_Air_bomb_1	</identifier>
+				<transform>
+					<row0>	0.9925 -0.1219 0.0000 0.0000	</row0>
+					<row1>	0.1219 0.9925 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-0.5153 0.1559 -0.0951 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_bomb_2	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-0.4257 0.1514 -0.0951 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_bomb_3	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0205 0.1405 -0.0092 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_bomb_4	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0205 0.1405 -0.1458 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_bomb_5	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.4257 0.1514 -0.0951 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_bomb_6	</identifier>
+				<transform>
+					<row0>	0.9925 0.1219 0.0000 0.0000	</row0>
+					<row1>	-0.1219 0.9925 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.5153 0.1559 -0.0951 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_break_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-0.6485 0.2023 -0.2386 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_break_2	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-0.4893 0.1833 -0.2386 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_break_3	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-0.1874 0.1753 -0.2673 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_break_4	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.1874 0.1753 -0.2673 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_break_5	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.4893 0.1833 -0.2386 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_break_6	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.6485 0.2023 -0.2386 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_death_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.3063 -0.0624 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_1	</identifier>
+				<transform>
+					<row0>	0.5548 0.8315 0.0291 0.0000	</row0>
+					<row1>	-0.8156 0.5366 0.2164 0.0000	</row1>
+					<row2>	0.1644 -0.1438 0.9759 0.0000	</row2>
+					<row3>	-0.4689 0.2089 0.0208 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_10	</identifier>
+				<transform>
+					<row0>	0.8303 -0.5556 0.0435 0.0000	</row0>
+					<row1>	0.5494 0.8031 -0.2304 0.0000	</row1>
+					<row2>	0.0930 0.2152 0.9721 0.0000	</row2>
+					<row3>	-0.4619 0.1344 0.0212 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_11	</identifier>
+				<transform>
+					<row0>	0.8302 -0.5494 0.0941 0.0000	</row0>
+					<row1>	0.5553 0.8006 -0.2251 0.0000	</row1>
+					<row2>	0.0484 0.2391 0.9698 0.0000	</row2>
+					<row3>	-0.4566 0.1307 0.0211 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_12	</identifier>
+				<transform>
+					<row0>	0.8302 -0.5494 0.0941 0.0000	</row0>
+					<row1>	0.5553 0.8006 -0.2251 0.0000	</row1>
+					<row2>	0.0484 0.2391 0.9698 0.0000	</row2>
+					<row3>	-0.4536 0.1287 0.0215 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_13	</identifier>
+				<transform>
+					<row0>	0.9795 -0.2012 0.0008 0.0000	</row0>
+					<row1>	0.1953 0.9499 -0.2440 0.0000	</row1>
+					<row2>	0.0484 0.2391 0.9698 0.0000	</row2>
+					<row3>	-0.4507 0.1270 0.0217 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_14	</identifier>
+				<transform>
+					<row0>	0.9795 -0.2012 0.0008 0.0000	</row0>
+					<row1>	0.1953 0.9499 -0.2440 0.0000	</row1>
+					<row2>	0.0484 0.2391 0.9698 0.0000	</row2>
+					<row3>	-0.4467 0.1262 0.0217 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_15	</identifier>
+				<transform>
+					<row0>	0.8303 0.5556 0.0435 0.0000	</row0>
+					<row1>	-0.5224 0.8031 -0.2865 0.0000	</row1>
+					<row2>	-0.1941 0.2152 0.9571 0.0000	</row2>
+					<row3>	-0.4050 0.1321 0.0241 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_16	</identifier>
+				<transform>
+					<row0>	0.8303 0.5556 0.0435 0.0000	</row0>
+					<row1>	-0.5224 0.8031 -0.2865 0.0000	</row1>
+					<row2>	-0.1941 0.2152 0.9571 0.0000	</row2>
+					<row3>	-0.3996 0.1357 0.0244 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_17	</identifier>
+				<transform>
+					<row0>	0.9325 -0.1884 0.3080 0.0000	</row0>
+					<row1>	0.1948 0.9808 0.0102 0.0000	</row1>
+					<row2>	-0.3041 0.0505 0.9513 0.0000	</row2>
+					<row3>	-0.3850 0.1542 0.0251 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_18	</identifier>
+				<transform>
+					<row0>	0.9325 -0.1884 0.3080 0.0000	</row0>
+					<row1>	0.1948 0.9808 0.0102 0.0000	</row1>
+					<row2>	-0.3041 0.0505 0.9513 0.0000	</row2>
+					<row3>	-0.3843 0.1582 0.0251 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_19	</identifier>
+				<transform>
+					<row0>	0.9325 -0.1884 0.3080 0.0000	</row0>
+					<row1>	0.1948 0.9808 0.0102 0.0000	</row1>
+					<row2>	-0.3041 0.0505 0.9513 0.0000	</row2>
+					<row3>	-0.3835 0.1619 0.0251 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_2	</identifier>
+				<transform>
+					<row0>	0.5548 0.8315 0.0291 0.0000	</row0>
+					<row1>	-0.8156 0.5366 0.2164 0.0000	</row1>
+					<row2>	0.1644 -0.1438 0.9759 0.0000	</row2>
+					<row3>	-0.4709 0.2058 0.0207 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_20	</identifier>
+				<transform>
+					<row0>	0.5548 -0.8315 0.0291 0.0000	</row0>
+					<row1>	0.7885 0.5366 0.3005 0.0000	</row1>
+					<row2>	-0.2655 -0.1438 0.9533 0.0000	</row2>
+					<row3>	-0.3903 0.2028 0.0249 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_21	</identifier>
+				<transform>
+					<row0>	0.5548 -0.8315 0.0291 0.0000	</row0>
+					<row1>	0.7885 0.5366 0.3005 0.0000	</row1>
+					<row2>	-0.2655 -0.1438 0.9533 0.0000	</row2>
+					<row3>	-0.3923 0.2058 0.0248 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_22	</identifier>
+				<transform>
+					<row0>	0.5548 -0.8315 0.0291 0.0000	</row0>
+					<row1>	0.7885 0.5366 0.3005 0.0000	</row1>
+					<row2>	-0.2655 -0.1438 0.9533 0.0000	</row2>
+					<row3>	-0.3946 0.2093 0.0247 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_23	</identifier>
+				<transform>
+					<row0>	0.5556 0.8315 0.0000 0.0000	</row0>
+					<row1>	-0.8031 0.5366 0.2588 0.0000	</row1>
+					<row2>	0.2152 -0.1438 0.9659 0.0000	</row2>
+					<row3>	-0.2330 0.1901 0.1059 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_24	</identifier>
+				<transform>
+					<row0>	0.5556 0.8315 0.0000 0.0000	</row0>
+					<row1>	-0.8031 0.5366 0.2588 0.0000	</row1>
+					<row2>	0.2152 -0.1438 0.9659 0.0000	</row2>
+					<row3>	-0.2351 0.1869 0.1059 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_25	</identifier>
+				<transform>
+					<row0>	0.5556 0.8315 0.0000 0.0000	</row0>
+					<row1>	-0.8031 0.5366 0.2588 0.0000	</row1>
+					<row2>	0.2152 -0.1438 0.9659 0.0000	</row2>
+					<row3>	-0.2374 0.1835 0.1059 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_26	</identifier>
+				<transform>
+					<row0>	0.9471 0.1884 -0.2599 0.0000	</row0>
+					<row1>	-0.1951 0.9808 0.0000 0.0000	</row1>
+					<row2>	0.2549 0.0507 0.9656 0.0000	</row2>
+					<row3>	-0.2464 0.1536 0.1067 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_27	</identifier>
+				<transform>
+					<row0>	0.9471 0.1884 -0.2599 0.0000	</row0>
+					<row1>	-0.1951 0.9808 0.0000 0.0000	</row1>
+					<row2>	0.2549 0.0507 0.9656 0.0000	</row2>
+					<row3>	-0.2457 0.1499 0.1067 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_28	</identifier>
+				<transform>
+					<row0>	0.9471 0.1884 -0.2599 0.0000	</row0>
+					<row1>	-0.1951 0.9808 0.0000 0.0000	</row1>
+					<row2>	0.2549 0.0507 0.9656 0.0000	</row2>
+					<row3>	-0.2449 0.1460 0.1067 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_29	</identifier>
+				<transform>
+					<row0>	0.8315 -0.5556 0.0000 0.0000	</row0>
+					<row1>	0.5366 0.8031 -0.2588 0.0000	</row1>
+					<row2>	0.1438 0.2152 0.9659 0.0000	</row2>
+					<row3>	-0.2361 0.1223 0.1059 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_3	</identifier>
+				<transform>
+					<row0>	0.5548 0.8315 0.0291 0.0000	</row0>
+					<row1>	-0.8156 0.5366 0.2164 0.0000	</row1>
+					<row2>	0.1644 -0.1438 0.9759 0.0000	</row2>
+					<row3>	-0.4732 0.2025 0.0205 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_30	</identifier>
+				<transform>
+					<row0>	0.8315 -0.5556 0.0000 0.0000	</row0>
+					<row1>	0.5366 0.8031 -0.2588 0.0000	</row1>
+					<row2>	0.1438 0.2152 0.9659 0.0000	</row2>
+					<row3>	-0.2327 0.1200 0.1059 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_31	</identifier>
+				<transform>
+					<row0>	0.8315 -0.5556 0.0000 0.0000	</row0>
+					<row1>	0.5366 0.8031 -0.2588 0.0000	</row1>
+					<row2>	0.1438 0.2152 0.9659 0.0000	</row2>
+					<row3>	-0.2295 0.1178 0.1059 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_32	</identifier>
+				<transform>
+					<row0>	0.8315 -0.5556 0.0000 0.0000	</row0>
+					<row1>	0.5366 0.8031 -0.2588 0.0000	</row1>
+					<row2>	0.1438 0.2152 0.9659 0.0000	</row2>
+					<row3>	-0.2260 0.1155 0.1059 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_33	</identifier>
+				<transform>
+					<row0>	0.8340 -0.5495 0.0505 0.0000	</row0>
+					<row1>	0.5428 0.8006 -0.2539 0.0000	</row1>
+					<row2>	0.0991 0.2391 0.9659 0.0000	</row2>
+					<row3>	-0.2209 0.1119 0.1056 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_34	</identifier>
+				<transform>
+					<row0>	0.8340 -0.5495 0.0505 0.0000	</row0>
+					<row1>	0.5428 0.8006 -0.2539 0.0000	</row1>
+					<row2>	0.0991 0.2391 0.9659 0.0000	</row2>
+					<row3>	-0.2177 0.1098 0.1058 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_35	</identifier>
+				<transform>
+					<row0>	0.9782 -0.2012 -0.0505 0.0000	</row0>
+					<row1>	0.1823 0.9499 -0.2539 0.0000	</row1>
+					<row2>	0.0991 0.2391 0.9659 0.0000	</row2>
+					<row3>	-0.2149 0.1082 0.1059 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_36	</identifier>
+				<transform>
+					<row0>	0.9782 -0.2012 -0.0505 0.0000	</row0>
+					<row1>	0.1823 0.9499 -0.2539 0.0000	</row1>
+					<row2>	0.0991 0.2391 0.9659 0.0000	</row2>
+					<row3>	-0.2108 0.1073 0.1057 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_37	</identifier>
+				<transform>
+					<row0>	0.8315 0.5556 0.0000 0.0000	</row0>
+					<row1>	-0.5366 0.8031 -0.2588 0.0000	</row1>
+					<row2>	-0.1438 0.2152 0.9659 0.0000	</row2>
+					<row3>	-0.1690 0.1133 0.1059 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_38	</identifier>
+				<transform>
+					<row0>	0.8315 0.5556 0.0000 0.0000	</row0>
+					<row1>	-0.5366 0.8031 -0.2588 0.0000	</row1>
+					<row2>	-0.1438 0.2152 0.9659 0.0000	</row2>
+					<row3>	-0.1637 0.1168 0.1059 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_39	</identifier>
+				<transform>
+					<row0>	0.9474 -0.1884 0.2588 0.0000	</row0>
+					<row1>	0.1951 0.9808 0.0000 0.0000	</row1>
+					<row2>	-0.2538 0.0505 0.9659 0.0000	</row2>
+					<row3>	-0.1491 0.1353 0.1058 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_4	</identifier>
+				<transform>
+					<row0>	0.9594 0.1884 -0.2100 0.0000	</row0>
+					<row1>	-0.1949 0.9808 -0.0102 0.0000	</row1>
+					<row2>	0.2040 0.0507 0.9776 0.0000	</row2>
+					<row3>	-0.4822 0.1725 0.0209 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_40	</identifier>
+				<transform>
+					<row0>	0.9474 -0.1884 0.2588 0.0000	</row0>
+					<row1>	0.1951 0.9808 0.0000 0.0000	</row1>
+					<row2>	-0.2538 0.0505 0.9659 0.0000	</row2>
+					<row3>	-0.1484 0.1393 0.1058 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_41	</identifier>
+				<transform>
+					<row0>	0.9474 -0.1884 0.2588 0.0000	</row0>
+					<row1>	0.1951 0.9808 0.0000 0.0000	</row1>
+					<row2>	-0.2538 0.0505 0.9659 0.0000	</row2>
+					<row3>	-0.1476 0.1430 0.1058 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_42	</identifier>
+				<transform>
+					<row0>	0.5556 -0.8315 0.0000 0.0000	</row0>
+					<row1>	0.8031 0.5366 0.2588 0.0000	</row1>
+					<row2>	-0.2152 -0.1438 0.9659 0.0000	</row2>
+					<row3>	-0.1543 0.1839 0.1059 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_43	</identifier>
+				<transform>
+					<row0>	0.5556 -0.8315 0.0000 0.0000	</row0>
+					<row1>	0.8031 0.5366 0.2588 0.0000	</row1>
+					<row2>	-0.2152 -0.1438 0.9659 0.0000	</row2>
+					<row3>	-0.1564 0.1869 0.1059 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_44	</identifier>
+				<transform>
+					<row0>	0.5556 -0.8315 0.0000 0.0000	</row0>
+					<row1>	0.8031 0.5366 0.2588 0.0000	</row1>
+					<row2>	-0.2152 -0.1438 0.9659 0.0000	</row2>
+					<row3>	-0.1586 0.1903 0.1059 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_45	</identifier>
+				<transform>
+					<row0>	0.5556 0.8315 0.0000 0.0000	</row0>
+					<row1>	-0.8031 0.5366 0.2588 0.0000	</row1>
+					<row2>	0.2152 -0.1438 0.9659 0.0000	</row2>
+					<row3>	0.1585 0.1901 0.1059 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_46	</identifier>
+				<transform>
+					<row0>	0.5556 0.8315 0.0000 0.0000	</row0>
+					<row1>	-0.8031 0.5366 0.2588 0.0000	</row1>
+					<row2>	0.2152 -0.1438 0.9659 0.0000	</row2>
+					<row3>	0.1564 0.1869 0.1059 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_47	</identifier>
+				<transform>
+					<row0>	0.5556 0.8315 0.0000 0.0000	</row0>
+					<row1>	-0.8031 0.5366 0.2588 0.0000	</row1>
+					<row2>	0.2152 -0.1438 0.9659 0.0000	</row2>
+					<row3>	0.1541 0.1836 0.1059 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_48	</identifier>
+				<transform>
+					<row0>	0.9471 0.1884 -0.2599 0.0000	</row0>
+					<row1>	-0.1951 0.9808 0.0000 0.0000	</row1>
+					<row2>	0.2549 0.0507 0.9656 0.0000	</row2>
+					<row3>	0.1451 0.1536 0.1067 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_49	</identifier>
+				<transform>
+					<row0>	0.9471 0.1884 -0.2599 0.0000	</row0>
+					<row1>	-0.1951 0.9808 0.0000 0.0000	</row1>
+					<row2>	0.2549 0.0507 0.9656 0.0000	</row2>
+					<row3>	0.1458 0.1499 0.1067 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_5	</identifier>
+				<transform>
+					<row0>	0.9594 0.1884 -0.2100 0.0000	</row0>
+					<row1>	-0.1949 0.9808 -0.0102 0.0000	</row1>
+					<row2>	0.2040 0.0507 0.9776 0.0000	</row2>
+					<row3>	-0.4815 0.1688 0.0210 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_50	</identifier>
+				<transform>
+					<row0>	0.9471 0.1884 -0.2599 0.0000	</row0>
+					<row1>	-0.1951 0.9808 0.0000 0.0000	</row1>
+					<row2>	0.2549 0.0507 0.9656 0.0000	</row2>
+					<row3>	0.1466 0.1459 0.1067 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_51	</identifier>
+				<transform>
+					<row0>	0.8315 -0.5556 0.0000 0.0000	</row0>
+					<row1>	0.5366 0.8031 -0.2588 0.0000	</row1>
+					<row2>	0.1438 0.2152 0.9659 0.0000	</row2>
+					<row3>	0.1554 0.1223 0.1059 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_52	</identifier>
+				<transform>
+					<row0>	0.8315 -0.5556 0.0000 0.0000	</row0>
+					<row1>	0.5366 0.8031 -0.2588 0.0000	</row1>
+					<row2>	0.1438 0.2152 0.9659 0.0000	</row2>
+					<row3>	0.1588 0.1200 0.1059 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_53	</identifier>
+				<transform>
+					<row0>	0.8315 -0.5556 0.0000 0.0000	</row0>
+					<row1>	0.5366 0.8031 -0.2588 0.0000	</row1>
+					<row2>	0.1438 0.2152 0.9659 0.0000	</row2>
+					<row3>	0.1620 0.1179 0.1059 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_54	</identifier>
+				<transform>
+					<row0>	0.8315 -0.5556 0.0000 0.0000	</row0>
+					<row1>	0.5366 0.8031 -0.2588 0.0000	</row1>
+					<row2>	0.1438 0.2152 0.9659 0.0000	</row2>
+					<row3>	0.1655 0.1155 0.1059 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_55	</identifier>
+				<transform>
+					<row0>	0.8340 -0.5495 0.0505 0.0000	</row0>
+					<row1>	0.5428 0.8006 -0.2538 0.0000	</row1>
+					<row2>	0.0990 0.2391 0.9659 0.0000	</row2>
+					<row3>	0.1707 0.1119 0.1056 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_56	</identifier>
+				<transform>
+					<row0>	0.8340 -0.5495 0.0505 0.0000	</row0>
+					<row1>	0.5428 0.8006 -0.2538 0.0000	</row1>
+					<row2>	0.0990 0.2391 0.9659 0.0000	</row2>
+					<row3>	0.1738 0.1098 0.1058 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_57	</identifier>
+				<transform>
+					<row0>	0.9782 -0.2012 -0.0505 0.0000	</row0>
+					<row1>	0.1823 0.9499 -0.2539 0.0000	</row1>
+					<row2>	0.0991 0.2391 0.9659 0.0000	</row2>
+					<row3>	0.1767 0.1082 0.1059 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_58	</identifier>
+				<transform>
+					<row0>	0.9782 -0.2012 -0.0505 0.0000	</row0>
+					<row1>	0.1823 0.9499 -0.2539 0.0000	</row1>
+					<row2>	0.0991 0.2391 0.9659 0.0000	</row2>
+					<row3>	0.1807 0.1073 0.1057 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_59	</identifier>
+				<transform>
+					<row0>	0.8315 0.5556 0.0000 0.0000	</row0>
+					<row1>	-0.5366 0.8031 -0.2588 0.0000	</row1>
+					<row2>	-0.1438 0.2152 0.9659 0.0000	</row2>
+					<row3>	0.2225 0.1133 0.1059 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_6	</identifier>
+				<transform>
+					<row0>	0.9594 0.1884 -0.2100 0.0000	</row0>
+					<row1>	-0.1949 0.9808 -0.0102 0.0000	</row1>
+					<row2>	0.2040 0.0507 0.9776 0.0000	</row2>
+					<row3>	-0.4807 0.1647 0.0210 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_60	</identifier>
+				<transform>
+					<row0>	0.8315 0.5556 0.0000 0.0000	</row0>
+					<row1>	-0.5366 0.8031 -0.2588 0.0000	</row1>
+					<row2>	-0.1438 0.2152 0.9659 0.0000	</row2>
+					<row3>	0.2279 0.1168 0.1059 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_61	</identifier>
+				<transform>
+					<row0>	0.9474 -0.1884 0.2588 0.0000	</row0>
+					<row1>	0.1951 0.9808 0.0000 0.0000	</row1>
+					<row2>	-0.2538 0.0505 0.9659 0.0000	</row2>
+					<row3>	0.2424 0.1353 0.1058 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_62	</identifier>
+				<transform>
+					<row0>	0.9474 -0.1884 0.2588 0.0000	</row0>
+					<row1>	0.1951 0.9808 0.0000 0.0000	</row1>
+					<row2>	-0.2538 0.0505 0.9659 0.0000	</row2>
+					<row3>	0.2432 0.1393 0.1058 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_63	</identifier>
+				<transform>
+					<row0>	0.9474 -0.1884 0.2588 0.0000	</row0>
+					<row1>	0.1951 0.9808 0.0000 0.0000	</row1>
+					<row2>	-0.2538 0.0505 0.9659 0.0000	</row2>
+					<row3>	0.2439 0.1430 0.1058 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_64	</identifier>
+				<transform>
+					<row0>	0.5556 -0.8315 0.0000 0.0000	</row0>
+					<row1>	0.8031 0.5366 0.2588 0.0000	</row1>
+					<row2>	-0.2152 -0.1438 0.9659 0.0000	</row2>
+					<row3>	0.2372 0.1839 0.1059 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_65	</identifier>
+				<transform>
+					<row0>	0.5556 -0.8315 0.0000 0.0000	</row0>
+					<row1>	0.8031 0.5366 0.2588 0.0000	</row1>
+					<row2>	-0.2152 -0.1438 0.9659 0.0000	</row2>
+					<row3>	0.2351 0.1869 0.1059 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_66	</identifier>
+				<transform>
+					<row0>	0.5556 -0.8315 0.0000 0.0000	</row0>
+					<row1>	0.8031 0.5366 0.2588 0.0000	</row1>
+					<row2>	-0.2152 -0.1438 0.9659 0.0000	</row2>
+					<row3>	0.2329 0.1903 0.1059 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_67	</identifier>
+				<transform>
+					<row0>	0.5548 0.8315 -0.0291 0.0000	</row0>
+					<row1>	-0.7885 0.5366 0.3005 0.0000	</row1>
+					<row2>	0.2655 -0.1438 0.9533 0.0000	</row2>
+					<row3>	0.3944 0.2089 0.0247 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_68	</identifier>
+				<transform>
+					<row0>	0.5548 0.8315 -0.0291 0.0000	</row0>
+					<row1>	-0.7885 0.5366 0.3005 0.0000	</row1>
+					<row2>	0.2655 -0.1438 0.9533 0.0000	</row2>
+					<row3>	0.3923 0.2058 0.0248 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_69	</identifier>
+				<transform>
+					<row0>	0.5548 0.8315 -0.0291 0.0000	</row0>
+					<row1>	-0.7885 0.5366 0.3005 0.0000	</row1>
+					<row2>	0.2655 -0.1438 0.9533 0.0000	</row2>
+					<row3>	0.3900 0.2024 0.0249 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_7	</identifier>
+				<transform>
+					<row0>	0.8303 -0.5556 0.0435 0.0000	</row0>
+					<row1>	0.5494 0.8031 -0.2304 0.0000	</row1>
+					<row2>	0.0930 0.2152 0.9721 0.0000	</row2>
+					<row3>	-0.4719 0.1412 0.0206 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_70	</identifier>
+				<transform>
+					<row0>	0.9322 0.1884 -0.3091 0.0000	</row0>
+					<row1>	-0.1949 0.9808 0.0102 0.0000	</row1>
+					<row2>	0.3051 0.0507 0.9510 0.0000	</row2>
+					<row3>	0.3811 0.1725 0.0262 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_71	</identifier>
+				<transform>
+					<row0>	0.9322 0.1884 -0.3091 0.0000	</row0>
+					<row1>	-0.1949 0.9808 0.0102 0.0000	</row1>
+					<row2>	0.3051 0.0507 0.9510 0.0000	</row2>
+					<row3>	0.3818 0.1688 0.0262 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_72	</identifier>
+				<transform>
+					<row0>	0.9322 0.1884 -0.3091 0.0000	</row0>
+					<row1>	-0.1949 0.9808 0.0102 0.0000	</row1>
+					<row2>	0.3051 0.0507 0.9510 0.0000	</row2>
+					<row3>	0.3826 0.1648 0.0261 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_73	</identifier>
+				<transform>
+					<row0>	0.8303 -0.5556 -0.0435 0.0000	</row0>
+					<row1>	0.5224 0.8031 -0.2865 0.0000	</row1>
+					<row2>	0.1941 0.2152 0.9571 0.0000	</row2>
+					<row3>	0.3913 0.1412 0.0249 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_74	</identifier>
+				<transform>
+					<row0>	0.8303 -0.5556 -0.0435 0.0000	</row0>
+					<row1>	0.5224 0.8031 -0.2865 0.0000	</row1>
+					<row2>	0.1941 0.2152 0.9571 0.0000	</row2>
+					<row3>	0.3948 0.1388 0.0247 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_75	</identifier>
+				<transform>
+					<row0>	0.8303 -0.5556 -0.0435 0.0000	</row0>
+					<row1>	0.5224 0.8031 -0.2865 0.0000	</row1>
+					<row2>	0.1941 0.2152 0.9571 0.0000	</row2>
+					<row3>	0.3980 0.1367 0.0245 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_76	</identifier>
+				<transform>
+					<row0>	0.8303 -0.5556 -0.0435 0.0000	</row0>
+					<row1>	0.5224 0.8031 -0.2865 0.0000	</row1>
+					<row2>	0.1941 0.2152 0.9571 0.0000	</row2>
+					<row3>	0.4014 0.1344 0.0243 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_77	</identifier>
+				<transform>
+					<row0>	0.8355 -0.5495 0.0068 0.0000	</row0>
+					<row1>	0.5288 0.8006 -0.2819 0.0000	</row1>
+					<row2>	0.1495 0.2391 0.9594 0.0000	</row2>
+					<row3>	0.4066 0.1307 0.0238 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_78	</identifier>
+				<transform>
+					<row0>	0.8355 -0.5495 0.0068 0.0000	</row0>
+					<row1>	0.5288 0.8006 -0.2819 0.0000	</row1>
+					<row2>	0.1495 0.2391 0.9594 0.0000	</row2>
+					<row3>	0.4097 0.1287 0.0238 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_79	</identifier>
+				<transform>
+					<row0>	0.9743 -0.2012 -0.1016 0.0000	</row0>
+					<row1>	0.1688 0.9499 -0.2630 0.0000	</row1>
+					<row2>	0.1495 0.2391 0.9594 0.0000	</row2>
+					<row3>	0.4125 0.1270 0.0237 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_8	</identifier>
+				<transform>
+					<row0>	0.8303 -0.5556 0.0435 0.0000	</row0>
+					<row1>	0.5494 0.8031 -0.2304 0.0000	</row1>
+					<row2>	0.0930 0.2152 0.9721 0.0000	</row2>
+					<row3>	-0.4685 0.1389 0.0208 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_80	</identifier>
+				<transform>
+					<row0>	0.9743 -0.2012 -0.1016 0.0000	</row0>
+					<row1>	0.1688 0.9499 -0.2630 0.0000	</row1>
+					<row2>	0.1495 0.2391 0.9594 0.0000	</row2>
+					<row3>	0.4168 0.1262 0.0233 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_81	</identifier>
+				<transform>
+					<row0>	0.8303 0.5556 -0.0435 0.0000	</row0>
+					<row1>	-0.5494 0.8031 -0.2304 0.0000	</row1>
+					<row2>	-0.0930 0.2152 0.9721 0.0000	</row2>
+					<row3>	0.4583 0.1321 0.0213 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_82	</identifier>
+				<transform>
+					<row0>	0.8303 0.5556 -0.0435 0.0000	</row0>
+					<row1>	-0.5494 0.8031 -0.2304 0.0000	</row1>
+					<row2>	-0.0930 0.2152 0.9721 0.0000	</row2>
+					<row3>	0.4636 0.1357 0.0211 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_83	</identifier>
+				<transform>
+					<row0>	0.9596 -0.1884 0.2089 0.0000	</row0>
+					<row1>	0.1948 0.9808 -0.0102 0.0000	</row1>
+					<row2>	-0.2029 0.0505 0.9779 0.0000	</row2>
+					<row3>	0.4782 0.1543 0.0202 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_84	</identifier>
+				<transform>
+					<row0>	0.9596 -0.1884 0.2089 0.0000	</row0>
+					<row1>	0.1948 0.9808 -0.0102 0.0000	</row1>
+					<row2>	-0.2029 0.0505 0.9779 0.0000	</row2>
+					<row3>	0.4790 0.1582 0.0201 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_85	</identifier>
+				<transform>
+					<row0>	0.9596 -0.1884 0.2089 0.0000	</row0>
+					<row1>	0.1948 0.9808 -0.0102 0.0000	</row1>
+					<row2>	-0.2029 0.0505 0.9779 0.0000	</row2>
+					<row3>	0.4797 0.1619 0.0201 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_86	</identifier>
+				<transform>
+					<row0>	0.5548 -0.8315 -0.0291 0.0000	</row0>
+					<row1>	0.8156 0.5366 0.2164 0.0000	</row1>
+					<row2>	-0.1644 -0.1438 0.9759 0.0000	</row2>
+					<row3>	0.4730 0.2028 0.0206 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_87	</identifier>
+				<transform>
+					<row0>	0.5548 -0.8315 -0.0291 0.0000	</row0>
+					<row1>	0.8156 0.5366 0.2164 0.0000	</row1>
+					<row2>	-0.1644 -0.1438 0.9759 0.0000	</row2>
+					<row3>	0.4709 0.2058 0.0207 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_88	</identifier>
+				<transform>
+					<row0>	0.5548 -0.8315 -0.0291 0.0000	</row0>
+					<row1>	0.8156 0.5366 0.2164 0.0000	</row1>
+					<row2>	-0.1644 -0.1438 0.9759 0.0000	</row2>
+					<row3>	0.4686 0.2092 0.0208 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_enginelight_9	</identifier>
+				<transform>
+					<row0>	0.8303 -0.5556 0.0435 0.0000	</row0>
+					<row1>	0.5494 0.8031 -0.2304 0.0000	</row1>
+					<row2>	0.0930 0.2152 0.9721 0.0000	</row2>
+					<row3>	-0.4653 0.1367 0.0210 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_fire_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-0.2351 0.1869 0.1059 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_fire_2	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.2432 0.1393 0.1058 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_fire_3	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-0.3367 0.2122 -0.1525 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_fire_4	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.4076 0.2095 -0.1387 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_fire_5	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0922 0.2186 -0.1475 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_fire_6	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-0.4503 0.2183 0.0089 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_fire_7	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-0.0680 0.2249 -0.6577 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_flytrail_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-1.0948 0.2588 -0.2056 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_flytrail_2	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	1.0947 0.2588 -0.2056 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_gunfire_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.3150 0.1986 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_gunfire_2	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0206 0.1207 0.3005 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_gunfire_back_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.9698 0.2439 0.0000	</row1>
+					<row2>	0.0000 -0.2439 0.9698 0.0000	</row2>
+					<row3>	0.0000 0.3173 -0.7364 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_gunfire_back_2	</identifier>
+				<transform>
+					<row0>	0.8175 -0.0027 -0.5759 0.0000	</row0>
+					<row1>	0.2529 0.9001 0.3548 0.0000	</row1>
+					<row2>	0.5174 -0.4357 0.7365 0.0000	</row2>
+					<row3>	-0.0812 0.2898 -0.6349 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_gunfire_back_3	</identifier>
+				<transform>
+					<row0>	0.8175 0.0027 0.5759 0.0000	</row0>
+					<row1>	-0.2529 0.9001 0.3548 0.0000	</row1>
+					<row2>	-0.5174 -0.4357 0.7365 0.0000	</row2>
+					<row3>	0.0812 0.2898 -0.6349 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_gunfire_back_4	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.8967 -0.4427 0.0000	</row1>
+					<row2>	0.0000 0.4427 0.8967 0.0000	</row2>
+					<row3>	0.0205 0.1290 -0.3966 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_ricochet_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.4901 0.2165 -0.0665 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_ricochet_2	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-0.0510 0.2878 0.2055 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_ricochet_3	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0550 0.2983 -0.4912 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_ricochet_4	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-0.2075 0.1967 -0.2695 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_ricochet_5	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-0.8704 0.2477 -0.1760 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_ricochet_6	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.2456 0.2122 -0.0806 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Air_ricochet_7	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.1640 0.2491 -0.9824 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_gunFireBack	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.9698 0.2439 0.0000	</row1>
+					<row2>	0.0000 -0.2439 0.9698 0.0000	</row2>
+					<row3>	0.0000 0.3173 -0.7364 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	Root_BlendBone	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	elevator_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.2427 -1.0384 1.0000	</row3>
+				</transform>
+				<rotate>
+					<min>	-30.0000 0.0000 0.0000	</min>
+					<max>	25.0000 0.0000 0.0000	</max>
+				</rotate>
+				<node>
+					<identifier>	elevator_1_BlendBone	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 -0.2427 1.0384 1.0000	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	l_ailerone_1	</identifier>
+				<transform>
+					<row0>	0.9935 -0.1123 0.0189 0.0000	</row0>
+					<row1>	0.1123 0.9937 0.0000 0.0000	</row1>
+					<row2>	-0.0188 0.0021 0.9998 0.0000	</row2>
+					<row3>	-0.6485 0.2090 -0.2381 1.0000	</row3>
+				</transform>
+				<rotate>
+					<min>	-17.5000 -360.0000 -360.0000	</min>
+					<max>	17.5000 360.0000 360.0000	</max>
+				</rotate>
+				<node>
+					<identifier>	l_ailerone_1_BlendBone	</identifier>
+					<transform>
+						<row0>	0.9935 0.1123 -0.0188 0.0000	</row0>
+						<row1>	-0.1123 0.9937 0.0021 0.0000	</row1>
+						<row2>	0.0189 0.0000 0.9998 0.0000	</row2>
+						<row3>	0.6723 -0.1348 0.2254 1.0000	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	l_flaps_1	</identifier>
+				<transform>
+					<row0>	0.9927 -0.1207 0.0012 0.0000	</row0>
+					<row1>	0.1207 0.9927 0.0000 0.0000	</row1>
+					<row2>	-0.0012 0.0001 1.0000 0.0000	</row2>
+					<row3>	-0.6485 0.2023 -0.2386 1.0000	</row3>
+				</transform>
+				<rotate>
+					<min>	0.0000 -360.0000 -360.0000	</min>
+					<max>	60.0000 360.0000 360.0000	</max>
+				</rotate>
+				<node>
+					<identifier>	l_flaps_1_BlendBone	</identifier>
+					<transform>
+						<row0>	0.9927 0.1207 -0.0012 0.0000	</row0>
+						<row1>	-0.1207 0.9927 0.0001 0.0000	</row1>
+						<row2>	0.0012 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.6685 -0.1226 0.2378 1.0000	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	l_flaps_2	</identifier>
+				<transform>
+					<row0>	0.9946 -0.0367 -0.0966 0.0000	</row0>
+					<row1>	0.0369 0.9993 0.0000 0.0000	</row1>
+					<row2>	0.0966 -0.0036 0.9953 0.0000	</row2>
+					<row3>	-0.4893 0.1833 -0.2386 1.0000	</row3>
+				</transform>
+				<rotate>
+					<min>	0.0000 -360.0000 -360.0000	</min>
+					<max>	59.0000 360.0000 360.0000	</max>
+				</rotate>
+				<node>
+					<identifier>	l_flaps_2_BlendBone	</identifier>
+					<transform>
+						<row0>	0.9946 0.0369 0.0966 0.0000	</row0>
+						<row1>	-0.0367 0.9993 -0.0036 0.0000	</row1>
+						<row2>	-0.0966 0.0000 0.9953 0.0000	</row2>
+						<row3>	0.4704 -0.1651 0.2854 1.0000	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	l_flaps_3	</identifier>
+				<transform>
+					<row0>	0.9961 -0.0019 -0.0880 0.0000	</row0>
+					<row1>	0.0020 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0880 -0.0002 0.9961 0.0000	</row2>
+					<row3>	-0.1874 0.1753 -0.2673 1.0000	</row3>
+				</transform>
+				<rotate>
+					<min>	0.0000 -360.0000 -360.0000	</min>
+					<max>	54.0000 360.0000 360.0000	</max>
+				</rotate>
+				<node>
+					<identifier>	l_flaps_3_BlendBone	</identifier>
+					<transform>
+						<row0>	0.9961 0.0020 0.0880 0.0000	</row0>
+						<row1>	-0.0019 1.0000 -0.0002 0.0000	</row1>
+						<row2>	-0.0880 0.0000 0.9961 0.0000	</row2>
+						<row3>	0.1635 -0.1749 0.2828 1.0000	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	r_ailerone_1	</identifier>
+				<transform>
+					<row0>	0.9935 0.1123 -0.0189 0.0000	</row0>
+					<row1>	-0.1123 0.9937 0.0000 0.0000	</row1>
+					<row2>	0.0188 0.0021 0.9998 0.0000	</row2>
+					<row3>	0.6485 0.2090 -0.2381 1.0000	</row3>
+				</transform>
+				<rotate>
+					<min>	-17.5000 -360.0000 -360.0000	</min>
+					<max>	17.5000 360.0000 360.0000	</max>
+				</rotate>
+				<node>
+					<identifier>	r_ailerone_1_BlendBone	</identifier>
+					<transform>
+						<row0>	0.9935 -0.1123 0.0188 0.0000	</row0>
+						<row1>	0.1123 0.9937 0.0021 0.0000	</row1>
+						<row2>	-0.0189 0.0000 0.9998 0.0000	</row2>
+						<row3>	-0.6723 -0.1348 0.2254 1.0000	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	r_flaps_1	</identifier>
+				<transform>
+					<row0>	0.9927 0.1207 -0.0012 0.0000	</row0>
+					<row1>	-0.1207 0.9927 0.0000 0.0000	</row1>
+					<row2>	0.0012 0.0001 1.0000 0.0000	</row2>
+					<row3>	0.6485 0.2023 -0.2386 1.0000	</row3>
+				</transform>
+				<rotate>
+					<min>	0.0000 -360.0000 -360.0000	</min>
+					<max>	60.0000 360.0000 360.0000	</max>
+				</rotate>
+				<node>
+					<identifier>	r_flaps_1_BlendBone	</identifier>
+					<transform>
+						<row0>	0.9927 -0.1207 0.0012 0.0000	</row0>
+						<row1>	0.1207 0.9927 0.0001 0.0000	</row1>
+						<row2>	-0.0012 0.0000 1.0000 0.0000	</row2>
+						<row3>	-0.6685 -0.1226 0.2378 1.0000	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	r_flaps_2	</identifier>
+				<transform>
+					<row0>	0.9946 0.0367 0.0966 0.0000	</row0>
+					<row1>	-0.0369 0.9993 0.0000 0.0000	</row1>
+					<row2>	-0.0966 -0.0036 0.9953 0.0000	</row2>
+					<row3>	0.4893 0.1833 -0.2386 1.0000	</row3>
+				</transform>
+				<rotate>
+					<min>	0.0000 -360.0000 -360.0000	</min>
+					<max>	59.0000 360.0000 360.0000	</max>
+				</rotate>
+				<node>
+					<identifier>	r_flaps_2_BlendBone	</identifier>
+					<transform>
+						<row0>	0.9946 -0.0369 -0.0966 0.0000	</row0>
+						<row1>	0.0367 0.9993 -0.0036 0.0000	</row1>
+						<row2>	0.0966 0.0000 0.9953 0.0000	</row2>
+						<row3>	-0.4704 -0.1651 0.2854 1.0000	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	r_flaps_3	</identifier>
+				<transform>
+					<row0>	0.9961 0.0019 0.0880 0.0000	</row0>
+					<row1>	-0.0020 1.0000 0.0000 0.0000	</row1>
+					<row2>	-0.0880 -0.0002 0.9961 0.0000	</row2>
+					<row3>	0.1874 0.1753 -0.2673 1.0000	</row3>
+				</transform>
+				<rotate>
+					<min>	0.0000 -360.0000 -360.0000	</min>
+					<max>	54.0000 360.0000 360.0000	</max>
+				</rotate>
+				<node>
+					<identifier>	r_flaps_3_BlendBone	</identifier>
+					<transform>
+						<row0>	0.9961 -0.0020 -0.0880 0.0000	</row0>
+						<row1>	0.0019 1.0000 -0.0002 0.0000	</row1>
+						<row2>	0.0880 0.0000 0.9961 0.0000	</row2>
+						<row3>	-0.1635 -0.1749 0.2828 1.0000	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	rudder_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.2669 -1.0669 1.0000	</row3>
+				</transform>
+				<rotate>
+					<min>	0.0000 -30.0000 0.0000	</min>
+					<max>	0.0000 30.0000 0.0000	</max>
+				</rotate>
+				<node>
+					<identifier>	rudder_1_BlendBone	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 -0.2669 1.0669 1.0000	</row3>
+					</transform>
+				</node>
+			</node>
+		</node>
+		<node>
+			<identifier>	hull	</identifier>
+			<transform>
+				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+			</transform>
+			<node>
+				<identifier>	chassis_off_BlendBone	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	chassis_on_BlendBone	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	hull_wire	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	propeller_mod	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-0.4371 0.1745 0.1275 1.0000	</row3>
+				</transform>
+				<node>
+					<identifier>	disc	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+					<node>
+						<identifier>	disc_cap	</identifier>
+						<transform>
+							<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+							<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+							<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+							<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	mod	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	propeller_mod_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-0.1958 0.1557 0.2108 1.0000	</row3>
+				</transform>
+				<node>
+					<identifier>	disc_1	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+					<node>
+						<identifier>	disc_cap_1	</identifier>
+						<transform>
+							<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+							<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+							<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+							<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	mod_1	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	propeller_mod_2	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.1958 0.1557 0.2108 1.0000	</row3>
+				</transform>
+				<node>
+					<identifier>	disc_2	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+					<node>
+						<identifier>	disc_cap_2	</identifier>
+						<transform>
+							<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+							<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+							<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+							<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	mod_2	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	propeller_mod_3	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.4371 0.1745 0.1275 1.0000	</row3>
+				</transform>
+				<node>
+					<identifier>	disc_3	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+					<node>
+						<identifier>	disc_cap_3	</identifier>
+						<transform>
+							<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+							<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+							<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+							<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	mod_3	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+				</node>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	chassis_off_BlendBone	</node>
+		<geometry>
+			<vertices>	chassis_off_BlendBone_lod1Shape.vertices	</vertices>
+			<primitive>	chassis_off_BlendBone_lod1Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	TL2_SHIPMAT_PBS_Hull	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/SSC108_Cataluna/aircraft/SAB701_Focke_Wulf_Fw200_C3_U4_Condor.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	chassis_on_BlendBone	</node>
+		<geometry>
+			<vertices>	chassis_on_BlendBone_lod1Shape.vertices	</vertices>
+			<primitive>	chassis_on_BlendBone_lod1Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	TL2_SHIPMAT_PBS_Hull	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/SSC108_Cataluna/aircraft/SAB701_Focke_Wulf_Fw200_C3_U4_Condor.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	disc_1	</node>
+		<geometry>
+			<vertices>	disc_1_lod1Shape.vertices	</vertices>
+			<primitive>	disc_1_lod1Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	PROPELLERMAT_propeller	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/SSC108_Cataluna/aircraft/German_Disk_3Blade_01_alpha.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	disc_2	</node>
+		<geometry>
+			<vertices>	disc_2_lod1Shape.vertices	</vertices>
+			<primitive>	disc_2_lod1Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	PROPELLERMAT_propeller	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/SSC108_Cataluna/aircraft/German_Disk_3Blade_01_alpha.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	disc_3	</node>
+		<geometry>
+			<vertices>	disc_3_lod1Shape.vertices	</vertices>
+			<primitive>	disc_3_lod1Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	PROPELLERMAT_propeller	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/SSC108_Cataluna/aircraft/German_Disk_3Blade_01_alpha.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	disc_cap_1	</node>
+		<geometry>
+			<vertices>	disc_cap_1_lod1Shape.vertices	</vertices>
+			<primitive>	disc_cap_1_lod1Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	TL2_SHIPMAT_PBS_Hull	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/SSC108_Cataluna/aircraft/SAB701_Focke_Wulf_Fw200_C3_U4_Condor.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	disc_cap_2	</node>
+		<geometry>
+			<vertices>	disc_cap_2_lod1Shape.vertices	</vertices>
+			<primitive>	disc_cap_2_lod1Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	TL2_SHIPMAT_PBS_Hull	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/SSC108_Cataluna/aircraft/SAB701_Focke_Wulf_Fw200_C3_U4_Condor.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	disc_cap_3	</node>
+		<geometry>
+			<vertices>	disc_cap_3_lod1Shape.vertices	</vertices>
+			<primitive>	disc_cap_3_lod1Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	TL2_SHIPMAT_PBS_Hull	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/SSC108_Cataluna/aircraft/SAB701_Focke_Wulf_Fw200_C3_U4_Condor.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	disc_cap	</node>
+		<geometry>
+			<vertices>	disc_cap_lod1Shape.vertices	</vertices>
+			<primitive>	disc_cap_lod1Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	TL2_SHIPMAT_PBS_Hull	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/SSC108_Cataluna/aircraft/SAB701_Focke_Wulf_Fw200_C3_U4_Condor.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	disc	</node>
+		<geometry>
+			<vertices>	disc_lod1Shape.vertices	</vertices>
+			<primitive>	disc_lod1Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	PROPELLERMAT_propeller	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/SSC108_Cataluna/aircraft/German_Disk_3Blade_01_alpha.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	elevator_1_BlendBone	</node>
+		<node>	r_flaps_3_BlendBone	</node>
+		<node>	r_flaps_2_BlendBone	</node>
+		<node>	r_flaps_1_BlendBone	</node>
+		<node>	l_ailerone_1_BlendBone	</node>
+		<node>	l_flaps_1_BlendBone	</node>
+		<node>	rudder_1_BlendBone	</node>
+		<node>	l_flaps_3_BlendBone	</node>
+		<node>	l_flaps_2_BlendBone	</node>
+		<node>	r_ailerone_1_BlendBone	</node>
+		<node>	Root_BlendBone	</node>
+		<geometry>
+			<vertices>	hull_lod1Shape.vertices	</vertices>
+			<primitive>	hull_lod1Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	TL2_SHIPMAT_PBS_Hull_skinned	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/SSC108_Cataluna/aircraft/SAB701_Focke_Wulf_Fw200_C3_U4_Condor_skinned.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	hull_wire	</node>
+		<geometry>
+			<vertices>	hull_wire_lod1Shape.vertices	</vertices>
+			<primitive>	hull_wire_lod1Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	TL2_SHIPWIRE_PBS_Hull	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/SSC108_Cataluna/aircraft/SAB701_Focke_Wulf_Fw200_C3_U4_Condor_wire.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	mod_1	</node>
+		<geometry>
+			<vertices>	mod_1_lod1Shape.vertices	</vertices>
+			<primitive>	mod_1_lod1Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	TL2_SHIPMAT_PBS_Hull	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/SSC108_Cataluna/aircraft/SAB701_Focke_Wulf_Fw200_C3_U4_Condor.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	mod_2	</node>
+		<geometry>
+			<vertices>	mod_2_lod1Shape.vertices	</vertices>
+			<primitive>	mod_2_lod1Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	TL2_SHIPMAT_PBS_Hull	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/SSC108_Cataluna/aircraft/SAB701_Focke_Wulf_Fw200_C3_U4_Condor.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	mod_3	</node>
+		<geometry>
+			<vertices>	mod_3_lod1Shape.vertices	</vertices>
+			<primitive>	mod_3_lod1Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	TL2_SHIPMAT_PBS_Hull	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/SSC108_Cataluna/aircraft/SAB701_Focke_Wulf_Fw200_C3_U4_Condor.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	mod	</node>
+		<geometry>
+			<vertices>	mod_lod1Shape.vertices	</vertices>
+			<primitive>	mod_lod1Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	TL2_SHIPMAT_PBS_Hull	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/SSC108_Cataluna/aircraft/SAB701_Focke_Wulf_Fw200_C3_U4_Condor.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-1.0957 0.0000 -1.1852	</min>
+		<max>	1.0957 0.4716 0.4056	</max>
+	</boundingBox>
+</SAB701_Focke_Wulf_Fw200_C3_U4_Condor_lod1.visual>

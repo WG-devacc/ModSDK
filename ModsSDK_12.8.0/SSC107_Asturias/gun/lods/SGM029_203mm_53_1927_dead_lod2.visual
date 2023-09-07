@@ -1,0 +1,83 @@
+<SGM029_203mm_53_1927_dead_lod2.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+		</transform>
+		<node>
+			<identifier>	Turret_dead	</identifier>
+			<transform>
+				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+			</transform>
+			<node>
+				<identifier>	SP_YMS100_YGBS_M_1_INDEX_2	</identifier>
+				<transform>
+					<row0>	0.7199 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.7173 -0.0619 0.0000	</row1>
+					<row2>	0.0000 0.0619 0.7173 0.0000	</row2>
+					<row3>	0.0333 0.0860 0.1971 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	SP_YMS100_YGBS_M_1_INDEX_3	</identifier>
+				<transform>
+					<row0>	0.7199 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.7199 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 0.7199 0.0000	</row2>
+					<row3>	-0.0333 0.0860 0.1971 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	SP_YMS101_YGCS_M_1_INDEX_2	</identifier>
+				<transform>
+					<row0>	1.4350 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0518 0.0383 0.0000	</row1>
+					<row2>	0.0000 -0.0383 1.0518 0.0000	</row2>
+					<row3>	0.0000 0.0046 0.3132 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	SP_YMS104_YGRS_M_1_INDEX_2	</identifier>
+				<transform>
+					<row0>	0.6619 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.6619 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 0.6619 0.0000	</row2>
+					<row3>	-0.0333 0.0860 0.7599 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	SP_YMS104_YGRS_M_1_INDEX_3	</identifier>
+				<transform>
+					<row0>	0.6619 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.6594 -0.0569 0.0000	</row1>
+					<row2>	0.0000 0.0569 0.6594 0.0000	</row2>
+					<row3>	0.0333 0.1344 0.7578 1.0000	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Turret_dead	</node>
+		<geometry>
+			<vertices>	Turret_dead_lod2Shape.vertices	</vertices>
+			<primitive>	Turret_dead_lod2Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	TL2_SHIPMAT_PBS_GunDead	</identifier>
+					<mfm>	PnFMods/ModsSDK.zip/SSC107_Asturias/gun/SGM029_203mm_53_1927_dead.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.2714 0.0000 -0.3443	</min>
+		<max>	0.2714 0.2007 0.7537	</max>
+	</boundingBox>
+</SGM029_203mm_53_1927_dead_lod2.visual>

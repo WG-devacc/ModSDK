@@ -1,0 +1,105 @@
+<SSC004_Navarra_1941_Bow_ports.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+		</transform>
+		<node>
+			<identifier>	Bow_ports	</identifier>
+			<transform>
+				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+			</transform>
+			<node>
+				<identifier>	HP_FX_Fire_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.3818 4.0746 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_FX_WakeTrace	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 4.5983 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_Ship_death_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 3.5233 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM137_Anchor_Up	</identifier>
+				<transform>
+					<row0>	-0.1422 0.6175 0.2731 0.0000	</row0>
+					<row1>	0.1541 0.3014 -0.6012 0.0000	</row1>
+					<row2>	-0.6574 -0.0629 -0.2000 0.0000	</row2>
+					<row3>	-0.1102 0.3166 4.4496 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM137_Anchor_Up_INDEX_1	</identifier>
+				<transform>
+					<row0>	-0.2164 -0.6133 -0.2306 0.0000	</row0>
+					<row1>	-0.1685 0.2868 -0.6045 0.0000	</row1>
+					<row2>	0.6331 -0.1333 -0.2397 0.0000	</row2>
+					<row3>	0.1623 0.3106 4.2560 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM137_Anchor_Up_INDEX_2	</identifier>
+				<transform>
+					<row0>	-0.1422 -0.6175 -0.2731 0.0000	</row0>
+					<row1>	-0.1541 0.3014 -0.6012 0.0000	</row1>
+					<row2>	0.6574 -0.0629 -0.2000 0.0000	</row2>
+					<row3>	0.1102 0.3166 4.4496 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM138_Anchor_Bottom	</identifier>
+				<transform>
+					<row0>	-0.1359 0.6167 0.2780 0.0000	</row0>
+					<row1>	-0.1086 0.2600 -0.6298 0.0000	</row1>
+					<row2>	-0.6677 -0.1678 0.0458 0.0000	</row2>
+					<row3>	-0.1086 0.3173 4.4488 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM138_Anchor_Bottom_INDEX_1	</identifier>
+				<transform>
+					<row0>	-0.1927 -0.6199 -0.2339 0.0000	</row0>
+					<row1>	0.0754 0.2215 -0.6491 0.0000	</row1>
+					<row2>	0.6582 -0.2068 0.0059 0.0000	</row2>
+					<row3>	0.1589 0.3118 4.2587 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM138_Anchor_Bottom_INDEX_2	</identifier>
+				<transform>
+					<row0>	-0.1359 -0.6167 -0.2780 0.0000	</row0>
+					<row1>	0.1086 0.2600 -0.6298 0.0000	</row1>
+					<row2>	0.6677 -0.1678 0.0458 0.0000	</row2>
+					<row3>	0.1086 0.3173 4.4488 1.0000	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<boundingBox>
+		<min>	-0.0667 -0.0667 -0.0667	</min>
+		<max>	0.0667 0.0667 0.0667	</max>
+	</boundingBox>
+</SSC004_Navarra_1941_Bow_ports.visual>

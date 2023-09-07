@@ -1,0 +1,86 @@
+<shipConfigs>
+	<!-- config="Destroyer_4_6_lvl" -->
+    <ship name="Destroyer_4_6_lvl_s03_Labyrinth">
+ 
+        <camouflage>
+            <name>PCEC007_Camo_3_Tile_Double</name>
+        </camouflage>
+ 
+        <flags>
+            <slot1>PCEF005_SM_SignalFlag</slot1>
+			<slot2>PCEF010_JC_SignalFlag</slot2>
+			<slot3>PCEF014_NF_SignalFlag</slot3>
+			<slot4>PCEF019_JW1_SignalFlag</slot4>
+        </flags>
+
+    </ship>
+	<!-- config="Cruiser_4_8_lvl" -->
+    <ship name="Cruiser_4_8_lvl_s03_Labyrinth">
+ 
+        <camouflage>
+            <name>PCEC001_Camo_1</name>
+        </camouflage>
+ 
+        <flags>
+            <slot1>PCEF005_SM_SignalFlag</slot1>
+			<slot2>PCEF017_VL_SignalFlag</slot2>
+			<slot3>PCEF018_IX_SignalFlag</slot3>
+        </flags>
+ 
+    </ship>
+	<!-- config="BS_GJ_4_7_lvl" -->	
+	<ship name="BS_GJ_4_7_lvl_s03_Labyrinth">
+ 
+        <camouflage>
+            <name>PCEC002_Camo_2</name>
+        </camouflage>
+ 
+        <flags>
+			<slot1>PCEF005_SM_SignalFlag</slot1>
+            <slot2>PCEF006_HY_SignalFlag</slot2>
+			<slot3>PCEF007_ID_SignalFlag</slot3>
+			<slot4>PCEF010_JC_SignalFlag</slot4>
+        </flags>
+
+    </ship>
+	<!-- config="Ryujo_Config" -->	
+	<ship name="Ryujo_Config">
+ 
+        <camouflage>
+            <name>PCEC007_Camo_3_Tile_Double</name>
+        </camouflage>
+ 
+        <flags>
+			<slot1>PCEF005_SM_SignalFlag</slot1>
+            <slot2>PCEF008_IY_SignalFlag</slot2>
+			<slot3>PCEF012_MY6_SignalFlag</slot3>
+			<slot4>PCEF014_NF_SignalFlag</slot4>
+        </flags>
+		
+    </ship>
+	
+	<ship name="Carrier_Runner_Config">
+ 
+        <camouflage>
+            <name>PCEP117_Permo_Upgr_7_lvl</name>
+        </camouflage>
+ 
+        <ensign>
+            <name>PCEE026_Sea_Dog</name>
+        </ensign>
+ 
+        <flags>
+            <slot1>PCEF008_IY_SignalFlag </slot1>
+			<slot2>PCEF009_JY2_SignalFlag</slot2>
+			<slot3>PCEF014_NF_SignalFlag </slot3>
+        </flags>
+ 
+    </ship>
+	
+	<ship name="Transport_Config">
+		 
+        <ensign>
+            <name>PCEE026_Sea_Dog</name>
+        </ensign>
+    </ship>
+</shipConfigs>

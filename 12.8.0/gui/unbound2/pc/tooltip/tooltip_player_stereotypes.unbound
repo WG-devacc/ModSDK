@@ -1,0 +1,51 @@
+(def element TooltypSystemPlayerStereotypeDogTag (_playerEntity:gfx) layout=true
+	(scope
+		(var playerDbId:number = "_playerEntity ? _playerEntity.accountSimple.dbId : INVALID_PLAYER_AVATAR_ID")
+		(var dogTagViewComponent:gfx = "_playerEntity ? _playerEntity.dogTagView : null")
+		(var dogTagIdList:array = "dogTagViewComponent ? dogTagViewComponent.components : null" (event "dogTagViewComponent.evComponentsChanged"))
+	)
+	(style
+		(flow = "horizontal")
+	)
+	(block
+		(style (width = "DOG_TAG_SIZE.SMALL") (height = "DOG_TAG_SIZE.SMALL"))
+		(bind visible "dogTagIdList.length > 0")
+		
+		(controller $Instance renderer='PlayerDogTag'
+			(bind enabled "dogTagIdList.length > 0")
+			(args
+				_dogTagIdList	= "dogTagIdList"
+				_playerId		= "playerDbId"
+				_size			= "DOG_TAG_SIZE.SMALL"
+			)
+		)
+	)
+	(element PlayerNameAndClanTagSimple _playerEntity="_playerEntity"
+		(style (margin = "SXS") (width=100%))
+	)
+)
+
+(def element PlayerNameAndClanTagSimple (_playerEntity:gfx) layout=true
+	(scope
+		(var name:str =		"_playerEntity.avatar.name") 
+		(var isSelf:bool =	"_playerEntity.accountSimple.isSelfPlayer")
+		(var isInSameDivisionPlayer:bool =	"_playerEntity.divisionMember	? _playerEntity.divisionMember.isInSameDivision
+																			: false")		
+		(var tkStatus:bool =	"_playerEntity.avatar.tkStatus" (event "_playerEntity.avatar.evTeamkillStatusChanged"))
+
+		(var playerColor:str = "isSelf || isInSameDivisionPlayer	? SC.Ui_styles.SERVICE_COLORS.YELLOW :
+								tkStatus							? SC.Ui_styles.SERVICE_COLORS.PINK
+																	: 0xFFFFFFFF")
+	)
+	(tf
+		(bind class "isSelf ? '$TextDefaultBold17NM' : '$TextDefault17NM'")
+		(style
+			(bind textColor "playerColor")
+			(width = 100%)
+			(multiline = false)
+			(elideMode = true)
+			(noTranslate = true)
+		)
+		(bind text "name")
+	)
+)

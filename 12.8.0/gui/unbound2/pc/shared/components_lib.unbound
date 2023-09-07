@@ -1,0 +1,1085 @@
+(def constant SoundEvent "{
+	OVER: 'over',
+	OUT: 'out',
+	PRESS: 'press',
+	CLICK: 'click',
+	CHANGE: 'change'
+}")
+
+(def macro COMPONENT_MOUSE_HANDLER_SCOPE (_prefix:expression="''")
+	(event name="_prefix + 'evClicked'")
+	(event name="_prefix + 'evLeftClicked'")
+	(event name="_prefix + 'evRightClicked'")
+
+	(event name="_prefix + 'evMouseDoubleClick'")
+
+	(event name="_prefix + 'evMouseOver'")
+	(event name="_prefix + 'evMouseOut'")
+
+	(event name="_prefix + 'evMouseDown'")
+	(event name="_prefix + 'evMouseUp'")
+	(event name="_prefix + 'evStageMouseUp'")
+	(event name="_prefix + 'evMouseLeave'")
+
+	(event name="_prefix + 'evRollOver'")
+	(event name="_prefix + 'evRollOut'")
+
+	(var name="_prefix + 'rollOver'" type=bool value="$event.isOver" init=false watch=false (event "$scope[_prefix + 'evRollOver']") (event "$scope[_prefix + 'evRollOut']"))
+	(var name="_prefix + 'mouseOver'" type=bool value="$event.isOver" init=false watch=false (event "$scope[_prefix + 'evMouseOver']") (event "$scope[_prefix + 'evMouseOut']"))
+	(var name="_prefix + 'mouseDown'" type=bool value="$event.isDown" init=false watch=false (event "$scope[_prefix + 'evMouseDown']") (event "$scope[_prefix + 'evStageMouseUp']"))
+)
+
+(def macro MOUSE_LMB_EXTERNAL_CALL_REPEAT (_methods:expression, _prefix:expression="''")
+	(controller $Repeat
+		(bind enabled "_methods")
+		(bind count "_methods.length")
+		(exprs
+			(bindcall externalCall "$event.buttonIdx == MouseButtons.LEFT	? _methods[$index].type
+																			: ''" "[_methods[$index].name, _methods[$index].args]"
+									init=false watch=false (event "$scope[_prefix + 'evClicked']"))
+		)
+	)
+)
+
+(def macro COMPONENT_MOUSE_EVENTS_DISPATCHER (_prefix:expression="''")
+	(dispatch "_prefix + 'evClicked'" on='click')
+	(dispatch "_prefix + 'evLeftClicked'" on='leftClick')
+	(dispatch "_prefix + 'evRightClicked'" on='rightClick')
+
+	(dispatch "_prefix + 'evMouseDoubleClick'" on='doubleClick')
+
+	(dispatch "_prefix + 'evMouseOver'" on='mouseOver' args="{isOver: true}")
+	(dispatch "_prefix + 'evMouseOut'" on='mouseOut' args="{isOver: false}")
+
+	(dispatch "_prefix + 'evMouseDown'" on='mouseDown' args="{isDown: true}")
+	(dispatch "_prefix + 'evMouseUp'" on='mouseUp' args="{isDown: false}")
+	(dispatch "_prefix + 'evStageMouseUp'" on='stageMouseUp' args="{isDown: false}")
+	(dispatch "_prefix + 'evMouseLeave'" on='mouseOut' args="{isDown: false}")
+
+	(dispatch "_prefix + 'evRollOver'" on='rollOver' args="{isOver: true}")
+	(dispatch "_prefix + 'evRollOut'" on='rollOut' args="{isOver: false}")
+)
+
+(def macro COMPONENT_MOUSE_HANDLER (_enabled:expression=true, _prefix:expression="''", _dispatchedEv:expression='', _dispatchParams:expression={}, _methods:expression=[], _soundSet:expression='')
+	(block
+		(bind visible "_enabled")
+		(class $FullsizeAbsolute)
+		(style (backgroundColor = "0x01000000"))
+
+		(macro COMPONENT_MOUSE_EVENTS_DISPATCHER "_prefix")
+		(macro COMPONENT_SOUND_HANDLER "_soundSet" "_prefix")
+		(macro COMPONENT_CLICK_HANDLER
+			_dispatchedEv = "_dispatchedEv"
+			_dispatchParams = "_dispatchParams"
+			_methods = "_methods"
+			_prefix = "_prefix"
+		)
+	)
+)
+
+(def macro COMPONENT_CLICK_HANDLER (_dispatchedEv:expression='', _dispatchParams:expression=null, _methods:expression=null)
+	(dispatch "_dispatchedEv" args="_dispatchParams ? _dispatchParams : null" dir="EventDirection.UP" on='click')
+	(macro MOUSE_LMB_EXTERNAL_CALL_REPEAT "_methods" "_prefix")
+)
+
+(def macro SOUND_HANDLER (_soundSet:expression='', _prefix:expression='')
+	(bindcall externalCall 'sound.playSetSoundDirect' "[_soundSet, SoundEvent.OVER]" init=false watch=false (event "$scope[_prefix + 'evRollOver']"))
+	(bindcall externalCall 'sound.playSetSoundDirect' "[_soundSet, SoundEvent.OUT]" init=false watch=false (event "$scope[_prefix + 'evRollOut']"))
+	(bindcall externalCall 'sound.playSetSoundDirect' "[_soundSet, SoundEvent.PRESS]" init=false watch=false (event "$scope[_prefix + 'evMouseDown']"))
+	(bindcall externalCall 'sound.playSetSoundDirect' "[_soundSet, SoundEvent.CLICK]" init=false watch=false (event "$scope[_prefix + 'evMouseUp']"))
+)
+
+(def macro COMPONENT_SOUND_HANDLER (_soundSet:expression='', _prefix:expression='')
+	(bindcall externalCall 'sound.playSetSoundDirect' "[_soundSet, SoundEvent.OVER]" init=false watch=false (event "$scope[_prefix + 'evRollOver']"))
+	(bindcall externalCall 'sound.playSetSoundDirect' "[_soundSet, SoundEvent.OUT]" init=false watch=false (event "$scope[_prefix + 'evRollOut']"))
+	(bindcall externalCall 'sound.playSetSoundDirect' "[_soundSet, SoundEvent.PRESS]" init=false watch=false (event "$scope[_prefix + 'evMouseDown']"))
+	(bindcall externalCall 'sound.playSetSoundDirect' "[_soundSet, SoundEvent.CLICK]" init=false watch=false on='click')
+)
+
+(def element CheckBoxNoLabel (_selected:bool, _enabled:bool=true, _interactive:bool=true, _rollOver:bool=false) layout=true
+	(scope
+		(macro MOUSE_HANDLER_SCOPE "'cb_'")
+
+		(var privRollOver:bool = "cb_rollOver || _rollOver")
+	)
+
+	(style (width = "20px") (height = "20px"))
+
+	
+	(block
+		(bind visible "_interactive")
+
+		(style
+			(backgroundImage = "'bitmap:checkbox_up'")
+		)
+
+		
+		(block
+			(bind alpha "	_enabled	? (privRollOver ? 0.7 : 0) :
+							_selected	? 0.7
+										: 0")
+			(style
+				(position = "absolute")
+				(backgroundImage = "'bitmap:checkbox_over'")
+			)
+
+			(controller $Animation
+				(bindcall play
+					duration=0.3
+					from={alpha: 0}
+					to={alpha: 0.7}
+					reverse="!(privRollOver)"
+					easing="Easing.line"
+					(bind trigger "privRollOver")
+				)
+			)
+		)
+	)
+
+	
+	(block
+		(bind visible "_selected")
+		(style
+			(position = "absolute")
+			(backgroundImage = "'bitmap:checkbox_check'")
+		)
+	)
+
+	(macro MOUSE_HANDLER "_enabled" "'cb_'")
+)
+
+(def element Slider (_value:number, _min:number, _max:number, _enabled:bool=true) layout=true
+	(scope
+		(event evShow)
+		(event evValueChanged)
+	)
+	(dispatch evShow args="{}" on='addedToStage')
+
+	(mc minimap_slider_default
+		(bind value "_value" watch=false (event "evShow"))
+		(bind minimum "_min")
+		(bind maximum "_max")
+		(bind enabled "_enabled")
+		(dispatch evValueChanged args="{value: $event.value}" dir="EventDirection.UP" on='valueChange')
+	)
+)
+
+(def element ButtonSettingsSmall (_enabled:bool=true) layout=true
+	(scope
+		(event evOnButtonClicked)
+		(macro COMPONENT_MOUSE_HANDLER_SCOPE "'btn_'")
+
+		(var isInOverState:bool = "btn_rollOver && !btn_mouseDown")
+		(var isInDownState:bool = "btn_mouseDown")
+	)
+	(macro SOUND_HANDLER "'default_button'" "'btn_'")
+	(macro COMPONENT_MOUSE_HANDLER "_enabled" "'btn_'")
+	(dispatch evOnButtonClicked args={} dir="EventDirection.UP" (event "btn_evMouseUp"))
+	(style
+		(width = 24) (height = 23)
+		(backgroundImage = "'url:../service_kit/buttons/button_settings_small.png'")
+	)
+	(block
+		(alpha = "isInOverState ? 1 : 0")
+		(controller $Animation
+			(bindcall play	duration=0.15	to="{alpha: 1, visible: true}"	(bind enabled "isInOverState"))
+			(bindcall play	duration=0.15	to="{alpha: 0, visible: false}"	(bind enabled "!isInOverState"))
+		)
+		(style
+			(hitTest = "false")
+			(position = "absolute")
+			(width = 100%) (height = 100%)
+			(backgroundImage = "'url:../service_kit/buttons/button_settings_small_over.png'")
+		)
+	)
+	(block
+		(bind alpha "isInDownState ? 1 : 0")
+		(style
+			(hitTest = "false")
+			(position = "absolute")
+			(width = 100%) (height = 100%)
+			(backgroundImage = "'url:../service_kit/buttons/button_settings_small_down.png'")
+		)
+	)
+)
+
+(def element ButtonExpand (_isInOverState:bool=false, _isInDownState:bool=false, _expanded:bool=false, _enabled:bool=true) layout=true
+	(scope
+		(event evOnButtonClicked)
+		(macro COMPONENT_MOUSE_HANDLER_SCOPE "'btnExpand_'")
+
+		(var isInOverState:bool = "_isInOverState || btnExpand_rollOver && !btnExpand_mouseDown")
+		(var isInDownState:bool = "_isInDownState || btnExpand_rollOver && btnExpand_mouseDown")
+
+		(var targetAlpha:number = "	isInDownState	? 0.6 :
+									isInOverState	? 1
+													: 0.75")
+
+		(var targetRotation:number = "_expanded	? 90
+												: 0")
+	)
+	(macro SOUND_HANDLER "'dropdown'" "'btnExpand_'")
+	(macro COMPONENT_MOUSE_HANDLER "_enabled" "'btnExpand_'")
+	(dispatch evOnButtonClicked args={} dir="EventDirection.UP" (event "btnExpand_evMouseUp"))
+	(style
+		(width = 13) (height = 13)
+		(align = "center|middle")
+	)
+	(alpha = "targetAlpha")
+	(controller $Animation
+		(bindcall play	duration=0.07	to="{alpha: targetAlpha}"	(bind trigger "targetAlpha"))
+	)
+	(block
+		(style
+			(hitTest = "false")
+			(backgroundSize = "autosize")
+			(backgroundImage = "'url:../service_kit/buttons/expand_over.png'")
+
+			(pivotX = 50%)
+			(pivotY = 50%)
+			(left = 0%)
+			(right = 0%)
+			(rotation = "targetRotation")
+		)
+		(controller $Animation
+			(bindcall play	duration=0.15	to="{rotation: targetRotation}"	(bind trigger "targetRotation"))
+		)
+	)
+)
+
+(def element ButtonCameraExcursion (_isInOverState:bool=false, _isInDownState:bool=false, _isExcursionOn:bool=false, _enabled:bool=true) layout=true
+	(scope
+		(event evOnButtonClicked)
+		(macro COMPONENT_MOUSE_HANDLER_SCOPE "'btnExcursion_'")
+
+		(var isInOverState:bool = "_isInOverState || btnExcursion_rollOver && !btnExcursion_mouseDown")
+		(var isInDownState:bool = "_isInDownState || btnExcursion_rollOver && btnExcursion_mouseDown")
+
+		(var backgroundImageURL:str = "_isExcursionOn	? 'symbol:icon_camera_on'
+														: 'symbol:icon_camera_off'")
+	)
+	(macro SOUND_HANDLER "'button_secondary'" "'btnExcursion_'")
+	(macro COMPONENT_MOUSE_HANDLER "_enabled" "'btnExcursion_'")
+	(dispatch evOnButtonClicked args={} dir="EventDirection.UP" (event "btnExcursion_evMouseUp"))
+	(style
+		(backgroundSize = "autosize")
+		(bind backgroundImage "backgroundImageURL")
+	)
+)
+
+
+(def element DefaultButton (_name:str='', _enabled:bool=true, _type:str="SC.Ui_styles.BUTTON_TYPE.DEFAULT", _isExternal:bool=false, _isTransactionBtn:bool=false,
+							_icon:str='', _size:number="SIZE.MEDIUM", _width:number=0, _label:str='', _customSidePadding:number=0,
+							_focusIndex:number=0, _clickInterval:number=0, _defaultFocused:bool=false,
+							_dispatchedEv:str='', _dispatchParams:gfx={}, _methods:array=[], _tooltipText:str='') layout=true
+	(scope
+		(macro COMPONENT_MOUSE_HANDLER_SCOPE)
+
+		(event evOperationsAccountLockedChanged)
+
+		(var accountResourceEntity:gfx = "$datahub.getSingleEntity(CC.accountResource)")
+		(var accountResource:gfx = "accountResourceEntity ? accountResourceEntity.accountResource : null")
+		(var operationsAccountLocked:bool = "accountResource ? accountResource.operationsLocked : null" (event "accountResource.evOperationsLockChanged"))
+		(var isOperationsLocked:bool = "_isTransactionBtn && operationsAccountLocked")
+		(var enabled:bool = "_enabled && !isOperationsLocked")
+
+		
+			
+			
+			
+		
+		(var isFocused:bool = false)
+
+		
+		(var showOperationsLock:bool = false)
+		(bind showOperationsLock "operationsAccountLocked" (event "evOperationsAccountLockedChanged"))
+					
+
+		(dispatch evOperationsAccountLockedChanged dir="EventDirection.NONE" (bind trigger "operationsAccountLocked"))
+		(var isDisabledVisual:bool = "!_enabled || (isOperationsLocked && showOperationsLock)")
+		
+
+		(var isDown:bool = "!isDisabledVisual && mouseDown")
+		(var isRollover:bool = "!isDisabledVisual && rollOver")
+
+		(var isIconBtn:bool = "_type == SC.Ui_styles.BUTTON_TYPE.ICON")
+		(var btnHeight:str = "	isIconBtn				? MS :
+								_size == SIZE.LARGE		? LM :
+								_size == SIZE.SMALL		? MS
+														: L")
+		(var btnWidth:str = "	isIconBtn				? MS :
+								_width					? _width
+														: 'auto'")
+		(var isAutoWidth:bool = "btnWidth == 'auto'")
+
+		
+		(var ctRollOver:dict = "_type ==  SC.Ui_styles.BUTTON_TYPE.SECONDARY ?	{ redMultiplier: 1,	greenMultiplier: 1,	blueMultiplier: 1,	alphaMultiplier: 1,
+																				  redOffset: 45,	greenOffset: 45,	blueOffset: 45,		alphaOffset: 0 }
+																			 :	{ redMultiplier: 1,	greenMultiplier: 1,	blueMultiplier: 1,	alphaMultiplier: 1,
+																				  redOffset: 15,	greenOffset: 15,	blueOffset: 15,		alphaOffset: 0 }")
+		(var ctDown:dict = "_type ==  SC.Ui_styles.BUTTON_TYPE.SECONDARY ?	{ redMultiplier: 1,	greenMultiplier: 1,	blueMultiplier: 1,	alphaMultiplier: 1,
+																			  redOffset: -45,	greenOffset: -45,	blueOffset: -45,	alphaOffset: 0 }
+																		 :	{ redMultiplier: 1,	greenMultiplier: 1,	blueMultiplier: 1,	alphaMultiplier: 1,
+																			  redOffset: -15,	greenOffset: -15,	blueOffset: -15,	alphaOffset: 0 }")
+		
+
+		(var focusImage:str = "_type	? 'url:../service_kit/buttons/backgrounds/' + _type + '_focused.png'
+										: 'url:../service_kit/buttons/backgrounds/default_focused.png'")
+		(var backgroundImage:str = "isDisabledVisual && _type	? 'url:../service_kit/buttons/backgrounds/' + _type + '_disabled.png' :
+									_type						? 'url:../service_kit/buttons/backgrounds/' + _type + '.png' :
+									isDisabledVisual 			? 'url:../service_kit/buttons/backgrounds/default_disabled.png'
+																: 'url:../service_kit/buttons/backgrounds/default.png'")
+	)
+
+	(bind name "_name ? _name : null")
+
+	(style
+		(width = "btnWidth")
+		(height = "btnHeight")
+	)
+
+	(block
+		(class $FullsizeAbsolute)
+		(style
+			(hitTest = false)
+			(bind backgroundImage "backgroundImage")
+			(scale9grid = 10)
+		)
+	)
+
+	(block
+		(bind visible "isRollover || isDown")
+		(bind colorTransform "	isRollover && !isDown	? ctRollOver :
+								isDown					? ctDown
+														: CT_NONE")
+		(class $FullsizeAbsolute)
+		(style
+			(hitTest = false)
+			(bind backgroundImage "backgroundImage")
+			(scale9grid = 10)
+		)
+	)
+
+	(hblock
+		(style
+			(hitTest = false)
+			(align = "middle|center")
+			(height = 100%)
+			(bind width "isAutoWidth ? btnWidth : 100%")
+		)
+
+		(bind alpha "	isDown || isDisabledVisual					? TS :
+						isRollover									? 1.1 :
+						_type == SC.Ui_styles.BUTTON_TYPE.SECONDARY	? TC
+																	: TA")
+
+		(block
+			
+				
+			
+			(bind visible "isFocused && !isDisabledVisual")
+			(class $FullsizeAbsolute)
+			(style (backgroundImage = "focusImage") (scale9grid = 2))
+		)
+
+		(block
+			(bind visible "_label && !isIconBtn")
+
+			(style
+				(align = "center|middle")
+				(bind width "isAutoWidth ? btnWidth : 100%")
+				(bind minWidth "!isAutoWidth	? 0 :
+								_isExternal		? 78
+												: 110")
+				(bind paddingLeft "	_isExternal			? 25 :
+									_customSidePadding	? _customSidePadding
+														: 5")
+				(bind paddingRight "_isExternal			? 25 :
+									_customSidePadding	? _customSidePadding
+														: 5")
+				(bind marginTop "_size == SIZE.MEDIUM ? -1 : 0")
+			)
+
+			(tf
+				(style (elideMode = true) (textAlign = "center"))
+				(bind class "	_type == SC.Ui_styles.BUTTON_TYPE.ACCENT && _size == SIZE.LARGE	? '$TextDefaultBold25NM' :
+								_size == SIZE.LARGE												? '$TextDefaultBold17NM' :
+								_size == SIZE.SMALL												? '$TextDefaultBold12NM'
+																								: '$TextDefaultBoldNM'")
+
+				(bind text "toUpper(tr(_label))")
+			)
+		)
+
+		(block
+			(bind visible "isIconBtn")
+
+			(style
+				(position = "absolute")
+				(width = 24px)
+				(height = 24px)
+				(bind backgroundImage "'url:../service_kit/buttons/icons/' + _icon + '.png'" (bind enabled "isIconBtn"))
+			)
+		)
+
+		(block
+			(bind visible "_isExternal")
+			(name = 'externalArrow')
+
+			(class $MiddleVAligned)
+			(style
+				(position = "absolute")
+				(right = "S")
+				(width = 14px)
+				(height = 14px)
+				(backgroundImage = 'url:../service_kit/buttons/icons/out.png')
+			)
+		)
+	)
+
+	(macro INPUT "_name")
+
+	(macro COMPONENT_MOUSE_HANDLER
+		_enabled = "enabled"
+		_dispatchedEv = "_dispatchedEv"
+		_dispatchParams = "_dispatchParams"
+		_methods = "_methods"
+		_soundSet = "_type	? 'button_' + _type
+							: 'button_default'"
+	)
+
+	(controller $Tooltip
+		(renderer='SimpleStatusTooltip')
+		(bind enabled "_tooltipText")
+		(args
+			_text = "_tooltipText"
+		)
+		(macro DEFAULT_TOOLTIP_BEHAVIOUR "0")
+		(align = "right|innerTop")
+		(offset = { x: 6, y: -26 })
+	)
+)
+
+(def element ImageButton (	_name:str='', _enabled:bool=true, _width:number=0, _height:number=0, _backgroundImage:str='', _hitAreaMargin:array=[0], _soundSet:str='',
+							_dispatchedEv:str='', _dispatchParams:gfx={}, _methods:array=[], _tooltipText:str='') layout=true
+	(scope
+		(macro COMPONENT_MOUSE_HANDLER_SCOPE)
+
+		(var btnWidth:number = "_width ? _width : 50")
+		(var btnHeight:number = "_height ? _height : 50")
+
+		
+		(var ctRollOver:dict = "{ redMultiplier: 1,	greenMultiplier: 1,	blueMultiplier: 1,	alphaMultiplier: 1,
+								  redOffset: 15,	greenOffset: 15,	blueOffset: 15,		alphaOffset: 0 }")
+		(var ctDown:dict = "	{ redMultiplier: 1,	greenMultiplier: 1,	blueMultiplier: 1,	alphaMultiplier: 1,
+								  redOffset: -15,	greenOffset: -15,	blueOffset: -15,	alphaOffset: 0 }")
+		
+
+		(var isDown:bool = "_enabled && mouseDown")
+		(var isRollover:bool = "_enabled && rollOver")
+	)
+
+	(bind name "_name")
+
+	(style
+		(bind width "btnWidth")
+		(bind height "btnHeight")
+		(bind backgroundImage "_backgroundImage")
+		(backgroundSize = "fill")
+	)
+
+	(bind colorTransform "	isRollover && !isDown	? ctRollOver :
+							isRollover && isDown	? ctDown
+													: CT_NONE")
+
+	(block
+		(class $FullsizeAbsolute)
+		(style (bind padding "_hitAreaMargin"))
+
+		(macro INPUT "_name")
+
+		(block
+			(class $FullsizeAbsolute)
+			(macro COMPONENT_MOUSE_HANDLER
+				_enabled = "_enabled"
+				_dispatchedEv = "_dispatchedEv"
+				_dispatchParams = "_dispatchParams"
+				_methods = "_methods"
+				_soundSet = "_soundSet	? _soundSet
+										: 'button_context'"
+			)
+		)
+
+		(controller $Tooltip
+			(renderer='SimpleStatusTooltip')
+			(bind enabled "_tooltipText")
+			(args
+				_text = "_tooltipText"
+			)
+			(macro DEFAULT_TOOLTIP_BEHAVIOUR "0")
+			(align = "right|innerTop")
+			(offset = { x: 6, y: -26 })
+		)
+	)
+)
+
+(def element SwitchWithRightLabel (_enabled:bool=true, _state:bool=false, _textClass:str='', _label:str='', _dispatchedEv:str='', _methods:array=[]) layout=true
+	(scope
+		(macro COMPONENT_MOUSE_HANDLER_SCOPE)
+
+		(var accountResourceEntity:gfx = "$datahub.getSingleEntity(CC.accountResource)")
+		(var operationsAccountLocked:bool = "accountResourceEntity.accountResource.operationsLocked" (event "accountResourceEntity.accountResource.evOperationsLockChanged"))
+
+		(var isDisabledVisual:bool = "!_enabled || operationsAccountLocked")
+
+		(var isDown:bool = "!isDisabledVisual && mouseDown")
+		(var isRollover:bool = "!isDisabledVisual && rollOver")
+
+		
+		(var ctRollOver:dict = "{ redMultiplier: 1,	greenMultiplier: 1,	blueMultiplier: 1,	alphaMultiplier: 1,
+								  redOffset: 15,	greenOffset: 15,	blueOffset: 15,		alphaOffset: 0 }")
+		(var ctDown:dict = "	{ redMultiplier: 1,	greenMultiplier: 1,	blueMultiplier: 1,	alphaMultiplier: 1,
+								  redOffset: -15,	greenOffset: -15,	blueOffset: -15,	alphaOffset: 0 }")
+		
+	)
+
+	(bind colorTransform "	isRollover && !isDown	? ctRollOver :
+							isRollover && isDown	? ctDown
+													: CT_NONE")
+
+	(hblock
+		(style
+			(bind alpha "_enabled ? 1: 0.7")
+		)
+
+		(block
+			(style
+				(marginBottom = -3px)
+				(marginTop = "-XS")
+				(marginRight = "S")
+			)
+
+			(controller $Instance renderer='SwitchView'
+				(args
+					_state = "_state"
+				)
+			)
+		)
+
+		(tf
+			(bind class "_textClass ? _textClass : '$TextDefaultNM'")
+			(style (alpha = "TC"))
+			(bind text "_label")
+		)
+	)
+
+	(block
+		(class $FullsizeAbsolute)
+		(style
+			(paddingTop = -6px)
+			(paddingBottom = "-XS")
+		)
+
+		(macro COMPONENT_MOUSE_HANDLER
+			_enabled = "_enabled && !operationsAccountLocked"
+			_dispatchedEv = "_dispatchedEv"
+			_methods = "_methods"
+			_soundSet = "'switch_default'"
+		)
+	)
+)
+
+(def element SwitchWithLeftLabel (_enabled:bool=true, _state:bool=false, _textClass:str='', _label:str='', _dispatchedEv:str='', _methods:array=[]) layout=true
+	(scope
+		(macro COMPONENT_MOUSE_HANDLER_SCOPE)
+
+		(var accountResourceEntity:gfx = "$datahub.getSingleEntity(CC.accountResource)")
+		(var operationsAccountLocked:bool = "accountResourceEntity.accountResource.operationsLocked" (event "accountResourceEntity.accountResource.evOperationsLockChanged"))
+
+		(var isDisabledVisual:bool = "!_enabled || operationsAccountLocked")
+
+		(var isDown:bool = "!isDisabledVisual && mouseDown")
+		(var isRollover:bool = "!isDisabledVisual && rollOver")
+
+		
+		(var ctRollOver:dict = "{ redMultiplier: 1,	greenMultiplier: 1,	blueMultiplier: 1,	alphaMultiplier: 1,
+								  redOffset: 15,	greenOffset: 15,	blueOffset: 15,		alphaOffset: 0 }")
+		(var ctDown:dict = "	{ redMultiplier: 1,	greenMultiplier: 1,	blueMultiplier: 1,	alphaMultiplier: 1,
+								  redOffset: -15,	greenOffset: -15,	blueOffset: -15,	alphaOffset: 0 }")
+		
+	)
+
+	(bind colorTransform "	isRollover && !isDown	? ctRollOver :
+							isRollover && isDown	? ctDown
+													: CT_NONE")
+
+	(hblock
+		(style
+			(bind alpha "_enabled ? 1: 0.7")
+		)
+
+		(tf
+			(bind class "_textClass ? _textClass : '$TextDefaultNM'")
+			(style (alpha = "TC") (marginRight = "S"))
+			(bind text "_label")
+		)
+
+		(block
+			(style
+				(marginBottom = -3px)
+				(marginTop = "-XS")
+				(marginRight = "S")
+			)
+
+			(controller $Instance renderer='SwitchView'
+				(args
+					_state = "_state"
+				)
+			)
+		)
+	)
+
+	(block
+		(class $FullsizeAbsolute)
+		(style
+			(paddingTop = -6px)
+			(paddingBottom = "-XS")
+		)
+
+		(macro COMPONENT_MOUSE_HANDLER
+			_enabled = "_enabled && !operationsAccountLocked"
+			_dispatchedEv = "_dispatchedEv"
+			_methods = "_methods"
+			_soundSet = "'switch_default'"
+		)
+	)
+)
+
+(def element SwitchWithoutLabel (_enabled:bool=true, _state:bool=false, _dispatchedEv:str='', _methods:array=[]) layout=true
+	(scope
+		(macro COMPONENT_MOUSE_HANDLER_SCOPE)
+
+		(var accountResourceEntity:gfx = "$datahub.getSingleEntity(CC.accountResource)")
+		(var operationsAccountLocked:bool = "accountResourceEntity.accountResource.operationsLocked" (event "accountResourceEntity.accountResource.evOperationsLockChanged"))
+
+		(var isDisabledVisual:bool = "!_enabled || operationsAccountLocked")
+
+		(var isDown:bool = "!isDisabledVisual && mouseDown")
+		(var isRollover:bool = "!isDisabledVisual && rollOver")
+
+		
+		(var ctRollOver:dict = "{ redMultiplier: 1,	greenMultiplier: 1,	blueMultiplier: 1,	alphaMultiplier: 1,
+								  redOffset: 15,	greenOffset: 15,	blueOffset: 15,		alphaOffset: 0 }")
+		(var ctDown:dict = "	{ redMultiplier: 1,	greenMultiplier: 1,	blueMultiplier: 1,	alphaMultiplier: 1,
+								  redOffset: -15,	greenOffset: -15,	blueOffset: -15,	alphaOffset: 0 }")
+		
+	)
+
+	(bind colorTransform "	isRollover && !isDown	? ctRollOver :
+							isRollover && isDown	? ctDown
+													: CT_NONE")
+
+	(hblock
+		(style
+			(bind alpha "_enabled ? 1: 0.7")
+		)
+
+		(block
+			(style
+				(marginBottom = -3px)
+				(marginTop = "-XS")
+			)
+
+			(controller $Instance renderer='SwitchView'
+				(args
+					_state = "_state"
+				)
+			)
+		)
+	)
+
+	(block
+		(class $FullsizeAbsolute)
+		(style
+			(paddingTop = -6px)
+			(paddingBottom = "-XS")
+		)
+
+		(macro COMPONENT_MOUSE_HANDLER
+			_enabled = "_enabled && !operationsAccountLocked"
+			_dispatchedEv = "_dispatchedEv"
+			_methods = "_methods"
+			_soundSet = "'switch_default'"
+		)
+	)
+)
+
+(def element SwitchView (_state:bool=false) layout=true
+	(scope
+		(var initAlpha:number = "_state ? 1 : 0" watch=false)
+		(var initLeft:number = "_state ? 16 : 0" watch=false)
+	)
+
+	(style
+		(width = 36px)
+		(height = 20px)
+		(backgroundImage = 'url:../service_kit/switch/switch_bg.png')
+		(scale9grid = 7)
+	)
+
+	(block
+		(style
+			(position = "absolute")
+			(bind alpha "initAlpha")
+			(width = 22px)
+			(height = 20px)
+			(backgroundImage = 'url:../service_kit/switch/switch_bg_on.png')
+			(scale9grid = 7)
+		)
+
+		(controller $Animation
+			(bindcall play
+				duration = 0.07
+				from	 = { alpha: 0 }
+				to		 = { alpha: 1 }
+				reverse	 = "!_state"
+				(bind trigger "_state")
+			)
+		)
+	)
+
+	(block
+		(style
+			(position = "absolute")
+			(bind left "initLeft")
+			(backgroundImage = 'url:../service_kit/switch/switch_btn.png')
+		)
+
+		(controller $Animation
+			(bindcall play
+				duration = 0.07
+				from	 = { left: 0 }
+				to		 = { left: 16 }
+				reverse	 = "!_state"
+				(bind trigger "_state")
+			)
+		)
+	)
+)
+
+(def element CheckBox (	_name:str='', _enabled:bool=true, _isChecked:bool=false, _statusTooltipData:gfx={}, _customLabelInstance:str='', _customLabelInstanceParams:gfx={}, _label:str='', _maxTfWidth:number=0,
+						_dispatchedEv:str='', _dispatchParams:gfx={}, _methods:array=[]) layout=true
+	(scope
+		(macro COMPONENT_MOUSE_HANDLER_SCOPE)
+	)
+
+	(bind name "_name")
+
+	(style
+		(flow = "horizontal")
+		(bind alpha "_enabled ? 1 : 0.4")
+	)
+
+	(block
+		(style
+			(position = "absolute")
+			(height = 20px)
+			(width = 20px)
+			(backgroundImage = 'url:../service_kit/buttons/check_box/background.png')
+			(scale9grid = 4)
+		)
+	)
+
+	(hblock
+		(controller $Animation
+			(bindcall play
+				duration = 0.05
+				from	 = { alpha: 1 }
+				to		 = { alpha: 0.6 }
+				reverse	 = "!mouseDown"
+				(bind trigger "mouseDown")
+			)
+		)
+
+		(style (alpha = "mouseDown ? 0.6 : 1"))
+
+		
+		(block
+			(controller $Animation
+				(bindcall play
+					duration = 0.05
+					from	 = { alpha: 0 }
+					to		 = { alpha: 1 }
+					reverse	 = "!rollOver"
+					(bind trigger "rollOver")
+				)
+			)
+
+			(style
+				(height = 20px)
+				(width = 20px)
+				(alpha = "rollOver ? 1 : 0")
+				(backgroundImage = 'url:../service_kit/buttons/check_box/over.png')
+				(scale9grid = 4)
+			)
+		)
+
+		
+		(block
+			(bind visible "_isChecked")
+
+			(controller $Animation
+				(bindcall play
+					duration = 0.05
+					from	 = { alpha: 0.75 }
+					to		 = { alpha: 1 }
+					reverse	 = "!(rollOver && !mouseDown)"
+					(bind trigger "rollOver && !mouseDown")
+				)
+			)
+
+			(style
+				(position = "absolute")
+				(height = 20px)
+				(width = 20px)
+				(alpha = 0.75)
+				(backgroundImage = 'url:../service_kit/buttons/check_box/check_icon.png')
+			)
+		)
+
+		
+			
+			
+			
+			
+			
+		
+
+		(block
+			(controller $Instance renderer='CheckBoxTextLabel'
+				(args
+					_label = "_label"
+					_rollOver = "rollOver"
+					_maxTfWidth = "_maxTfWidth"
+				)
+				(bind enabled "_label")
+			)
+		)
+	)
+
+	(macro COMPONENT_MOUSE_HANDLER
+		_enabled = "_enabled"
+		_dispatchedEv = "_dispatchedEv"
+		_dispatchParams = "_dispatchParams"
+		_methods = "_methods"
+		_soundSet = "'check_box'"
+	)
+)
+
+(def element CheckBoxTextLabel (_label:str='', _rollOver:bool=false, _maxTfWidth:number=0) layout=true
+	(controller $Animation
+		(bindcall play
+			duration = 0.05
+			from	 = "{ alpha: TC }"
+			to		 = "{ alpha: TA }"
+			reverse	 = "!_rollOver"
+			(bind trigger "_rollOver")
+		)
+	)
+
+	(style
+		(marginLeft = "S")
+		(marginTop = "XS")
+		(alpha = "_rollOver ? TA : TC")
+	)
+
+	(tf
+		(class $TextDefault17NM)
+		(style (maxWidth = "_maxTfWidth ? _maxTfWidth : 300"))
+		(bind text "_label")
+	)
+)
+
+(def element DefaultSlider (_value:number, _intervalsCount:number, _unitsInStepInterval:number=1, _width:number=200)
+	(scope
+		(event evSliderValueChanged)
+		(event evSliderValueChangedForTrack)
+
+		(event evRollOver)
+		(event evRollOut)
+		(event evMouseDown)
+		(event evStageMouseUp)
+
+		(event evSliderThumbMouseDown)
+
+		(event evSliderValueChangedInternal)
+		(var curValue:number = "$event ? $event.newValue : _value" (event "evSliderValueChangedInternal"))
+
+		(var rollOver:bool = "$event.isOver" init=false watch=false (event "evRollOver") (event "evRollOut"))
+		(var isMouseDown:bool = "$event.isDown" init=false watch=false (event "evMouseDown") (event "evSliderThumbMouseDown") (event "evStageMouseUp"))
+
+		
+		(var ctRollOver:dict = "{ redMultiplier: 1,	greenMultiplier: 1,	blueMultiplier: 1,	alphaMultiplier: 1,
+								  redOffset: 15,	greenOffset: 15,	blueOffset: 15,		alphaOffset: 0 }")
+		(var ctDown:dict = "	{ redMultiplier: 1,	greenMultiplier: 1,	blueMultiplier: 1,	alphaMultiplier: 1,
+								  redOffset: -20,	greenOffset: -20,	blueOffset: -20,	alphaOffset: 0 }")
+	)
+
+	(dispatch evRollOver		on='rollOver'	args="{isOver: true}")
+	(dispatch evRollOut			on='rollOut'	args="{isOver: false}")
+
+	(dispatch evStageMouseUp	on='stageMouseUp'	args="{isDown: false}")
+	(dispatch evMouseDown		on='mouseDown'		args="{isDown: true}")
+
+	(bind colorTransform "	rollOver && !isMouseDown	? ctRollOver :
+							isMouseDown					? ctDown
+														: CT_NONE")
+
+	(dispatch evSliderValueChanged	args="{value: curValue}" dir="EventDirection.UP" on='addedToStage' (event "evSliderValueChangedInternal"))
+	(dispatch evSliderValueChangedForTrack	args="{value: curValue, intervalsCount: _intervalsCount}" dir="EventDirection.DOWN" (event "evSliderValueChanged"))
+
+	(bindcall externalCall 'sound.playSetSoundDirect' "['slider', SoundEvent.OVER]" init=false watch=false on='rollOver')
+	(bindcall externalCall 'sound.playSetSoundDirect' "['slider', SoundEvent.PRESS]" init=false watch=false on='mouseDown')
+	(bindcall externalCall 'sound.playSetSoundDirect' "['slider', SoundEvent.CHANGE]" init=false watch=false  (event "evSliderValueChangedInternal"))
+
+
+	(scroll_bar
+		(style (width = "_width"))
+
+		(bind maximum "_intervalsCount")	
+		(bind value "curValue")				
+
+		(singleStep = 1)
+		(scrollDuration = 2)
+
+		(orientation = "horizontal")
+		(alignThumbToBorders = false)
+
+		(thumb = 'DefaultSliderThumb')
+		(track = 'DefaultSliderTrack')
+
+		(dispatch evSliderValueChangedInternal on='valueChanged' dir="EventDirection.NONE")
+	)
+)
+
+(def element DefaultSliderThumb ()
+	(scope
+		(event evSliderThumbMouseDown)
+		(event evSliderThumbMouseUp)
+	)
+
+	(bindcall externalCall 'sound.playSetSoundDirect' "['slider', SoundEvent.PRESS]" init=false watch=false on='mouseDown')
+
+	(dispatch evSliderThumbMouseDown args="{isDown: true}" on='mouseDown' dir="EventDirection.UP")
+	(dispatch evSliderThumbMouseUp args="{isDown: false}" on='stageMouseUp' dir="EventDirection.UP")
+
+	(style
+		(align = "center")
+		(marginTop = -6px)
+		(width = 10px)
+		(height = 22px)
+		(backgroundColor = 0x01000000)
+	)
+
+	(block
+		(class $Fullsize)
+		(style
+			(backgroundImage = 'url:../service_kit/slider/slider_thumb.png')
+		)
+	)
+)
+
+(def element DefaultSliderTrack ()
+	(scope
+		(event evSliderValueChangedForTrack)
+
+		(var filledWidth:number = 0)
+		(bind filledWidth "($event.value/$event.intervalsCount) * 100" init=false (event "evSliderValueChangedForTrack"))
+	)
+
+	(block
+		(style
+			(height = 10px)
+			(paddingLeft = "XXS")
+			(paddingRight = "XXS")
+			(width = 100%)
+			(backgroundImage = 'url:../service_kit/slider/slider_track.png')
+			(scale9grid = "[4, 0, 4, 0]")
+		)
+
+		(block
+			(style
+				(position = "absolute")
+				(top = 2px)
+				(height = 6px)
+				(backgroundColor = 0xFF4CE7A9)
+				(bind width "1% * filledWidth")
+			)
+		)
+	)
+
+	
+	(block
+		(style
+			(position = "absolute")
+			(top = -6px)
+			(width = 100%)
+			(height = 22px)
+			(backgroundColor = 0x01000000)
+		)
+	)
+)
+
+(def macro RADIO_BUTTON_THUMB_ANIMATION_STATE (_path:expression, _isActive:expression)
+	(block
+		(class $FullsizeAbsolute)
+		(style (bind backgroundImage "_path") (backgroundSize = "fill"))
+		(alpha = "_isActive")
+		
+		(controller $Animation
+			(bindcall play
+				from =	"{alpha: 0}"
+				to =	"{alpha: 1}"
+				reverse = "!_isActive"
+				duration="0.1"
+				(bind trigger "_isActive")
+			)
+		)
+	)
+)
+
+(def element RadioButton (	_isSelected:bool=false, _isDisabled:bool=false, _size:str='25px', _name:str='',
+							_dispatchedEv:str='', _dispatchParams:gfx={}, _methods:array=[]) layout=true
+	(scope
+		(macro COMPONENT_MOUSE_HANDLER_SCOPE)
+		(var isThumbOver:bool = "!_isSelected && !mouseDown && rollOver")
+	)
+	(bind name "_name")
+
+	(style
+		(bind height "_size")
+		(bind width "_size")
+		(backgroundImage = "'url:../service_kit/buttons/radio_button/default.png'")
+		(backgroundSize = "fill")
+		(bind alpha "_isDisabled ? 0.4 : 1")
+		(marginLeft = 8px)
+		(marginRight = 8px)
+	)
+
+	(macro RADIO_BUTTON_THUMB_ANIMATION_STATE
+		_path = "'url:../service_kit/buttons/radio_button/over.png'"
+		_isActive = "isThumbOver"
+	)
+	(macro RADIO_BUTTON_THUMB_ANIMATION_STATE
+		_path = "'url:../service_kit/buttons/radio_button/check.png'"
+		_isActive = "_isSelected"
+	)
+	
+	(macro COMPONENT_MOUSE_HANDLER
+		_enabled = "!_isDisabled && !_isSelected"
+		_dispatchedEv = "_dispatchedEv"
+		_dispatchParams = "_dispatchParams"
+		_methods = "_methods"
+		_soundSet = "'button_tab'"
+	)
+)
