@@ -1,0 +1,17 @@
+<weathers.xml>
+	<scheme>
+		<step>
+			<startWeight> 30 </startWeight>
+			<param>PCOW007_Dull</param>
+			<duration> 2700 </duration>
+			<transition> 60 </transition>
+		</step>
+	<!-- Погода по-дефолту -->
+		<step>
+			<startWeight> 70 </startWeight>
+			<param>PCOW005_Evening</param>
+			<duration> 2700 </duration>
+			<transition> 60 </transition>
+		</step>		
+	</scheme>
+</weathers.xml>
